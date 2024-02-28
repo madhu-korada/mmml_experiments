@@ -37,23 +37,17 @@ model = AutoModelForCausalLM.from_pretrained(
     quantization_config=quantization_config
 )
 
+prompt = "Please answer the question according to the context and candidate answers. Each candidate answer is associated with a confidence score within a bracket. The true answer may not be included in the candidate answers. Answer the Question with a single word, if you don't know say NO. \n\n===\nContext: Two people on motorbikes very high in the air.\n===\nQuestion: What type of bikes are these people riding?\n===\nCandidates: motorbike(0.76), motorcycle(0.73), motocross(0.57), dirt bike(0.41), bmx(0.26), motorcross(0.21), dirt(0.15), motor(0.08), chopper(0.01), bicycle(0.01)\n===\nAnswer: motorbike"
 
-prompt = "Please answer the question according to the context and candidate answers. Each candidate answer is associated with a confidence score within a bracket. The true answer may not be included in the candidate answers. Answer the Question no matter what. Reply in the format: Answer: <answer>"
-#  Reply in the format: Answer: <answer>
 
-context = "\n\n===\nContext: Two people on motorbikes very high in the air."
-question = "\n===\nQuestion: What type of bikes are these people riding?"
-candidates = "\n===\nCandidates: motorbike(0.76), motorcycle(0.73), motocross(0.57), dirt bike(0.41), bmx(0.26), motorcross(0.21), dirt(0.15), motor(0.08), chopper(0.01), bicycle(0.01)\n===\n"
-answer = "Answer: motorbike."
 
-complete = prompt + context + question + candidates + answer
+
+
 chat = [
-    { "role": "user", "content": {complete} },
+    { "role": "user", "content": {prompt} },
 ]
-print(complete)
+
 prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
-
-
 
 # print(prompt)
 # prompt = "Hello world"
@@ -61,12 +55,8 @@ prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prom
 inputs = tokenizer.encode(prompt, add_special_tokens=False, return_tensors="pt")
 outputs = model.generate(input_ids=inputs.to(model.device), max_new_tokens=5)
 
-
 print("\n\nOutput:")
-output = tokenizer.decode(outputs[0])
-print(output)
-print("\n\n")
 
-print(output.split("start_of_turn>model")[1].strip())
+print(tokenizer.decode(outputs[0]))
 
-
+print(tokenizer.decode(outputs[-3:]))
