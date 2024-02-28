@@ -1,16 +1,12 @@
-
-
-# write a function to get context, question, candidates, and answer from the files
-
-
-
-
 import os
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-import transformers
+import json
+import time
 import torch
+import transformers
+import numpy as np
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from torch.cuda import get_device_properties
-
+from torch.nn.functional import softmax
 
 def check_gpu_vram_less_than_8GB():
     if not torch.cuda.is_available():
@@ -58,15 +54,29 @@ class HFModel:
         Returns:
         List[str]: The generated text sequences.
         """
-        # input_ids = self.tokenizer.encode(input_text, return_tensors="pt")
-        # output_sequences = self.model.generate(input_ids, max_length=max_length, num_return_sequences=num_return_sequences)
         input_ids = self.tokenizer.encode(input_text, add_special_tokens=False, return_tensors="pt")
-        output_sequences = self.model.generate(input_ids=input_ids.to(self.model.device), max_new_tokens=5)
-        # # Decode and return the generated sequences
-        # return [self.tokenizer.decode(output_seq, skip_special_tokens=True) for output_seq in output_sequences]
+        output_sequences = self.model.generate(input_ids=input_ids.to(self.model.device), max_new_tokens=5, output_scores=True)
         return output_sequences
-
-
+    
+    def get_answer_given_prompt(self, prompt, num_return_sequences=5):
+        """
+        Generates text based on the input text.
+        
+        Args:
+        input_text (str): The input text to complete.
+        max_length (int): The maximum length of the sequence to be generated.
+        num_return_sequences (int): The number of sequences to generate.
+        
+        Returns:
+        List[str]: The generated text sequences.
+        """
+        output_sequences = self.generate_text(prompt, num_return_sequences=num_return_sequences)
+        # Decode and return the generated sequences
+        output = hf_model.tokenizer.decode(output_sequences[0])
+        answer = output.split("Answer: ")[-1].strip().replace("<eos>", "")
+            
+        return answer
+    
 
 
 model_id = "gg-hf/gemma-2b-it"
@@ -75,45 +85,44 @@ model_id = "gg-hf/gemma-2b-it"
 # model_id = "mistralai/Mistral-7B-v0.1"
 # model_id = "gpt2"
 dtype = torch.bfloat16
-
-
-
-# Example usage:]
 hf_model = HFModel(model_id)
 
-input_text = "The future of AI is"
-generated_texts = hf_model.generate_text(input_text, max_length=100, num_return_sequences=3)
 
-for text in generated_texts:
-    print(text)
+files_to_process = [1]
+for file_to_process in files_to_process:
+    prompts_json_file = f"prophet/outputs/results/okvqa_prompt_1/split_cache/cache_split_{file_to_process}.json"
+    inference_batch_size = 5
 
+    prompts_with_answers_json_file = prompts_json_file.replace(".json", "_with_answers.json")
 
-prompt = "Please answer the question according to the context and candidate answers. Each candidate answer is associated with a confidence score within a bracket. The true answer may not be included in the candidate answers. Answer the Question no matter what. Reply in the format: Answer: <answer>"
-#  Reply in the format: Answer: <answer>
+    # load the prompts from the json file
+    with open(prompts_json_file, "r") as f:
+        prompts = json.load(f)
+        print("Prompts in this file:", len(prompts))
+        new_items = []
+        i = 0
+        for prompt in prompts:
+            i+=1
+            print(f"Processing prompt {i+1}/{len(prompts)}")
+            question_id = prompt['question_id']
+            prompt_for_model = prompt['prompt_info'][0]['prompt']
+            
+            start_time = time.time()
+            answer = hf_model.get_answer_given_prompt(prompt_for_model, num_return_sequences=5)
 
-context = "\n\n===\nContext: Two people on motorbikes very high in the air."
-question = "\n===\nQuestion: What type of bikes are these people riding?"
-candidates = "\n===\nCandidates: motorbike(0.76), motorcycle(0.73), motocross(0.57), dirt bike(0.41), bmx(0.26), motorcross(0.21), dirt(0.15), motor(0.08), chopper(0.01), bicycle(0.01)\n===\n"
-answer = "Answer: motorbike."
+            print(answer)
+            print("Time taken:", time.time() - start_time)
 
-complete = prompt + context + question + candidates + answer
-chat = [
-    { "role": "user", "content": {complete} },
-]
-print(complete)
-# prompt = hf_model.tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
-prompt = complete
-
-output_sequences = hf_model.generate_text(prompt, num_return_sequences=5)
-print(output_sequences)
-
-print("\n\nOutput:")
-# output = hf_model.tokenizer.decode(outputs[0])
-output = hf_model.tokenizer.decode(output_sequences[0])
-print(output)
-print("\n\n")
-split_output = output.split("Answer: ")
-print(split_output[-1])
-
-
-
+            # construct the prompt with the answer
+            new_prompt = {
+                "question_id": question_id,
+                "answer": answer,
+                "prompt_info": prompt['prompt_info']
+            }
+            new_items.append(new_prompt)
+        
+        # save the prompts with the answers
+        with open(prompts_with_answers_json_file, "w") as f:
+            json.dump(new_items, f)
+        print("Prompts with answers saved to:", prompts_with_answers_json_file)
+        
