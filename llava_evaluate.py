@@ -21,22 +21,6 @@ input_prompt = "Please evaluate my prediction compared to the ground truth. Each
 
 use_model_flag = False
 
-def check_gpu_vram_less_than_8GB():
-    if not torch.cuda.is_available():
-        return False
-    gpu_props = get_device_properties(0) # Assuming single GPU setup
-    total_memory_GB = gpu_props.total_memory / (1024**3) # Convert bytes to GB
-    print(f"Total GPU memory: {total_memory_GB:.2f} GB")
-    return total_memory_GB < 8
-
-if check_gpu_vram_less_than_8GB():
-    print("GPU VRAM less than 8GB. Using 8-bit quantization.")
-    os.environ['LD_LIBRARY_PATH'] = ''
-    quantization_config = BitsAndBytesConfig(load_in_8bit=True)
-else:
-    quantization_config = None
-
-
 llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
 llava_output_single_word_file = 'data/eval_llava/answer-file-our-single-word.jsonl'
 ok_vqa_gt_file = 'prophet/datasets/okvqa/mscoco_val2014_annotations.json'
@@ -99,35 +83,61 @@ def get_num_matches(gold_answers, llava_answer):
     return matches, match_count, num_gold
 
 
+# def get_num_matches_spacy(gold_answers, llava_answer):
+#     gold_answers_count = Counter(gold_answers)
+#     # Prepare spaCy Docs
+#     llava_doc = nlp(normalize_text(llava_answer))
+#     gold_docs = [nlp(normalize_text(answer)) for answer in set(gold_answers)]  # Using set to remove duplicates
+
+#     # Matching using Semantic Similarity and Fuzzy Matching
+#     matches = []
+#     for gold_doc in gold_docs:
+#         similarity = llava_doc.similarity(gold_doc)
+#         # Threshold for similarity can be adjusted
+#         if similarity > 0.8:
+#             matches.append(gold_doc.text)
+#         else:
+#             # Fallback to fuzzy matching for close misses
+#             if fuzz.partial_ratio(normalize_text(llava_answer), gold_doc.text) > 80:
+#                 matches.append(gold_doc.text)
+
+#     match_count = len(matches)
+#     gold_count = {k: gold_answers_count[k] for k in matches}
+#     num_gold = sum(gold_count.values())
+#     return matches, match_count, num_gold
+
+# Modified function to include lemmatization
 def get_num_matches_spacy(gold_answers, llava_answer):
     gold_answers_count = Counter(gold_answers)
-    # Prepare spaCy Docs
     llava_doc = nlp(normalize_text(llava_answer))
-    gold_docs = [nlp(normalize_text(answer)) for answer in set(gold_answers)]  # Using set to remove duplicates
-
-    # Matching using Semantic Similarity and Fuzzy Matching
+    
+    # Extract lemmas for the llava answer
+    llava_lemmas = {token.lemma_ for token in llava_doc}
+    
     matches = []
-    for gold_doc in gold_docs:
-        similarity = llava_doc.similarity(gold_doc)
-        # Threshold for similarity can be adjusted
-        if similarity > 0.8:
-            matches.append(gold_doc.text)
+    match_details = []
+
+    # Process each unique gold answer through spaCy
+    for answer in set(gold_answers):
+        gold_doc = nlp(normalize_text(answer))
+        
+        # Extract lemmas for the gold answer
+        gold_lemmas = {token.lemma_ for token in gold_doc}
+        
+        # Use set intersection for lemmatized match; this may already improve matching
+        lemma_matches = gold_lemmas.intersection(llava_lemmas)
+        if lemma_matches:
+            matches.append(answer)
+            match_details.extend(lemma_matches)
         else:
-            # Fallback to fuzzy matching for close misses
-            if fuzz.partial_ratio(normalize_text(llava_answer), gold_doc.text) > 80:
-                matches.append(gold_doc.text)
-
-    match_count = len(matches)
-    gold_count = {k: gold_answers_count[k] for k in matches}
-    num_gold = sum(gold_count.values())
-    return matches, match_count, num_gold
-
-
-
-
-
-
-
+            # Calculate similarity and perform fuzzy matching as fallback
+            similarity = llava_doc.similarity(gold_doc)
+            if similarity > 0.8 or fuzz.partial_ratio(normalize_text(llava_answer), normalize_text(answer)) > 80:
+                matches.append(answer)
+    
+    match_count = len(set(matches))  # Ensure unique matches
+    gold_count = sum(gold_answers_count[match] for match in matches)
+    return matches, match_count, gold_count, match_details
 
 
 if not use_model_flag:
@@ -148,7 +158,7 @@ if not use_model_flag:
         gold_answer = gold_answers[question_id]
         
         # matches, match_count, num_gold = get_num_matches(gold_answer, llava_answer)
-        matches, match_count, num_gold = get_num_matches_spacy(gold_answer, llava_answer)
+        matches, match_count, num_gold, match_details = get_num_matches_spacy(gold_answer, llava_answer)
         # if num_gold < 5:
         print(f'Question: {question} \nGold: {gold_answer} \nLLAVA: {llava_answer}')
         
@@ -161,8 +171,8 @@ if not use_model_flag:
             atleast_one_match += 1
         
         cnt += 1
-        if cnt > 10:
-            break
+        # if cnt > 10:
+        #     break
     
     print(f'Total match count: {total_match_count}, Total gold count: {total_gold_count}, Atleast one match: {atleast_one_match}')
     print(f'Accuracy: {total_match_count/total_gold_count*100:.2f}%')
