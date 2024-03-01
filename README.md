@@ -11,6 +11,6 @@ python -m llava.eval.model_vqa  --model-path liuhaotian/llava-v1.5-7b  --questio
 ```
 
 ```
-python -m llava.eval.model_vqa  --model-path liuhaotian/llava-v1.5-7b  --question-file ../questions.txt  --image-folder  data/coco2014/val2014/ --answers-file llava/eval/answer-file-our-single-word-temp-1-beams-5.jsonl
+python -m llava.eval.model_vqa  --model-path liuhaotian/llava-v1.6-vicuna-7b  --question-file ../questions.txt  --image-folder  data/coco2014/val2014/ --answers-file llava/eval/llava_1.6_answer-file-our-single-word-temp-1-beams-5.jsonl
 ```
 
