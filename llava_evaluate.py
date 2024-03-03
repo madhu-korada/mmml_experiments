@@ -152,10 +152,10 @@ def do_exact_matching(gold_answers, llava_answer):
 
 
 if __name__ == "__main__":
+    debug = False
     use_descriptions = False
     exact_matching = False
     debug_wrong_predictions = False
-    
     model_id = "gg-hf/gemma-2b-it"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
@@ -210,9 +210,9 @@ if __name__ == "__main__":
         recalls.append(curr_recall)
         precisions.append(curr_precision)
         
-        # cnt += 1
-        # if cnt > 10:
-        #     break
+        cnt += 1
+        if debug and cnt > 10:
+            break
     
     F1_score = sum(f1s) / len(f1s)
     recall = sum(recalls) / len(recalls)
