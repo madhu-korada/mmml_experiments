@@ -11,19 +11,12 @@ from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import transformers
-nltk.download('stopwords')
+
+from f1_score import calculate_f1_score, f1
 
 # Load spaCy model
+nltk.download('stopwords')
 nlp = spacy.load("en_core_web_md")
-
-# Example input text
-input_prompt = "Please evaluate my prediction compared to the ground truth. Each question has multiple ground truth answers in a list (some of them might be same). The 10 ground truth answers are in a list. The prediction is evaluated against each ground truth answer. The final score is the average of the scores for each ground truth answer. The score for each ground truth answer is 1 if the prediction matches the ground truth answer exactly, and 0 otherwise. The final score is between 0 and 10. The higher the score, the better the prediction. The score is 10 if the prediction matches all the ground truth answers exactly, and 0 otherwise. The score is 5 if the prediction matches half of the ground truth answers exactly. Since there are 10 ground truth answers, each correct answer will correspond to 1. Now return the value as a single integer. i.e. output a single int. "
-
-use_model_flag = False
-
-llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
-llava_output_single_word_file = 'data/eval_llava/answer-file-our-single-word.jsonl'
-ok_vqa_gt_file = 'prophet/datasets/okvqa/mscoco_val2014_annotations.json'
 
 def load_llaava_output(file_path):
     with open(file_path, 'r') as f:
@@ -139,47 +132,96 @@ def get_num_matches_spacy(gold_answers, llava_answer):
     gold_count = sum(gold_answers_count[match] for match in matches)
     return matches, match_count, gold_count, match_details
 
+def do_exact_matching(gold_answers, llava_answer):
+    gold_answers_count = Counter(gold_answers)
+    llava_doc = normalize_text(llava_answer)
+    
+    matches = []
+    match_details = []
 
-if not use_model_flag:
+    # Process each unique gold answer through spaCy
+    for answer in set(gold_answers):
+        gold_doc = normalize_text(answer)
+        
+        if gold_doc == llava_doc:
+            matches.append(answer)
+    
+    match_count = len(set(matches))  # Ensure unique matches
+    gold_count = sum(gold_answers_count[match] for match in matches)
+    return matches, match_count, gold_count, match_details
+
+
+if __name__ == "__main__":
+    use_descriptions = False
+    exact_matching = False
+    debug_wrong_predictions = False
+    
+    model_id = "gg-hf/gemma-2b-it"
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+
+    ok_vqa_gt_file = 'prophet/datasets/okvqa/mscoco_val2014_annotations.json'
+    llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
+    llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5.jsonl'
+    # llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-or-phrase-temp-1-beams-5.jsonl'
+    # llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5-next-run.jsonl'
+    # llava_output_single_word_file = 'data/eval_llava/answer-file-our-single-word.jsonl'
+
     cnt = 1
+    total_match_count, total_gold_count, atleast_one_match = 0, 0, 0
+    recalls, precisions, f1s = [], [], []
     # Load gold_answers and predctions
     gold_answers = load_gt(ok_vqa_gt_file)
-    llava_answers = load_llaava_output(llava_output_file)
-    
-    total_match_count = 0
-    total_gold_count = 0
-    
-    atleast_one_match = 0
+
+    if use_descriptions:
+        llava_answers = load_llaava_output(llava_output_file)
+    else:
+        llava_answers = load_llaava_output(llava_output_single_word_file)
     
     for line in llava_answers:
         question_id = line['question_id']
         question = line['prompt'].split("\n")[0]
         llava_answer = line['text']
         gold_answer = gold_answers[question_id]
+        # print(f'Question: {question} \nGold: {gold_answer} \nLLAVA: {llava_answer}')
         
-        # matches, match_count, num_gold = get_num_matches(gold_answer, llava_answer)
-        matches, match_count, num_gold, match_details = get_num_matches_spacy(gold_answer, llava_answer)
-        # if num_gold < 5:
-        print(f'Question: {question} \nGold: {gold_answer} \nLLAVA: {llava_answer}')
+        if exact_matching:
+            matches, match_count, num_gold, match_details = do_exact_matching(gold_answer, llava_answer)
+        else:
+            # matches, match_count, num_gold = get_num_matches(gold_answer, llava_answer)
+            matches, match_count, num_gold, match_details = get_num_matches_spacy(gold_answer, llava_answer)
         
-        print(f'Matches: {matches} Match count: {match_count} Gold count: {num_gold}/{len(gold_answer)}')
-        print("\n")
+        if debug_wrong_predictions: 
+            if not num_gold:
+                print(f'\nQuestion: {question} \nGold: {gold_answer} \nLLAVA: {llava_answer}')
         
+        # print(f'Matches: {matches} Match Details: {match_details} Match count: {match_count} Gold count: {num_gold}/{len(gold_answer)}')
+        # print("\n")
+        llava_answer_words = llava_answer.split()
+        if len(matches):
+            f1_curr, curr_precision, curr_recall = f1(matches[0], gold_answer, tokenizer)
+        else:
+            f1_curr, curr_precision, curr_recall = f1(llava_answer_words[0], gold_answer, tokenizer)
+        # print(f'F1: {f1_curr:.2f}, Precision: {curr_precision:.2f}, Recall: {curr_recall:.2f}')
         total_match_count += num_gold
         total_gold_count += len(gold_answer)
         if num_gold > 0:
             atleast_one_match += 1
+        f1s.append(f1_curr)
+        recalls.append(curr_recall)
+        precisions.append(curr_precision)
         
-        cnt += 1
+        # cnt += 1
         # if cnt > 10:
         #     break
     
+    F1_score = sum(f1s) / len(f1s)
+    recall = sum(recalls) / len(recalls)
+    precision = sum(precisions) / len(precisions)
+    print('\n\n')
     print(f'Total match count: {total_match_count}, Total gold count: {total_gold_count}, Atleast one match: {atleast_one_match}')
     print(f'Accuracy: {total_match_count/total_gold_count*100:.2f}%')
-    print(f'Atleast one match accuracy: {atleast_one_match/cnt*100:.2f}%')
-
-
-
+    print(f'Atleast one match accuracy: {atleast_one_match*100/len(llava_answers):.2f}%')
+    print(f'F1: {F1_score:.2f}, Precision: {precision:.2f}, Recall: {recall:.2f}')
 
 
 
