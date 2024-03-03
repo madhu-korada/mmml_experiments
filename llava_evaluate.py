@@ -31,6 +31,7 @@ def load_json(file_path):
 
 def load_gt(file_path):
     gold_answers = {}
+    image_ids = {}
     gt_data = load_json(file_path)
     for annotation in gt_data['annotations']:
         img_id = annotation['image_id']
@@ -40,7 +41,8 @@ def load_gt(file_path):
         img_key = 'COCO_val2014_{}.jpg#{}'.format(str(img_id).zfill(12), question_id)
         # gold_answers[img_key] = gt_answer
         gold_answers[question_id] = gt_answer
-    return gold_answers
+        image_ids[question_id] = img_id
+    return gold_answers, image_ids
 
 # Normalize text
 def normalize_text(text):
@@ -155,11 +157,11 @@ if __name__ == "__main__":
     debug = False
     use_descriptions = False
     exact_matching = False
-    debug_wrong_predictions = False
+    debug_wrong_predictions = True
     model_id = "gg-hf/gemma-2b-it"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
-    ok_vqa_gt_file = 'prophet/datasets/okvqa/mscoco_val2014_annotations.json'
+    ok_vqa_gt_file = 'data/gt_ok_vqa/mscoco_val2014_annotations.json'
     llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
     llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5.jsonl'
     # llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-or-phrase-temp-1-beams-5.jsonl'
@@ -170,7 +172,7 @@ if __name__ == "__main__":
     total_match_count, total_gold_count, atleast_one_match = 0, 0, 0
     recalls, precisions, f1s = [], [], []
     # Load gold_answers and predctions
-    gold_answers = load_gt(ok_vqa_gt_file)
+    gold_answers, image_ids = load_gt(ok_vqa_gt_file)
 
     if use_descriptions:
         llava_answers = load_llaava_output(llava_output_file)
@@ -182,6 +184,8 @@ if __name__ == "__main__":
         question = line['prompt'].split("\n")[0]
         llava_answer = line['text']
         gold_answer = gold_answers[question_id]
+        image_id = image_ids[question_id]
+        image_file = f'data/coco2014/val2014/COCO_val2014_{str(image_id).zfill(12)}.jpg'
         # print(f'Question: {question} \nGold: {gold_answer} \nLLAVA: {llava_answer}')
         
         if exact_matching:
@@ -192,7 +196,7 @@ if __name__ == "__main__":
         
         if debug_wrong_predictions: 
             if not num_gold:
-                print(f'\nQuestion: {question} \nGold: {gold_answer} \nLLAVA: {llava_answer}')
+                print(f'\nQuestion: {question} \nGold: {gold_answer} \nLLAVA: {llava_answer} \nImage: {image_file}')
         
         # print(f'Matches: {matches} Match Details: {match_details} Match count: {match_count} Gold count: {num_gold}/{len(gold_answer)}')
         # print("\n")

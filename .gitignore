@@ -6,5 +6,5 @@ __pycache__/
 .vscode-test-remote/
 .vscode-test-remote-logs
 
-
+data/coco2014/
 inf1_log.txt
