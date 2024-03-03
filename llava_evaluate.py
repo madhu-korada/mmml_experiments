@@ -13,6 +13,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import transformers
 
 from f1_score import calculate_f1_score, f1
+from utils_image import draw_text_on_image_given_path
 
 # Load spaCy model
 nltk.download('stopwords')
@@ -158,16 +159,21 @@ if __name__ == "__main__":
     use_descriptions = False
     exact_matching = False
     debug_wrong_predictions = True
+    draw_wrong_predictions = True
     model_id = "gg-hf/gemma-2b-it"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
+    # Paths
     ok_vqa_gt_file = 'data/gt_ok_vqa/mscoco_val2014_annotations.json'
     llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
     llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5.jsonl'
     # llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-or-phrase-temp-1-beams-5.jsonl'
     # llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5-next-run.jsonl'
     # llava_output_single_word_file = 'data/eval_llava/answer-file-our-single-word.jsonl'
-
+    debug_images_folder = 'data/eval_llava/debug_images/'
+    if not os.path.exists(debug_images_folder):
+        os.makedirs(debug_images_folder)
+    
     cnt = 1
     total_match_count, total_gold_count, atleast_one_match = 0, 0, 0
     recalls, precisions, f1s = [], [], []
@@ -194,10 +200,12 @@ if __name__ == "__main__":
             # matches, match_count, num_gold = get_num_matches(gold_answer, llava_answer)
             matches, match_count, num_gold, match_details = get_num_matches_spacy(gold_answer, llava_answer)
         
-        if debug_wrong_predictions: 
-            if not num_gold:
+        if not num_gold:
+            if debug_wrong_predictions: 
                 print(f'\nQuestion: {question} \nGold: {gold_answer} \nLLAVA: {llava_answer} \nImage: {image_file}')
-        
+            if draw_wrong_predictions:
+                mod_image_file = debug_images_folder + f'wrong_prediction_qid_{question_id}_img_id_{image_id}.jpg'
+                draw_text_on_image_given_path(image_file, mod_image_file, f'Question: {question} \tPredicted: {llava_answer}', f'Gold: {gold_answer}')
         # print(f'Matches: {matches} Match Details: {match_details} Match count: {match_count} Gold count: {num_gold}/{len(gold_answer)}')
         # print("\n")
         llava_answer_words = llava_answer.split()
