@@ -9,3 +9,4 @@ __pycache__/
 data/coco2014/
 data/eval_llava/debug_images/
 inf1_log.txt
+modified_image.jpg
