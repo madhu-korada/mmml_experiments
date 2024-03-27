@@ -128,7 +128,7 @@ def load_questions():
     return questions
 
 if __name__ == "__main__":
-    debug = True
+    debug = False
     use_descriptions = True
     debug_wrong_predictions = True
     draw_wrong_predictions = True

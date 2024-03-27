@@ -7,6 +7,6 @@ __pycache__/
 .vscode-test-remote-logs
 
 data/coco2014/
-data/eval_llava/debug_images/
+data/*/debug_images/
 inf1_log.txt
 modified_image.jpg
