@@ -11,11 +11,11 @@ from nltk.corpus import stopwords
 from transformers import AutoTokenizer
 import transformers
 
-from f1_score import f1
-
-nltk.download('stopwords')
+from f1_score import calculate_f1_score, f1
+from utils_image import draw_text_on_image_given_path
 
 # Load spaCy model
+nltk.download('stopwords')
 nlp = spacy.load("en_core_web_md")
 
 def load_prophet_output(file_path):
@@ -31,6 +31,7 @@ def load_json(file_path):
 
 def load_gt(file_path):
     gold_answers = {}
+    image_ids = {}
     gt_data = load_json(file_path)
     for annotation in gt_data['annotations']:
         img_id = annotation['image_id']
@@ -40,7 +41,8 @@ def load_gt(file_path):
         img_key = 'COCO_val2014_{}.jpg#{}'.format(str(img_id).zfill(12), question_id)
         # gold_answers[img_key] = gt_answer
         gold_answers[question_id] = gt_answer
-    return gold_answers
+        image_ids[question_id] = img_id
+    return gold_answers, image_ids
 
 # Normalize text
 def normalize_text(text):
@@ -108,33 +110,63 @@ def get_num_matches_spacy(gold_answers, llava_answer):
     gold_count = sum(gold_answers_count[match] for match in matches)
     return matches, match_count, gold_count, match_details
 
+def get_question_from_qid(qid):
+    with open('prophet/datasets/okvqa/OpenEnded_mscoco_val2014_questions.json', 'r') as file:
+        json_file = json.load(file)
+        # for q in json_file['questions']:
+        #     print(q)
+        #     exit()
+        question = next((q for q in json_file['questions'] if q['question_id'] == qid), None)
+        return question['question']
+
+def load_questions():
+    questions = {}
+    with open('prophet/datasets/okvqa/OpenEnded_mscoco_val2014_questions.json', 'r') as file:
+        json_file = json.load(file)
+        for q in json_file['questions']:
+            questions[q['question_id']] = q['question']
+    return questions
+
 if __name__ == "__main__":
+    debug = True
     use_descriptions = True
-    prophet_json_file = 'data/eval_prophet/result_20240228154916.json'
-    ok_vqa_gt_file = 'prophet/datasets/okvqa/mscoco_val2014_annotations.json'
+    debug_wrong_predictions = True
+    draw_wrong_predictions = True
     model_id = "gg-hf/gemma-2b-it"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
+    # Paths
+    ok_vqa_gt_file = 'data/gt_ok_vqa/mscoco_val2014_annotations.json'
+    prophet_json_file = 'data/eval_prophet/result_20240228154916.json'
+    debug_images_folder = 'data/eval_prophet/debug_images/'
+    if not os.path.exists(debug_images_folder):
+        os.makedirs(debug_images_folder)
+    
     cnt = 1
-    # Load gold_answers and predctions
-    gold_answers = load_gt(ok_vqa_gt_file)
-    prophet_answers = load_prophet_output(prophet_json_file)
-
     total_match_count, total_gold_count, atleast_one_match = 0, 0, 0
     recalls, precisions, f1s = [], [], []
-
+    # Load gold_answers and predctions
+    gold_answers, image_ids = load_gt(ok_vqa_gt_file)
+    prophet_answers = load_prophet_output(prophet_json_file)
+    questions = load_questions()
     for line in prophet_answers:
         question_id = line['question_id']
-        # question = line['prompt'].split("\n")[0]
+        question = questions[question_id]
         prophet_answer = line['answer']
+        # prophet_answer = prophet_answer.strip('context:').strip('nconext:')
         gold_answer = gold_answers[question_id]
-        
+        image_id = image_ids[question_id]
+        image_file = f'data/coco2014/val2014/COCO_val2014_{str(image_id).zfill(12)}.jpg'
+        # print(f'Question: {question} \nGold: {gold_answer} \nProphet: {prophet_answer}')
         # matches, match_count, num_gold = get_num_matches(gold_answer, prophet_answer)
         matches, match_count, num_gold, match_details = get_num_matches_spacy(gold_answer, prophet_answer)
-        # if num_gold < 5:
-        print(f'Gold: {gold_answer} \nProphet: {prophet_answer}')
-        
-        print(f'Matches: {matches} Match Details: {match_details} Match count: {match_count} Gold count: {num_gold}/{len(gold_answer)}')
+        if not num_gold:
+            if debug_wrong_predictions: 
+                print(f'Question: {question} \nGold: {gold_answer} \nProphet: {prophet_answer} \nImage: {image_file}')
+            if draw_wrong_predictions:
+                mod_image_file = debug_images_folder + f'wrong_prediction_qid_{question_id}_img_id_{image_id}.jpg'
+                draw_text_on_image_given_path(image_file, mod_image_file, f'Question: {question} \tPredicted: {prophet_answer}', f'Gold: {gold_answer}')
+        # print(f'Matches: {matches} Match Details: {match_details} Match count: {match_count} Gold count: {num_gold}/{len(gold_answer)}')
         
         if len(matches) == 1:
             prophet_answer_words = matches[0]    
@@ -143,9 +175,9 @@ if __name__ == "__main__":
         else:
             prophet_answer_words = prophet_answer.split()
             prophet_answer_words = prophet_answer_words[0]
-        print(f'Prophet Answer Words: {prophet_answer_words}')            
+        # print(f'Prophet Answer Words: {prophet_answer_words}')            
         f1_curr, curr_precision, curr_recall = f1(prophet_answer_words, gold_answer, tokenizer)
-        print(f'F1: {f1_curr:.2f}, Precision: {curr_precision:.2f}, Recall: {curr_recall:.2f}')
+        # print(f'F1: {f1_curr:.2f}, Precision: {curr_precision:.2f}, Recall: {curr_recall:.2f}')
         total_match_count += num_gold
         total_gold_count += len(gold_answer)
         if num_gold > 0:
@@ -156,14 +188,17 @@ if __name__ == "__main__":
         print("\n")
         
         cnt += 1
-        if cnt > 1000:
+        if debug and cnt > 10:
             break
-
+    
     F1_score = sum(f1s) / len(f1s)
     recall = sum(recalls) / len(recalls)
     precision = sum(precisions) / len(precisions)
-
+    print('\n\n')
     print(f'Total match count: {total_match_count}, Total gold count: {total_gold_count}, Atleast one match: {atleast_one_match}')
     print(f'Accuracy: {total_match_count/total_gold_count*100:.2f}%')
     print(f'Atleast one match accuracy: {atleast_one_match*100/cnt:.2f}%')
     print(f'F1: {F1_score:.2f}, Precision: {precision:.2f}, Recall: {recall:.2f}')
+
+
+
