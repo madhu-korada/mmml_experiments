@@ -60,15 +60,17 @@ if __name__ == "__main__":
         gt_unique_classes = list(set(object_types))
         
         print("Image file: ", image_file)
-        print("Image ID: ", image_id)
-        print("Bounding boxes: ", bboxes)
+        # print("Bounding boxes: ", bboxes)
         print("GT Labels: ", gt_unique_classes)
         
         if EVAL_MODE == "CLIP":
-            labels, scores = clip_multiclass_classification(image, category_names, topk=len(unique_classes))
+            labels, scores = clip_multiclass_classification(image, category_names, topk=len(gt_unique_classes))
             print("CLIP Labels: ", labels)
-            # print("CLIP Scores: ", scores)
-        
-        exit()
+            # Matched labels with GT labels
+            matched_labels = [label for label in labels if label in gt_unique_classes]
+            # print("Matched Labels: ", matched_labels)
+            print("No. of matched labels: ", len(matched_labels), "/", len(gt_unique_classes))
+            print("--------------------------------------------------")
+        # exit()
         
         
