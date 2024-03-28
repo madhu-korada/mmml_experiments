@@ -40,6 +40,12 @@ def clip_multiclass_classification(image, category_names, topk=5):
         
     return labels, scores
 
+def calculate_accuracy(gold_labels, clip_labels):
+    matched_labels = [label for label in clip_labels if label in gold_labels]
+    accuracy = len(matched_labels) / len(gold_labels)
+    return accuracy
+
+
 if __name__ == "__main__":
     EVAL_MODE = "CLIP"
     DO_MODEL_INFERENCE = False
@@ -55,17 +61,20 @@ if __name__ == "__main__":
     coco_api = load_ann_file(ann_file)
     category_names = get_category_names(coco_api, ann_file)
     bboxes_list, object_types_list = get_objects_bboxes_all_images(coco_api, image_ids)
+    if not DO_MODEL_INFERENCE:
+        clip_predictions = load_llaava_output(clip_predictions_file)
+        
     ctr = 0
+    accuracy = 0
     
     for line in llava_answers:
+        ctr += 1
         image_file, image_id, bboxes, object_types = get_image_info(line, coco_api, image_ids)
         image = Image.open(image_file)
         gt_unique_classes = list(set(object_types))
         
-        print("Image file: ", image_file)
-        # print("Bounding boxes: ", bboxes)
-        print("GT Labels: ", gt_unique_classes)
-        ctr += 1
+        # print("Image file: ", image_file)
+        # print("GT Labels: ", gt_unique_classes)
         
         if EVAL_MODE == "CLIP":
             if DO_MODEL_INFERENCE:
@@ -92,14 +101,18 @@ if __name__ == "__main__":
                 print("No. of matched labels: ", len(matched_labels), "/", len(gt_unique_classes))
                 print("--------------------------------------------------")
             else:
-                clip_predictions = load_llaava_output(clip_predictions_file)
                 matched_labels = clip_predictions[ctr-1]["matched_labels"]
                 clip_labels = clip_predictions[ctr-1]["clip_labels"]
-                # print("Matched Labels: ", matched_labels)
-                print("CLIP Labels: ", clip_labels)
-                print("No. of matched labels: ", len(matched_labels), "/", len(gt_unique_classes))
-                print("--------------------------------------------------")
-            
-        # exit()
+                # print("CLIP Labels: ", clip_labels)
+                # print("No. of matched labels: ", len(matched_labels), "/", len(gt_unique_classes))
+                # print("--------------------------------------------------")
+                
+                # Calculate accuracy
+                accuracy += calculate_accuracy(gt_unique_classes, matched_labels) if len(gt_unique_classes) > 0 else 0
+    
+    print("--------------------------------------------------")
+    print("Accuracy: ", accuracy/ctr)
+    print("Total images processed: ", ctr)
+    print("--------------------------------------------------")
         
         
