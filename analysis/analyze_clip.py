@@ -1,6 +1,7 @@
 from PIL import Image
 import requests
 import torch
+import json
 from pycocotools.coco import COCO
 from transformers import CLIPProcessor, CLIPModel
 
@@ -41,18 +42,20 @@ def clip_multiclass_classification(image, category_names, topk=5):
 
 if __name__ == "__main__":
     EVAL_MODE = "CLIP"
+    DO_MODEL_INFERENCE = False
     
     ok_vqa_gt_file = 'data/gt_ok_vqa/mscoco_val2014_annotations.json'
     llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
     ann_file = 'data/gt_ok_vqa/instances_val2014.json'
     llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5.jsonl'
+    clip_predictions_file = 'data/clip_predictions.jsonl'
 
     llava_answers = load_llaava_output(llava_output_single_word_file)
     gold_answers, image_ids = load_gt(ok_vqa_gt_file)
     coco_api = load_ann_file(ann_file)
     category_names = get_category_names(coco_api, ann_file)
     bboxes_list, object_types_list = get_objects_bboxes_all_images(coco_api, image_ids)
-    
+    ctr = 0
     
     for line in llava_answers:
         image_file, image_id, bboxes, object_types = get_image_info(line, coco_api, image_ids)
@@ -62,15 +65,41 @@ if __name__ == "__main__":
         print("Image file: ", image_file)
         # print("Bounding boxes: ", bboxes)
         print("GT Labels: ", gt_unique_classes)
+        ctr += 1
         
         if EVAL_MODE == "CLIP":
-            labels, scores = clip_multiclass_classification(image, category_names, topk=len(gt_unique_classes))
-            print("CLIP Labels: ", labels)
-            # Matched labels with GT labels
-            matched_labels = [label for label in labels if label in gt_unique_classes]
-            # print("Matched Labels: ", matched_labels)
-            print("No. of matched labels: ", len(matched_labels), "/", len(gt_unique_classes))
-            print("--------------------------------------------------")
+            if DO_MODEL_INFERENCE:
+                labels, scores = clip_multiclass_classification(image, category_names, topk=len(gt_unique_classes))
+                print("CLIP Labels: ", labels)
+                # Matched labels with GT labels
+                matched_labels = [label for label in labels if label in gt_unique_classes]
+                
+                json_dict = {
+                    "no": ctr,
+                    "image_id": image_id,
+                    "gt_labels": gt_unique_classes,
+                    "clip_labels": labels,
+                    "matched_labels": matched_labels,
+                    "gt_unfiltered_labels": object_types,
+                    "gt_bboxes": bboxes,
+                }
+                # write to file
+                with open(clip_predictions_file, "a") as f:
+                    f.write(json.dumps(json_dict))
+                    f.write("\n")
+                    
+                # print("Matched Labels: ", matched_labels)
+                print("No. of matched labels: ", len(matched_labels), "/", len(gt_unique_classes))
+                print("--------------------------------------------------")
+            else:
+                clip_predictions = load_llaava_output(clip_predictions_file)
+                matched_labels = clip_predictions[ctr-1]["matched_labels"]
+                clip_labels = clip_predictions[ctr-1]["clip_labels"]
+                # print("Matched Labels: ", matched_labels)
+                print("CLIP Labels: ", clip_labels)
+                print("No. of matched labels: ", len(matched_labels), "/", len(gt_unique_classes))
+                print("--------------------------------------------------")
+            
         # exit()
         
         
