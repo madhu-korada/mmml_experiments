@@ -10,3 +10,4 @@ data/coco2014/
 data/*/debug_images/
 inf1_log.txt
 modified_image.jpg
+data/gt_ok_vqa/instances_val2014.json
