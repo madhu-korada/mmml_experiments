@@ -8,8 +8,11 @@ from transformers import CLIPProcessor, CLIPModel
 from llava_evaluate import load_gt, load_llaava_output
 from analysis.count_no_objs import load_ann_file, get_objects_bboxes, get_objects_bboxes_all_images, get_image_info_from_index
 
-clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
-clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+# model_card = "openai/clip-vit-base-patch32"
+model_card = "openai/clip-vit-large-patch14-336"
+clip_model = CLIPModel.from_pretrained(model_card)
+clip_processor = CLIPProcessor.from_pretrained(model_card)
+model = model_card.split("/")[-1]
 
 def get_category_names(coco_api, ann_file):
     categories = coco_api.loadCats(coco_api.getCatIds())
@@ -54,7 +57,7 @@ if __name__ == "__main__":
     llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
     ann_file = 'data/gt_ok_vqa/instances_val2014.json'
     llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5.jsonl'
-    clip_predictions_file = 'data/clip_predictions.jsonl'
+    clip_predictions_file = f'data/clip_predictions-{model}.jsonl'
 
     llava_answers = load_llaava_output(llava_output_single_word_file)
     gold_answers, image_ids = load_gt(ok_vqa_gt_file)
