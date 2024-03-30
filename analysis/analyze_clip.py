@@ -8,10 +8,18 @@ from transformers import CLIPProcessor, CLIPModel
 from llava_evaluate import load_gt, load_llaava_output
 from analysis.count_no_objs import load_ann_file, get_objects_bboxes, get_objects_bboxes_all_images, get_image_info_from_index
 
-# model_card = "openai/clip-vit-base-patch32"
-model_card = "openai/clip-vit-large-patch14-336"
-clip_model = CLIPModel.from_pretrained(model_card)
-clip_processor = CLIPProcessor.from_pretrained(model_card)
+# Check if CUDA is available, otherwise fall back to CPU
+if torch.cuda.is_available():
+    device = torch.device('cuda')
+    print("Using CUDA")
+else:
+    device = torch.device('cpu')
+    print("CUDA not available, using CPU")
+    
+model_card = "openai/clip-vit-base-patch16"
+# model_card = "openai/clip-vit-large-patch14-336"
+clip_model = CLIPModel.from_pretrained(model_card, device_map=device)
+clip_processor = CLIPProcessor.from_pretrained(model_card, device_map=device)
 model = model_card.split("/")[-1]
 
 def get_category_names(coco_api, ann_file):
@@ -26,9 +34,17 @@ def get_image_info(line, coco_api, image_ids):
     bboxes, object_types = get_objects_bboxes(coco_api, image_id)
     return image_file, image_id, bboxes, object_types
 
-def clip_multiclass_classification(image, category_names, topk=5):
+def clip_multiclass_classification(image, category_names, topk=5, device='cuda'):     
+    # Assuming clip_processor and clip_model are defined elsewhere and accessible
     category_names_clip = ["a photo of a " + obj for obj in category_names]
     inputs = clip_processor(text=category_names_clip, images=image, return_tensors="pt", padding=True)
+    
+    # Move inputs to the specified device
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+    
+    # Move the model to the specified device
+    clip_model.to(device)
+    
     outputs = clip_model(**inputs)
     logits_per_image = outputs.logits_per_image
     probs = logits_per_image.softmax(dim=1)
@@ -37,7 +53,6 @@ def clip_multiclass_classification(image, category_names, topk=5):
     labels, scores = [], []
     for i in range(max_indices.size(1)):
         label, score = category_names[max_indices[0, i]], max_probs[0, i].item()
-        # print(f"Label: {label}, score: {score}")
         labels.append(label)
         scores.append(score)
         
@@ -51,7 +66,7 @@ def calculate_accuracy(gold_labels, clip_labels):
 
 if __name__ == "__main__":
     EVAL_MODE = "CLIP"
-    DO_MODEL_INFERENCE = False
+    DO_MODEL_INFERENCE = True
     
     ok_vqa_gt_file = 'data/gt_ok_vqa/mscoco_val2014_annotations.json'
     llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
