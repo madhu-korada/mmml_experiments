@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-if __name__ == "__main__":
-    llava = False
+def plot_question_types_accuracy(llava=False):
     file_path = 'data/question_types_accuracy_llava.txt'
     if not llava:
         file_path = 'data/question_types_accuracy_prophet.txt'
@@ -43,4 +42,23 @@ if __name__ == "__main__":
     plt.savefig(file_path.replace('.txt', '.png'))
     
 
+if __name__ == "__main__":
+    # plot_question_types_accuracy(llava=True)
+    
+    accuracies = [30.1, 44.7, 47.2, 50.9, 51.4]
+    answer_aware_examples = [0, 1, 8, 16, 20]
+    
+    y_pos = np.arange(len(accuracies))
+    plt.plot(y_pos, accuracies, marker='o', linestyle=':', color='r') # Changed to dotted line with linestyle=':'
+    
+    # rotate the x-axis labels by 45 degrees
+    plt.xticks(y_pos, answer_aware_examples, rotation=45) # x-axis labels changed to answer_aware_examples
+    plt.ylabel('Accuracy (%)')
+    plt.xlabel('Number of in-context examples')
+    plt.title('Prophet: IC Example Count vs Accuracy Plot')
+    
+    plt.grid(True) # Adding grid lines
 
+    plt.tight_layout()
+    plt.show()
+    plt.savefig('data/prophet_accuracy_answer_aware.png')
