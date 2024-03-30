@@ -16,8 +16,8 @@ else:
     device = torch.device('cpu')
     print("CUDA not available, using CPU")
     
-model_card = "openai/clip-vit-base-patch16"
-# model_card = "openai/clip-vit-large-patch14-336"
+# model_card = "openai/clip-vit-base-patch16"
+model_card = "openai/clip-vit-large-patch14-336"
 clip_model = CLIPModel.from_pretrained(model_card, device_map=device)
 clip_processor = CLIPProcessor.from_pretrained(model_card, device_map=device)
 model = model_card.split("/")[-1]
@@ -66,7 +66,7 @@ def calculate_accuracy(gold_labels, clip_labels):
 
 if __name__ == "__main__":
     EVAL_MODE = "CLIP"
-    DO_MODEL_INFERENCE = True
+    DO_MODEL_INFERENCE = False
     
     ok_vqa_gt_file = 'data/gt_ok_vqa/mscoco_val2014_annotations.json'
     llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
