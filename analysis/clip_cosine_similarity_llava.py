@@ -7,6 +7,7 @@ from transformers import AutoProcessor, AutoTokenizer, CLIPModel, CLIPProcessor
 
 from analysis.analyze_clip import get_image_info
 from llava_evaluate import load_gt, load_llaava_output
+from prophet_evaluate import load_prophet_output, load_questions
 
 model_card = "openai/clip-vit-large-patch14-336"
 clip_model = CLIPModel.from_pretrained(model_card, device_map="cuda")
@@ -34,16 +35,19 @@ def get_cosine_similarity(image, question_string, answer_string):
     return output.item()
 
 if __name__ == "__main__":
+    EVAL_MODE = 'LLAVA'
     ok_vqa_gt_file = 'data/gt_ok_vqa/mscoco_val2014_annotations.json'
     llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
     ann_file = 'data/gt_ok_vqa/instances_val2014.json'
     llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5.jsonl'
+    prophet_output_file = 'data/eval_prophet/result_20240228154916.json'
     clip_predictions_file = f'data/clip_predictions-{model}.jsonl'
 
-    llava_answers = load_llaava_output(llava_output_single_word_file)
     gold_answers, image_ids = load_gt(ok_vqa_gt_file)
+    llava_answers = load_llaava_output(llava_output_single_word_file)
+    prophet_answers = load_prophet_output(prophet_output_file)
     
-    cosine_similarities_file = 'data/eval_llava/clip_cosine_similarities.jsonl'
+    cosine_similarities_file = f'data/eval_llava/clip_cosine_similarities_{EVAL_MODE}.jsonl'
     
     ctr = 0
     # if cosine_similarities_file exists open it and read the lines
@@ -66,7 +70,6 @@ if __name__ == "__main__":
         question_id = line['question_id']
         question = line['prompt']
         answer = line['text']
-        # move image, question, to the GPU
         
         cosine_similarity = get_cosine_similarity(image, question, answer)
 
@@ -75,4 +78,13 @@ if __name__ == "__main__":
             f.write(json_str + '\n')
         print(f'-----------------------------------')
         print(f'{ctr}: {json_str}')
-      
+    
+    if ctr == len(llava_answers) or len(llava_answers) == 0:
+        print(f'All questions have been processed. Calculating avg cosine similarity...')
+        with open(cosine_similarities_file, 'r') as f:
+            lines = f.readlines()
+        total = 0
+        for line in lines:
+            total += json.loads(line)['cosine_similarity']
+        avg = total / len(lines)
+        print(f'Average cosine similarity: {avg}')
