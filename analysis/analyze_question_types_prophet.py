@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from llava_evaluate import load_gt, load_llaava_output, do_exact_matching, get_num_matches, get_num_matches_spacy
 from analysis.count_no_objs import load_ann_file, get_objects_bboxes, get_objects_bboxes_all_images, get_image_info_from_index
 from f1_score import calculate_f1_score, f1
-
+from prophet_evaluate import load_prophet_output, load_questions
 
 def read_question_types_file(question_types_file):
     with open(question_types_file, 'r') as f:
@@ -27,12 +27,17 @@ def get_question_types(question_types_file):
             question_types[question_type].append(line.strip())
     return question_types
     
-def get_line_given_question(question, llava_answers):
-    for line in llava_answers:
-        if line['prompt'] == question:
-            return line
+def get_qid_given_question(question, prophet_questions):
+    for k, v in prophet_questions.items():
+        if v == question:
+            return k
     return None
     
+def get_line_given_qid(question_id, prophet_answers):
+    for line in prophet_answers:
+        if line['question_id'] == question_id:
+            return line
+    return None
     
 
 if __name__ == "__main__":
@@ -46,13 +51,16 @@ if __name__ == "__main__":
     llava_output_file = 'data/eval_llava/answer-file-our.jsonl'
     ann_file = 'data/gt_ok_vqa/instances_val2014.json'
     llava_output_single_word_file = 'data/eval_llava/llava-1.6-answer-file-our-single-word-temp-1-beams-5.jsonl'
+    prophet_json_file = 'data/eval_prophet/result_20240228154916.json'
     question_types_file = 'data/questions_types.txt'
 
     model_id = "gg-hf/gemma-2b-it"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     
-    llava_answers = load_llaava_output(llava_output_single_word_file)
     gold_answers, image_ids = load_gt(ok_vqa_gt_file)
+    llava_answers = load_llaava_output(llava_output_single_word_file)
+    prophet_answers = load_prophet_output(prophet_json_file)
+    prophet_questions = load_questions()
     
     question_types = get_question_types(question_types_file)    
     print("Question Types: ", question_types.keys())
@@ -67,22 +75,23 @@ if __name__ == "__main__":
         recalls, precisions, f1s = [], [], []
     
         for question in questions:
-            line = get_line_given_question(question, llava_answers)
-            question_id = line['question_id']
-            llava_answer = line['text']
+            question_id = get_qid_given_question(question, prophet_questions)
+            question = prophet_questions[question_id]
+            line = get_line_given_qid(question_id, prophet_answers)
+            prophet_answer = line['answer']
             gold_answer = gold_answers[question_id]
             
             if exact_matching:
-                matches, match_count, num_gold, match_details = do_exact_matching(gold_answer, llava_answer)
+                matches, match_count, num_gold, match_details = do_exact_matching(gold_answer, prophet_answer)
             else:
-                # matches, match_count, num_gold = get_num_matches(gold_answer, llava_answer)
-                matches, match_count, num_gold, match_details = get_num_matches_spacy(gold_answer, llava_answer)
+                # matches, match_count, num_gold = get_num_matches(gold_answer, prophet_answer)
+                matches, match_count, num_gold, match_details = get_num_matches_spacy(gold_answer, prophet_answer)
             
-            llava_answer_words = llava_answer.split()
+            prophet_answer_words = prophet_answer.split()
             if len(matches):
                 f1_curr, curr_precision, curr_recall = f1(matches[0], gold_answer, tokenizer)
             else:
-                f1_curr, curr_precision, curr_recall = f1(llava_answer_words[0], gold_answer, tokenizer)
+                f1_curr, curr_precision, curr_recall = f1(prophet_answer_words[0], gold_answer, tokenizer)
             # print(f'F1: {f1_curr:.2f}, Precision: {curr_precision:.2f}, Recall: {curr_recall:.2f}')
             total_match_count += num_gold
             total_gold_count += len(gold_answer)
@@ -114,7 +123,7 @@ if __name__ == "__main__":
     print(f'--------------------------------------------------')
     
     # print in a file
-    with open('data/question_types_accuracy_llava.txt', 'w') as f:
+    with open('data/question_types_accuracy_prophet.txt', 'w') as f:
         for question_type, acc in acc_question_type.items():
             f.write(f'{question_type}: {acc[0]}, {acc[1]:.2f}%\n')
 

@@ -1,20 +1,20 @@
-What type of questions: 82.83%
-Name type of questions: 78.18%
-Which type of questions: 71.05%
-Who type of questions: 68.57%
-A type of questions: 91.67%
-Why type of questions: 70.43%
-Is type of questions: 92.35%
-In type of questions: 80.00%
-How type of questions: 83.76%
-Where type of questions: 71.20%
-When type of questions: 76.92%
-Are type of questions: 91.18%
-If type of questions: 87.50%
-Would type of questions: 85.71%
-Does type of questions: 100.00%
-This type of questions: 73.81%
-The type of questions: 87.84%
-Can type of questions: 72.09%
-These type of questions: 81.82%
-What's type of questions: 83.33%
+What type of questions: 3290, 82.83%
+Name type of questions: 110, 78.18%
+Which type of questions: 152, 71.05%
+Who type of questions: 140, 68.57%
+A type of questions: 12, 91.67%
+Why type of questions: 115, 70.43%
+Is type of questions: 170, 92.35%
+In type of questions: 65, 80.00%
+How type of questions: 351, 83.76%
+Where type of questions: 191, 71.20%
+When type of questions: 52, 76.92%
+Are type of questions: 34, 91.18%
+If type of questions: 16, 87.50%
+Would type of questions: 14, 85.71%
+Does type of questions: 14, 100.00%
+This type of questions: 42, 73.81%
+The type of questions: 74, 87.84%
+Can type of questions: 43, 72.09%
+These type of questions: 11, 81.82%
+What's type of questions: 18, 83.33%
