@@ -1,4 +1,5 @@
 import os
+import json
 import torch 
 import requests
 from PIL import Image
@@ -8,21 +9,29 @@ from analysis.analyze_clip import get_image_info
 from llava_evaluate import load_gt, load_llaava_output
 
 model_card = "openai/clip-vit-large-patch14-336"
-clip_model = CLIPModel.from_pretrained(model_card)
-clip_processor = CLIPProcessor.from_pretrained(model_card)
+clip_model = CLIPModel.from_pretrained(model_card, device_map="cuda")
+clip_processor = CLIPProcessor.from_pretrained(model_card, device_map="cuda")
 tokenizer = AutoTokenizer.from_pretrained(model_card)
 cosi = torch.nn.CosineSimilarity(dim=0) 
 
 model = model_card.split("/")[-1]
 
 def get_cosine_similarity(image, question_string, answer_string):
-    inputs = tokenizer([question_string + " " + answer_string], padding=True, return_tensors="pt")
-    text_features = clip_model.get_text_features(**inputs).squeeze(dim=0)
-    inputs = clip_processor(images=image, return_tensors="pt")
-    image_features = clip_model.get_image_features(**inputs).squeeze(dim=0)
-    output = cosi(image_features, text_features) 
+    # Tokenize the text input
+    text_inputs = tokenizer([question_string + " " + answer_string], padding=True, return_tensors="pt")
+    text_inputs = {k: v.to("cuda") for k, v in text_inputs.items()}
+    # Get text features
+    text_features = clip_model.get_text_features(**text_inputs).squeeze(dim=0)
+    
+    # Process the image input and move to CUDA
+    image_inputs = clip_processor(images=image, return_tensors="pt")
+    image_inputs = {k: v.to("cuda") for k, v in image_inputs.items()}
+    # Get image features
+    image_features = clip_model.get_image_features(**image_inputs).squeeze(dim=0)
+    
+    # Calculate cosine similarity
+    output = cosi(image_features, text_features)
     return output.item()
-
 
 if __name__ == "__main__":
     ok_vqa_gt_file = 'data/gt_ok_vqa/mscoco_val2014_annotations.json'
@@ -36,18 +45,18 @@ if __name__ == "__main__":
     
     cosine_similarities_file = 'data/eval_llava/clip_cosine_similarities.jsonl'
     
-    # if not DO_MODEL_INFERENCE:
-    #     clip_predictions = load_llaava_output(clip_predictions_file)
     ctr = 0
     # if cosine_similarities_file exists open it and read the lines
     if os.path.exists(cosine_similarities_file):
         with open(cosine_similarities_file, 'r') as f:
             lines = f.readlines()
         ctr = len(lines)
-        # filter the image_ids that have already been processed
-        # image_ids = {k: v for k, v in image_ids.items() if v not in [int(line['image_id']) for line in lines]}
-        # llava_answers = [line for line in llava_answers if line['question_id'] not in [int(line['question_id']) for line in lines]]
+          
+        processed_questions_ids = {json.loads(line)['question_id'] for line in lines}
+        # filter the llava answers that have already been processed
+        llava_answers = [line for line in llava_answers if line['question_id'] not in processed_questions_ids]
         
+    print(f'Number of questions to process: {len(llava_answers)}')
     for line in llava_answers:
         ctr += 1
         image_id = image_ids[line['question_id']]
@@ -57,6 +66,8 @@ if __name__ == "__main__":
         question_id = line['question_id']
         question = line['prompt']
         answer = line['text']
+        # move image, question, to the GPU
+        
         cosine_similarity = get_cosine_similarity(image, question, answer)
 
         json_str = f'{{"question_id": {question_id}, "image_id": {image_id}, "question": "{question}", "answer": "{answer}", "cosine_similarity": {cosine_similarity}}}'
