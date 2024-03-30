@@ -1,0 +1,954 @@
+{"question_id": 2971475, "image_id": 297147, "question": "What sport can you use this for?", "answer": "Racing", "cosine_similarity": 0.16377019882202148}
+{"question_id": 3397615, "image_id": 339761, "question": "Name the type of plant this is?", "answer": "Ivy", "cosine_similarity": 0.1864200085401535}
+{"question_id": 3575865, "image_id": 357586, "question": "What toy is this?", "answer": "Teddy bear", "cosine_similarity": 0.19530944526195526}
+{"question_id": 949225, "image_id": 94922, "question": "Which part of this animal would be in use of it was playing the game that is played with the items the man is holding?", "answer": "Leg", "cosine_similarity": 0.18445433676242828}
+{"question_id": 2076115, "image_id": 207611, "question": "What could this gentleman be carrying in that red bag?", "answer": "Lunch", "cosine_similarity": 0.23727606236934662}
+{"question_id": 5723996, "image_id": 572399, "question": "Who leaves a toilet like this?", "answer": "No one", "cosine_similarity": 0.24233731627464294}
+{"question_id": 5759705, "image_id": 575970, "question": "A center affixed unit like this one in a kitchen is called a what?", "answer": "Island", "cosine_similarity": 0.2712787985801697}
+{"question_id": 3045575, "image_id": 304557, "question": "Why might someone go to this place?", "answer": "Shopping", "cosine_similarity": 0.19375324249267578}
+{"question_id": 2183655, "image_id": 218365, "question": "What does this grow from?", "answer": "Flower", "cosine_similarity": 0.19838902354240417}
+{"question_id": 2863135, "image_id": 286313, "question": "What is that man doing with the bat?", "answer": "Swinging", "cosine_similarity": 0.24518010020256042}
+{"question_id": 299845, "image_id": 29984, "question": "Is this at a salt water beach or a lake?", "answer": "Lake", "cosine_similarity": 0.21635448932647705}
+{"question_id": 115115, "image_id": 11511, "question": "Who designed the statues?", "answer": "Sculptor", "cosine_similarity": 0.22855563461780548}
+{"question_id": 3234605, "image_id": 323460, "question": "What is the name of the items the hot dog are topped with?", "answer": "Relish", "cosine_similarity": 0.27806931734085083}
+{"question_id": 5169165, "image_id": 516916, "question": "What is this desk used for?", "answer": "Work", "cosine_similarity": 0.207469642162323}
+{"question_id": 217115, "image_id": 21711, "question": "What type of bike is on the ground?", "answer": "Bicycle", "cosine_similarity": 0.19288960099220276}
+{"question_id": 3133865, "image_id": 313386, "question": "What type of plane is that?", "answer": "Passenger", "cosine_similarity": 0.19054245948791504}
+{"question_id": 4026395, "image_id": 402639, "question": "Is this a room for a boy or girl?", "answer": "Girl", "cosine_similarity": 0.22987763583660126}
+{"question_id": 4575845, "image_id": 457584, "question": "In what year was this desert first introduced?", "answer": "1948", "cosine_similarity": 0.1556835174560547}
+{"question_id": 4883775, "image_id": 488377, "question": "What is this surf trick called?", "answer": "Kickflip", "cosine_similarity": 0.23133228719234467}
+{"question_id": 3017535, "image_id": 301753, "question": "What do they call running around the bases on a single hit?", "answer": "Stealing", "cosine_similarity": 0.20833812654018402}
+{"question_id": 1833195, "image_id": 183319, "question": "Why is this plugged in?", "answer": "Charging", "cosine_similarity": 0.1674659252166748}
+{"question_id": 3970635, "image_id": 397063, "question": "What is the shape?", "answer": "Round", "cosine_similarity": 0.1741568148136139}
+{"question_id": 4976605, "image_id": 497660, "question": "What is the horsepower of the truck pulling the load?", "answer": "1000", "cosine_similarity": 0.1619483381509781}
+{"question_id": 2357845, "image_id": 235784, "question": "What kind of skiing is this person engaged in?", "answer": "Cross country", "cosine_similarity": 0.18487213551998138}
+{"question_id": 3190735, "image_id": 319073, "question": "What is the person in the photo wearing?", "answer": "Wetsuit", "cosine_similarity": 0.24337638914585114}
+{"question_id": 5144685, "image_id": 514468, "question": "What is the name of the board he is on?", "answer": "Surfboard", "cosine_similarity": 0.22685378789901733}
+{"question_id": 4371265, "image_id": 437126, "question": "Name the material used to make this car seat shown in this picture?", "answer": "Cloth", "cosine_similarity": 0.21020551025867462}
+{"question_id": 5182875, "image_id": 518287, "question": "What part of the face is the toothbrush in?", "answer": "Mouth", "cosine_similarity": 0.2375279664993286}
+{"question_id": 3804595, "image_id": 380459, "question": "What flavor is this pastry?", "answer": "Vanilla", "cosine_similarity": 0.15860165655612946}
+{"question_id": 5002005, "image_id": 500200, "question": "What kind of container are the flowers in?", "answer": "Vase", "cosine_similarity": 0.21131476759910583}
+{"question_id": 3156685, "image_id": 315668, "question": "What country does this appear to be?", "answer": "England", "cosine_similarity": 0.1567416936159134}
+{"question_id": 3736625, "image_id": 373662, "question": "Which of the foods in the picture is best for you to eat when you have a cold?", "answer": "Soup", "cosine_similarity": 0.22610168159008026}
+{"question_id": 4293695, "image_id": 429369, "question": "What do teenage pranksters do to this animal?", "answer": "Nothing", "cosine_similarity": 0.10448974370956421}
+{"question_id": 4273415, "image_id": 427341, "question": "How many watts is that microwave?", "answer": "1000", "cosine_similarity": 0.13667301833629608}
+{"question_id": 3938365, "image_id": 393836, "question": "What is this type of blanket called?", "answer": "Quilt", "cosine_similarity": 0.2711018919944763}
+{"question_id": 179845, "image_id": 17984, "question": "What south american country usually has this climate?", "answer": "Brazil", "cosine_similarity": 0.1863032877445221}
+{"question_id": 3268375, "image_id": 326837, "question": "What american restaurant features an open kitchen with visible cooking area such as this?", "answer": "Ihop", "cosine_similarity": 0.24135012924671173}
+{"question_id": 2780325, "image_id": 278032, "question": "What other big vehicle is often painted about the same shade as this vehicle?", "answer": "Taxi", "cosine_similarity": 0.17379195988178253}
+{"question_id": 1110325, "image_id": 111032, "question": "What brand is this wine?", "answer": "Beckett vineyard", "cosine_similarity": 0.26867806911468506}
+{"question_id": 5096415, "image_id": 509641, "question": "What would happen if these items fall to the ground?", "answer": "Break", "cosine_similarity": 0.18133915960788727}
+{"question_id": 3413095, "image_id": 341309, "question": "What brand of suit is the man in the image wearing?", "answer": "Men's wearhouse", "cosine_similarity": 0.15757246315479279}
+{"question_id": 1121605, "image_id": 112160, "question": "Where might i buy a print that resembles this photo?", "answer": "Etsy", "cosine_similarity": 0.21084626019001007}
+{"question_id": 2645405, "image_id": 264540, "question": "What are the rolled black food items called?", "answer": "Sushi", "cosine_similarity": 0.22189639508724213}
+{"question_id": 1089825, "image_id": 108982, "question": "What type of bird is this?", "answer": "Blue jay", "cosine_similarity": 0.22311270236968994}
+{"question_id": 2929715, "image_id": 292971, "question": "How can you tell that the people are not upset?", "answer": "Smiling", "cosine_similarity": 0.19062261283397675}
+{"question_id": 1902045, "image_id": 190204, "question": "How fast is the vehicle pictured capable of reaching?", "answer": "Slow", "cosine_similarity": 0.16284318268299103}
+{"question_id": 3774865, "image_id": 377486, "question": "Name the type of hat the man is wearing?", "answer": "Cowboy", "cosine_similarity": 0.18412476778030396}
+{"question_id": 1282805, "image_id": 128280, "question": "What sates are these grown in?", "answer": "Florida", "cosine_similarity": 0.15765303373336792}
+{"question_id": 1318415, "image_id": 131841, "question": "How does the bread taste?", "answer": "Good", "cosine_similarity": 0.16162152588367462}
+{"question_id": 1305165, "image_id": 130516, "question": "What is this type of mack truck used for?", "answer": "Construction", "cosine_similarity": 0.2297198623418808}
+{"question_id": 2845485, "image_id": 284548, "question": "What type of platform should this vehicle be on?", "answer": "Train tracks", "cosine_similarity": 0.21838527917861938}
+{"question_id": 5069455, "image_id": 506945, "question": "What is the term for the effect used in this photo?", "answer": "Fisheye", "cosine_similarity": 0.18222294747829437}
+{"question_id": 4247445, "image_id": 424744, "question": "What is the small white outdoor house like building called?", "answer": "Gazebo", "cosine_similarity": 0.20466971397399902}
+{"question_id": 5681485, "image_id": 568148, "question": "What can the woman do with this toy?", "answer": "Throw", "cosine_similarity": 0.1994495391845703}
+{"question_id": 857725, "image_id": 85772, "question": "Is this boy a professional player or still in high school?", "answer": "High school", "cosine_similarity": 0.20069605112075806}
+{"question_id": 1396845, "image_id": 139684, "question": "What is the decorative fabric on the floor called?", "answer": "Rug", "cosine_similarity": 0.23074601590633392}
+{"question_id": 4732085, "image_id": 473208, "question": "Is this in a home kitchen or commercial kitchen?", "answer": "Commercial", "cosine_similarity": 0.17542225122451782}
+{"question_id": 3030245, "image_id": 303024, "question": "Which type of helmet is used by the sport person shown in this picture?", "answer": "Batting helmet", "cosine_similarity": 0.23314519226551056}
+{"question_id": 5342525, "image_id": 534252, "question": "Which brand of slipper is shown in this picture?", "answer": "Crocs", "cosine_similarity": 0.20615306496620178}
+{"question_id": 1649245, "image_id": 164924, "question": "Who directed the 2012 movie shown on the television in the picture?", "answer": "Joss whedon", "cosine_similarity": 0.2283332347869873}
+{"question_id": 1197855, "image_id": 119785, "question": "What time of day is it?", "answer": "Night", "cosine_similarity": 0.16520994901657104}
+{"question_id": 511915, "image_id": 51191, "question": "Is this bathroom high or low end?", "answer": "High end", "cosine_similarity": 0.22597622871398926}
+{"question_id": 1943135, "image_id": 194313, "question": "Name one famous person whom also has a black and white one of these?", "answer": "Marilyn monroe", "cosine_similarity": 0.17771261930465698}
+{"question_id": 3325125, "image_id": 332512, "question": "Which item in this room is usually to wash hands?", "answer": "Sink", "cosine_similarity": 0.21113494038581848}
+{"question_id": 3763585, "image_id": 376358, "question": "What are the white objects on this animals head called?", "answer": "Horns", "cosine_similarity": 0.20304419100284576}
+{"question_id": 3959785, "image_id": 395978, "question": "Which airline has this insignia?", "answer": "Alitalia", "cosine_similarity": 0.11116602271795273}
+{"question_id": 2162545, "image_id": 216254, "question": "When was the cola brand on the signs founded?", "answer": "1886", "cosine_similarity": 0.23324334621429443}
+{"question_id": 2913705, "image_id": 291370, "question": "What type of hat is this gentleman wearing?", "answer": "Top hat", "cosine_similarity": 0.20954656600952148}
+{"question_id": 3304055, "image_id": 330405, "question": "What character does this clock look like?", "answer": "Mickey mouse", "cosine_similarity": 0.3026316165924072}
+{"question_id": 505145, "image_id": 50514, "question": "What fruit comes from these trees?", "answer": "Coconut", "cosine_similarity": 0.10885461419820786}
+{"question_id": 5666345, "image_id": 566634, "question": "What type of skiing is being done here?", "answer": "Cross country", "cosine_similarity": 0.21696579456329346}
+{"question_id": 1569995, "image_id": 156999, "question": "What is this animal famously known for?", "answer": "Long neck", "cosine_similarity": 0.2709801495075226}
+{"question_id": 4535205, "image_id": 453520, "question": "Are these animals mammals or insects?", "answer": "Mammals", "cosine_similarity": 0.15932980179786682}
+{"question_id": 3282845, "image_id": 328284, "question": "If it gets cold enough what will happen to the area being stepped over?", "answer": "Freeze", "cosine_similarity": 0.19275951385498047}
+{"question_id": 2335535, "image_id": 233553, "question": "How tall do these animals get?", "answer": "20 feet", "cosine_similarity": 0.22369609773159027}
+{"question_id": 3589765, "image_id": 358976, "question": "What is the breed of this cat?", "answer": "Tabby", "cosine_similarity": 0.21998921036720276}
+{"question_id": 1050405, "image_id": 105040, "question": "Is this fruit or veggies?", "answer": "Veggies", "cosine_similarity": 0.16518966853618622}
+{"question_id": 5379826, "image_id": 537982, "question": "Why so many green vegetables?", "answer": "Salad", "cosine_similarity": 0.21411749720573425}
+{"question_id": 2352215, "image_id": 235221, "question": "What unpleasant emotional state does this weather phenomenon often cause?", "answer": "Anxiety", "cosine_similarity": 0.1930791735649109}
+{"question_id": 4854245, "image_id": 485424, "question": "What kind of oven is on the table?", "answer": "Toaster oven", "cosine_similarity": 0.19199615716934204}
+{"question_id": 2864225, "image_id": 286422, "question": "How do people use this?", "answer": "Sail", "cosine_similarity": 0.2020508497953415}
+{"question_id": 5192715, "image_id": 519271, "question": "What small cloth is used to wipe the face or eating this meal?", "answer": "Napkin", "cosine_similarity": 0.2114759385585785}
+{"question_id": 1449855, "image_id": 144985, "question": "What is this truck moving?", "answer": "Recall", "cosine_similarity": 0.2713698446750641}
+{"question_id": 5605665, "image_id": 560566, "question": "Which phase is that moon in?", "answer": "Waxing crescent", "cosine_similarity": 0.22629107534885406}
+{"question_id": 3430685, "image_id": 343068, "question": "What kind of animal is clearly displayed on the cover of this bed?", "answer": "Deer", "cosine_similarity": 0.2685912549495697}
+{"question_id": 1527025, "image_id": 152702, "question": "What is a type of horseback sport?", "answer": "Polo", "cosine_similarity": 0.2119370847940445}
+{"question_id": 1603935, "image_id": 160393, "question": "What item might be used to warm this item of furniture?", "answer": "Blanket", "cosine_similarity": 0.17705956101417542}
+{"question_id": 2597615, "image_id": 259761, "question": "What fills the balloons?", "answer": "Helium", "cosine_similarity": 0.1580791473388672}
+{"question_id": 3883985, "image_id": 388398, "question": "Would this article of furniture typically be for public or private use?", "answer": "Public", "cosine_similarity": 0.15893283486366272}
+{"question_id": 4071465, "image_id": 407146, "question": "How many passengers can this plane accomodate?", "answer": "10", "cosine_similarity": 0.22160710394382477}
+{"question_id": 5525735, "image_id": 552573, "question": "What knocked the guy off his chair?", "answer": "Water", "cosine_similarity": 0.232572540640831}
+{"question_id": 1000065, "image_id": 100006, "question": "What is the purpose of the logos on this truck?", "answer": "Advertisement", "cosine_similarity": 0.2064812183380127}
+{"question_id": 5685555, "image_id": 568555, "question": "What is the purpose of these objects?", "answer": "Decoration", "cosine_similarity": 0.18792866170406342}
+{"question_id": 2873285, "image_id": 287328, "question": "What happens here?", "answer": "Sleep", "cosine_similarity": 0.20765402913093567}
+{"question_id": 5649115, "image_id": 564911, "question": "What company is this plane flying for?", "answer": "One world", "cosine_similarity": 0.2554972767829895}
+{"question_id": 4471175, "image_id": 447117, "question": "Name the type of curtains shown in this picture?", "answer": "Sheer", "cosine_similarity": 0.20218732953071594}
+{"question_id": 3294555, "image_id": 329455, "question": "What animal does the meat on the pizza come from?", "answer": "Horse", "cosine_similarity": 0.21574731171131134}
+{"question_id": 1365725, "image_id": 136572, "question": "How do you turn this on?", "answer": "Key", "cosine_similarity": 0.15669208765029907}
+{"question_id": 5775245, "image_id": 577524, "question": "How tall is this animal usually?", "answer": "20 feet", "cosine_similarity": 0.22748622298240662}
+{"question_id": 2707535, "image_id": 270753, "question": "How much tomato sauce is in this dish?", "answer": "Lot", "cosine_similarity": 0.1976264864206314}
+{"question_id": 2231575, "image_id": 223157, "question": "What brand of blue jeans is the skateboarder wearing?", "answer": "Levis", "cosine_similarity": 0.22766593098640442}
+{"question_id": 3087645, "image_id": 308764, "question": "Is this bird diurnal or nocturnal?", "answer": "Nocturnal", "cosine_similarity": 0.20246943831443787}
+{"question_id": 2940305, "image_id": 294030, "question": "What is the white cloud behind the jet called?", "answer": "Contrail", "cosine_similarity": 0.227057546377182}
+{"question_id": 2741565, "image_id": 274156, "question": "How heavy is this object?", "answer": "Heavy", "cosine_similarity": 0.18021361529827118}
+{"question_id": 5522215, "image_id": 552221, "question": "What restaraunt is this at?", "answer": "Pizza", "cosine_similarity": 0.24018891155719757}
+{"question_id": 4684875, "image_id": 468487, "question": "What breed of dog is this?", "answer": "Chihuahua", "cosine_similarity": 0.22959120571613312}
+{"question_id": 5156125, "image_id": 515612, "question": "What musical instrument is this man playing?", "answer": "Keyboard", "cosine_similarity": 0.2616787254810333}
+{"question_id": 2085245, "image_id": 208524, "question": "Does this type of train transport people or cargo?", "answer": "Cargo", "cosine_similarity": 0.24702675640583038}
+{"question_id": 1970975, "image_id": 197097, "question": "What kind of dog is this?", "answer": "Dachshund", "cosine_similarity": 0.18969278037548065}
+{"question_id": 2365425, "image_id": 236542, "question": "What is the name of this dish?", "answer": "Pancake", "cosine_similarity": 0.24843789637088776}
+{"question_id": 1041195, "image_id": 104119, "question": "On what holiday do people traditionally eat this bird?", "answer": "Thanksgiving", "cosine_similarity": 0.20908084511756897}
+{"question_id": 2264595, "image_id": 226459, "question": "What do these animals generally eat?", "answer": "Worms", "cosine_similarity": 0.22052732110023499}
+{"question_id": 2749575, "image_id": 274957, "question": "What could a person use this for?", "answer": "Directions", "cosine_similarity": 0.17481714487075806}
+{"question_id": 1341195, "image_id": 134119, "question": "What is a group of these animals called?", "answer": "Herd", "cosine_similarity": 0.22936338186264038}
+{"question_id": 1708525, "image_id": 170852, "question": "What toe related phrase is most commonly associated with this sport?", "answer": "Ride the wave", "cosine_similarity": 0.2668437063694}
+{"question_id": 1667045, "image_id": 166704, "question": "What is the type of blade being used in this photo?", "answer": "Knife", "cosine_similarity": 0.23321348428726196}
+{"question_id": 4100045, "image_id": 410004, "question": "Where are fruits like this best found?", "answer": "Tropical climate", "cosine_similarity": 0.239742249250412}
+{"question_id": 639735, "image_id": 63973, "question": "How long does this animal usually live?", "answer": "20 years", "cosine_similarity": 0.16474241018295288}
+{"question_id": 979885, "image_id": 97988, "question": "People that pledge to give per mile monies for those participating in these types of events are called what?", "answer": "Sponsor", "cosine_similarity": 0.19252514839172363}
+{"question_id": 4959965, "image_id": 495996, "question": "What retractable appendage could this animal use to destroy the chair?", "answer": "Claws", "cosine_similarity": 0.24240683019161224}
+{"question_id": 2980515, "image_id": 298051, "question": "What event is this?", "answer": "Concert", "cosine_similarity": 0.16763225197792053}
+{"question_id": 2921885, "image_id": 292188, "question": "What other item is this company famous for manufacturing?", "answer": "Tractors", "cosine_similarity": 0.18422073125839233}
+{"question_id": 5735275, "image_id": 573527, "question": "What is the arrow indicating?", "answer": "One way", "cosine_similarity": 0.21932241320610046}
+{"question_id": 5461715, "image_id": 546171, "question": "Why would animals do this?", "answer": "Play", "cosine_similarity": 0.18156510591506958}
+{"question_id": 3989925, "image_id": 398992, "question": "What area of a school might this be?", "answer": "Library", "cosine_similarity": 0.15681308507919312}
+{"question_id": 3159865, "image_id": 315986, "question": "For how long should the man in this picture continue to brush his teeth?", "answer": "2 minutes", "cosine_similarity": 0.2526547908782959}
+{"question_id": 418675, "image_id": 41867, "question": "What kind of bird is this?", "answer": "Sparrow", "cosine_similarity": 0.19827015697956085}
+{"question_id": 1708495, "image_id": 170849, "question": "How would you dress for this setting?", "answer": "Shorts", "cosine_similarity": 0.1683748960494995}
+{"question_id": 1803295, "image_id": 180329, "question": "What new company has created competition for this type of transportation?", "answer": "Uber", "cosine_similarity": 0.18383106589317322}
+{"question_id": 5341945, "image_id": 534194, "question": "What weather phenomenon most likely happened?", "answer": "Flood", "cosine_similarity": 0.22076627612113953}
+{"question_id": 195795, "image_id": 19579, "question": "How many calories is in a food like this?", "answer": "500", "cosine_similarity": 0.20230676233768463}
+{"question_id": 2769645, "image_id": 276964, "question": "What single verb can be used to describe the action in this photo?", "answer": "Flush", "cosine_similarity": 0.1987135112285614}
+{"question_id": 5407405, "image_id": 540740, "question": "What kind of park is this picture taken in?", "answer": "Skate park", "cosine_similarity": 0.2667405307292938}
+{"question_id": 243965, "image_id": 24396, "question": "Who is the motorcycle manufacture?", "answer": "Triumph", "cosine_similarity": 0.2553761899471283}
+{"question_id": 5132835, "image_id": 513283, "question": "What kind of shakers are on the table?", "answer": "Salt and pepper", "cosine_similarity": 0.14041204750537872}
+{"question_id": 2993555, "image_id": 299355, "question": "What low calorie way of cooking the green vegetables involves heating them over hot water?", "answer": "Steaming", "cosine_similarity": 0.19052377343177795}
+{"question_id": 3848225, "image_id": 384822, "question": "What kind of serving utensil is used to serve this pizza?", "answer": "Spatula", "cosine_similarity": 0.217842236161232}
+{"question_id": 5683585, "image_id": 568358, "question": "What type of process is occurring here?", "answer": "Frying", "cosine_similarity": 0.20812882483005524}
+{"question_id": 357265, "image_id": 35726, "question": "What waterway is this boat on?", "answer": "River", "cosine_similarity": 0.2421308010816574}
+{"question_id": 2293835, "image_id": 229383, "question": "Is this illegal or legal?", "answer": "Legal", "cosine_similarity": 0.14584001898765564}
+{"question_id": 2542775, "image_id": 254277, "question": "Where can i buy flowers like these?", "answer": "Flower shop", "cosine_similarity": 0.2546433210372925}
+{"question_id": 3404725, "image_id": 340472, "question": "What do you call the device that keeps boats in place at sea?", "answer": "Anchor", "cosine_similarity": 0.19654250144958496}
+{"question_id": 1008115, "image_id": 100811, "question": "What kind of bird are they?", "answer": "Seagull", "cosine_similarity": 0.24655136466026306}
+{"question_id": 3591265, "image_id": 359126, "question": "This man is speaking into a?", "answer": "Microphone", "cosine_similarity": 0.19232210516929626}
+{"question_id": 3064155, "image_id": 306415, "question": "What type of clothing are the men wearing?", "answer": "Suits", "cosine_similarity": 0.17398981750011444}
+{"question_id": 584726, "image_id": 58472, "question": "What kind of glass is used to make that shower enclosure?", "answer": "Tempered", "cosine_similarity": 0.26112738251686096}
+{"question_id": 4258485, "image_id": 425848, "question": "What is brown on the plate?", "answer": "Meat", "cosine_similarity": 0.2154512256383896}
+{"question_id": 586905, "image_id": 58690, "question": "What type of music is this child playing?", "answer": "Piano", "cosine_similarity": 0.24878843128681183}
+{"question_id": 1547215, "image_id": 154721, "question": "Who invented the headgear worn here?", "answer": "Helmet", "cosine_similarity": 0.20727255940437317}
+{"question_id": 1690895, "image_id": 169089, "question": "What material are those suits made out of?", "answer": "Neoprene", "cosine_similarity": 0.2015407234430313}
+{"question_id": 3884225, "image_id": 388422, "question": "What sport is this?", "answer": "Rugby", "cosine_similarity": 0.2339123785495758}
+{"question_id": 3832295, "image_id": 383229, "question": "What sport is this?", "answer": "Horse racing", "cosine_similarity": 0.23130688071250916}
+{"question_id": 4246685, "image_id": 424668, "question": "What type of person would you call if this happened in your house?", "answer": "Plumber", "cosine_similarity": 0.2874126136302948}
+{"question_id": 3817095, "image_id": 381709, "question": "Is this the beach or sahara?", "answer": "Sahara", "cosine_similarity": 0.13331109285354614}
+{"question_id": 2086495, "image_id": 208649, "question": "What type of bread is on this sandwhich?", "answer": "Rye", "cosine_similarity": 0.23115777969360352}
+{"question_id": 3955315, "image_id": 395531, "question": "What religion does the statue belone to?", "answer": "Buddhism", "cosine_similarity": 0.22554819285869598}
+{"question_id": 1726865, "image_id": 172686, "question": "What type of food is this?", "answer": "Orange", "cosine_similarity": 0.22788196802139282}
+{"question_id": 4087365, "image_id": 408736, "question": "What kind of cat is this and what are some depictions of this breed of cat in fiction?", "answer": "Siamese", "cosine_similarity": 0.2293303906917572}
+{"question_id": 2816015, "image_id": 281601, "question": "In what city is the restaurant the man in the green hat is eating at?", "answer": "Hong kong", "cosine_similarity": 0.25387224555015564}
+{"question_id": 5267215, "image_id": 526721, "question": "Is this animal a carnivore herbivore or omnivore?", "answer": "Omnivore", "cosine_similarity": 0.1990392655134201}
+{"question_id": 134905, "image_id": 13490, "question": "What ingredient is missing from the picture to make a pb and j sandwich?", "answer": "Peanut butter", "cosine_similarity": 0.23518957197666168}
+{"question_id": 1474155, "image_id": 147415, "question": "What is the lighing like?", "answer": "Dark", "cosine_similarity": 0.13350768387317657}
+{"question_id": 307195, "image_id": 30719, "question": "What kind of slope is pictured here?", "answer": "Ski", "cosine_similarity": 0.25942546129226685}
+{"question_id": 4086215, "image_id": 408621, "question": "What source of energy does this vehicle use?", "answer": "Gas", "cosine_similarity": 0.15139959752559662}
+{"question_id": 2142445, "image_id": 214244, "question": "What are the two items that this athlete has in either hand?", "answer": "Ski poles", "cosine_similarity": 0.261751264333725}
+{"question_id": 5490485, "image_id": 549048, "question": "What is the rack on the bus used for?", "answer": "Bike", "cosine_similarity": 0.19990511238574982}
+{"question_id": 2947765, "image_id": 294776, "question": "What is this woman playing with?", "answer": "Frisbee", "cosine_similarity": 0.2390490621328354}
+{"question_id": 2966345, "image_id": 296634, "question": "How do you make this dish?", "answer": "Cook", "cosine_similarity": 0.1887637972831726}
+{"question_id": 2122885, "image_id": 212288, "question": "What could this guy be doing?", "answer": "Fixing traffic light", "cosine_similarity": 0.2737194895744324}
+{"question_id": 2705545, "image_id": 270554, "question": "Where were these vegetables grown?", "answer": "Garden", "cosine_similarity": 0.2122509777545929}
+{"question_id": 4974395, "image_id": 497439, "question": "The food in the photo contains which healthy vitamins?", "answer": "Vitamin", "cosine_similarity": 0.19908738136291504}
+{"question_id": 5814515, "image_id": 581451, "question": "What topping are on the hotdog?", "answer": "Ketchup and peas", "cosine_similarity": 0.2775669991970062}
+{"question_id": 2368845, "image_id": 236884, "question": "Which political figure is being referenced on the child's shirt?", "answer": "Obama", "cosine_similarity": 0.2763509750366211}
+{"question_id": 2261615, "image_id": 226161, "question": "What is this fireplace made of?", "answer": "Brick", "cosine_similarity": 0.24947023391723633}
+{"question_id": 310165, "image_id": 31016, "question": "The picture on the laptop is called a what?", "answer": "Wallpaper", "cosine_similarity": 0.19660763442516327}
+{"question_id": 4720345, "image_id": 472034, "question": "How well done is this steak cooked?", "answer": "Well", "cosine_similarity": 0.20027072727680206}
+{"question_id": 5817025, "image_id": 581702, "question": "What type of bird is this?", "answer": "Finch", "cosine_similarity": 0.2356371283531189}
+{"question_id": 848895, "image_id": 84889, "question": "What beverages are pictured in this phot?", "answer": "Alcohol", "cosine_similarity": 0.17385812103748322}
+{"question_id": 1932615, "image_id": 193261, "question": "What kind of sign is this?", "answer": "Yes", "cosine_similarity": 0.14470116794109344}
+{"question_id": 4923495, "image_id": 492349, "question": "What continent s is are this bird found on?", "answer": "North america", "cosine_similarity": 0.1757649928331375}
+{"question_id": 3130935, "image_id": 313093, "question": "What is needed to use this vehicle?", "answer": "Helmet", "cosine_similarity": 0.1588282287120819}
+{"question_id": 675325, "image_id": 67532, "question": "What breed are these two dogs?", "answer": "Chihuahua", "cosine_similarity": 0.24631726741790771}
+{"question_id": 1390725, "image_id": 139072, "question": "What base is this guy on?", "answer": "3rd", "cosine_similarity": 0.19181548058986664}
+{"question_id": 1115485, "image_id": 111548, "question": "What tooth is named after this type of animal?", "answer": "Canine", "cosine_similarity": 0.19486898183822632}
+{"question_id": 1731385, "image_id": 173138, "question": "What celestial body controls the movements of the body of water featured in this photo?", "answer": "Moon", "cosine_similarity": 0.15687349438667297}
+{"question_id": 1915856, "image_id": 191585, "question": "What are the white lines marked for?", "answer": "Crosswalk", "cosine_similarity": 0.23114013671875}
+{"question_id": 3670825, "image_id": 367082, "question": "How big do these animals get?", "answer": "Large", "cosine_similarity": 0.13435706496238708}
+{"question_id": 1452955, "image_id": 145295, "question": "What kind of race is this?", "answer": "Skateboard", "cosine_similarity": 0.24335052073001862}
+{"question_id": 2406055, "image_id": 240605, "question": "What might be the weight of this luggage?", "answer": "30.7", "cosine_similarity": 0.27568966150283813}
+{"question_id": 2727385, "image_id": 272738, "question": "Was the person old or young?", "answer": "Old", "cosine_similarity": 0.1520833671092987}
+{"question_id": 1378035, "image_id": 137803, "question": "What breed of horse is that?", "answer": "Clydesdale", "cosine_similarity": 0.17600084841251373}
+{"question_id": 1095325, "image_id": 109532, "question": "Is the light ambient or natural?", "answer": "Natural", "cosine_similarity": 0.19624021649360657}
+{"question_id": 4516835, "image_id": 451683, "question": "What black veggie is on this pizza?", "answer": "Olives", "cosine_similarity": 0.22904133796691895}
+{"question_id": 4509935, "image_id": 450993, "question": "The people in this photo are wearing what outfits which can be considered business formal?", "answer": "Suits", "cosine_similarity": 0.1690371334552765}
+{"question_id": 5431125, "image_id": 543112, "question": "What is this bench made out of?", "answer": "Metal", "cosine_similarity": 0.20035161077976227}
+{"question_id": 5445745, "image_id": 544574, "question": "What causes these waves?", "answer": "Wind", "cosine_similarity": 0.18454566597938538}
+{"question_id": 2926175, "image_id": 292617, "question": "What could make this room brighter?", "answer": "Curtains", "cosine_similarity": 0.24727840721607208}
+{"question_id": 4831795, "image_id": 483179, "question": "What is the name of that device that's holding the towels?", "answer": "Rack", "cosine_similarity": 0.24395480751991272}
+{"question_id": 1996815, "image_id": 199681, "question": "What small appliance is that stuffed animal inside?", "answer": "Microwave", "cosine_similarity": 0.31752821803092957}
+{"question_id": 3114655, "image_id": 311465, "question": "What sport is this kind of racquet used to play?", "answer": "Badminton", "cosine_similarity": 0.20804494619369507}
+{"question_id": 3123415, "image_id": 312341, "question": "How fast can the vehicle in the foreground go?", "answer": "100 mph", "cosine_similarity": 0.17190080881118774}
+{"question_id": 480675, "image_id": 48067, "question": "What items are spinning in the background which can be used to control electricity?", "answer": "Windmills", "cosine_similarity": 0.18700499832630157}
+{"question_id": 4642635, "image_id": 464263, "question": "What object is synonymous with a rodent in this image?", "answer": "Mouse", "cosine_similarity": 0.20893946290016174}
+{"question_id": 5007175, "image_id": 500717, "question": "When was this item first invented?", "answer": "1804", "cosine_similarity": 0.1183684840798378}
+{"question_id": 4591645, "image_id": 459164, "question": "What brand is the black laptop?", "answer": "Acer", "cosine_similarity": 0.23966649174690247}
+{"question_id": 4357425, "image_id": 435742, "question": "What type of train is that freight or passenger?", "answer": "Freight", "cosine_similarity": 0.21487249433994293}
+{"question_id": 5747855, "image_id": 574785, "question": "What kind of plane is this?", "answer": "Propeller", "cosine_similarity": 0.21766100823879242}
+{"question_id": 3896845, "image_id": 389684, "question": "What do the triangles on the back of this bus mean?", "answer": "Caution", "cosine_similarity": 0.24807782471179962}
+{"question_id": 5143765, "image_id": 514376, "question": "This type of bus can be found in what popular city?", "answer": "Seattle", "cosine_similarity": 0.25162070989608765}
+{"question_id": 799555, "image_id": 79955, "question": "What is a common term for the type of roadway the truck is entering?", "answer": "Freeway", "cosine_similarity": 0.2227100282907486}
+{"question_id": 3798425, "image_id": 379842, "question": "What is the cartoon character's name who is wearing the red hat?", "answer": "Mario", "cosine_similarity": 0.17869833111763}
+{"question_id": 433455, "image_id": 43345, "question": "What sense is this animal known for?", "answer": "Smell", "cosine_similarity": 0.17004607617855072}
+{"question_id": 5793375, "image_id": 579337, "question": "What is in the woman's hand?", "answer": "Racket", "cosine_similarity": 0.1979844570159912}
+{"question_id": 5051325, "image_id": 505132, "question": "If this chair where outside it might be made from what reed like material?", "answer": "Bamboo", "cosine_similarity": 0.17793011665344238}
+{"question_id": 1843215, "image_id": 184321, "question": "Where does this vehicle stop?", "answer": "Train station", "cosine_similarity": 0.18972247838974}
+{"question_id": 4606215, "image_id": 460621, "question": "What causes the staining to occur?", "answer": "Rust", "cosine_similarity": 0.24293172359466553}
+{"question_id": 4670225, "image_id": 467022, "question": "What are the benefits of drinking coffee?", "answer": "Wake up", "cosine_similarity": 0.21076810359954834}
+{"question_id": 3023885, "image_id": 302388, "question": "Is this surfer regular footed or goofy footed?", "answer": "Regular", "cosine_similarity": 0.23673583567142487}
+{"question_id": 3453855, "image_id": 345385, "question": "What is used to stuff those pillows?", "answer": "Cotton", "cosine_similarity": 0.1619417816400528}
+{"question_id": 1897825, "image_id": 189782, "question": "What are those wide leaved plants next to the bench called?", "answer": "Fern", "cosine_similarity": 0.24284668266773224}
+{"question_id": 358945, "image_id": 35894, "question": "Is this a legal or illegal fire hydrant color?", "answer": "Legal", "cosine_similarity": 0.26674017310142517}
+{"question_id": 589105, "image_id": 58910, "question": "What object is this?", "answer": "Lego", "cosine_similarity": 0.2224014401435852}
+{"question_id": 4347635, "image_id": 434763, "question": "How many calories does this meal contain?", "answer": "1000", "cosine_similarity": 0.184597909450531}
+{"question_id": 5692515, "image_id": 569251, "question": "What kind of instrument is on the refrigerator?", "answer": "Violin", "cosine_similarity": 0.2368365228176117}
+{"question_id": 216395, "image_id": 21639, "question": "What type of cake is this?", "answer": "Rainbow", "cosine_similarity": 0.2734096348285675}
+{"question_id": 3588835, "image_id": 358883, "question": "How do we know that this bathroom is probably in a high rise building?", "answer": "Window", "cosine_similarity": 0.2813451886177063}
+{"question_id": 2678375, "image_id": 267837, "question": "Who invented the sports equipment being used here?", "answer": "Tom sims", "cosine_similarity": 0.18661673367023468}
+{"question_id": 4358075, "image_id": 435807, "question": "When was this gaming system first released?", "answer": "1985", "cosine_similarity": 0.23713211715221405}
+{"question_id": 5041015, "image_id": 504101, "question": "Where is this?", "answer": "Zoo", "cosine_similarity": 0.1799183487892151}
+{"question_id": 5592705, "image_id": 559270, "question": "What type of car is this?", "answer": "Station wagon", "cosine_similarity": 0.24918611347675323}
+{"question_id": 4123495, "image_id": 412349, "question": "Who wrote the famous novels about the young wizard named on this bus?", "answer": "Jk rowling", "cosine_similarity": 0.2987826466560364}
+{"question_id": 1918465, "image_id": 191846, "question": "What type of race would these kids compete in?", "answer": "Bicycle", "cosine_similarity": 0.20535200834274292}
+{"question_id": 995815, "image_id": 99581, "question": "What brand is this device?", "answer": "Samsung", "cosine_similarity": 0.242811381816864}
+{"question_id": 89815, "image_id": 8981, "question": "Is the ocean calm or rough in this scene?", "answer": "Rough", "cosine_similarity": 0.16449518501758575}
+{"question_id": 5071715, "image_id": 507171, "question": "What is the board made of?", "answer": "Wood", "cosine_similarity": 0.17865970730781555}
+{"question_id": 4648575, "image_id": 464857, "question": "Can you guess the drink brand name shown in this picture?", "answer": "Absolut", "cosine_similarity": 0.15059439837932587}
+{"question_id": 539655, "image_id": 53965, "question": "What is in every drawer?", "answer": "Nothing", "cosine_similarity": 0.13501247763633728}
+{"question_id": 3359815, "image_id": 335981, "question": "What language is that sign in?", "answer": "Turkish", "cosine_similarity": 0.25325489044189453}
+{"question_id": 4133205, "image_id": 413320, "question": "What animal is this boat mimicing?", "answer": "Swan", "cosine_similarity": 0.27222853899002075}
+{"question_id": 4750535, "image_id": 475053, "question": "What is the name of the knot used on this tie?", "answer": "Windsor", "cosine_similarity": 0.27085864543914795}
+{"question_id": 4175885, "image_id": 417588, "question": "What type of currency is mainly accepted by this item?", "answer": "Coins", "cosine_similarity": 0.14011649787425995}
+{"question_id": 1099075, "image_id": 109907, "question": "What climate would contain a lake like this?", "answer": "Tropical", "cosine_similarity": 0.17894873023033142}
+{"question_id": 1184065, "image_id": 118406, "question": "How did this man get in the air?", "answer": "Jumped", "cosine_similarity": 0.1932261437177658}
+{"question_id": 1552915, "image_id": 155291, "question": "How many teeth does this animal use to have?", "answer": "30", "cosine_similarity": 0.1334255188703537}
+{"question_id": 3898695, "image_id": 389869, "question": "What birds are those?", "answer": "Seagulls", "cosine_similarity": 0.22796492278575897}
+{"question_id": 3707015, "image_id": 370701, "question": "What kinds of dogs are those?", "answer": "Chihuahua", "cosine_similarity": 0.13227711617946625}
+{"question_id": 1240185, "image_id": 124018, "question": "What types of buildings have these?", "answer": "Clock tower", "cosine_similarity": 0.24185089766979218}
+{"question_id": 4281785, "image_id": 428178, "question": "What is the scientific name for this group of animals?", "answer": "Equus", "cosine_similarity": 0.23255248367786407}
+{"question_id": 3328525, "image_id": 332852, "question": "What kind of hat is the person in orange shorts wearing?", "answer": "Visor", "cosine_similarity": 0.24579700827598572}
+{"question_id": 5462195, "image_id": 546219, "question": "What is the walls in this photo made from?", "answer": "Stone", "cosine_similarity": 0.1268937885761261}
+{"question_id": 5020015, "image_id": 502001, "question": "What animal is the woman's shirt replicating the pelt?", "answer": "Leopard", "cosine_similarity": 0.13525308668613434}
+{"question_id": 802195, "image_id": 80219, "question": "What is the purpose of the red rag?", "answer": "Dry hands", "cosine_similarity": 0.19024790823459625}
+{"question_id": 71085, "image_id": 7108, "question": "What is this animal known for?", "answer": "Elephant", "cosine_similarity": 0.2259857952594757}
+{"question_id": 1631185, "image_id": 163118, "question": "What other professional sport is famous for requiring leaps such as that seen here?", "answer": "Basketball", "cosine_similarity": 0.21899515390396118}
+{"question_id": 5018985, "image_id": 501898, "question": "What grip does this woman have on this tennis racket?", "answer": "Eastern", "cosine_similarity": 0.24379858374595642}
+{"question_id": 4854065, "image_id": 485406, "question": "What type of american currency would you stick in the machine?", "answer": "Coin", "cosine_similarity": 0.1836872547864914}
+{"question_id": 5287315, "image_id": 528731, "question": "Who uses this device?", "answer": "Fireman", "cosine_similarity": 0.20256586372852325}
+{"question_id": 3975875, "image_id": 397587, "question": "What material is the jacket made from?", "answer": "Denim", "cosine_similarity": 0.19905728101730347}
+{"question_id": 570865, "image_id": 57086, "question": "What year was this sport invented?", "answer": "1839", "cosine_similarity": 0.17568303644657135}
+{"question_id": 1644975, "image_id": 164497, "question": "Where in the world do these types of animals live?", "answer": "North america", "cosine_similarity": 0.23259417712688446}
+{"question_id": 2972695, "image_id": 297269, "question": "What does the plugged in item do?", "answer": "Heat", "cosine_similarity": 0.1426025927066803}
+{"question_id": 3050505, "image_id": 305050, "question": "The man wearing a hat what is the name of that hat?", "answer": "Cowboy", "cosine_similarity": 0.147078275680542}
+{"question_id": 3921745, "image_id": 392174, "question": "What type of watch is this?", "answer": "Wristwatch", "cosine_similarity": 0.22902536392211914}
+{"question_id": 3859185, "image_id": 385918, "question": "How long has ultimate frisbee been an official sport?", "answer": "1968", "cosine_similarity": 0.234415203332901}
+{"question_id": 1398715, "image_id": 139871, "question": "Can you guess the aircraft model shown in this picture?", "answer": "Jet", "cosine_similarity": 0.2217891365289688}
+{"question_id": 1083155, "image_id": 108315, "question": "What type of dog is pictured?", "answer": "Dalmatian", "cosine_similarity": 0.19542552530765533}
+{"question_id": 4576835, "image_id": 457683, "question": "Name the bike model shown in this picture?", "answer": "Suzuki", "cosine_similarity": 0.24044951796531677}
+{"question_id": 1678185, "image_id": 167818, "question": "What is being cast onto the table?", "answer": "Shadow", "cosine_similarity": 0.16464948654174805}
+{"question_id": 2966845, "image_id": 296684, "question": "Who invented this kind of suit?", "answer": "Wetsuit", "cosine_similarity": 0.23638369143009186}
+{"question_id": 2184045, "image_id": 218404, "question": "What is causing the circles on the table?", "answer": "Sunlight", "cosine_similarity": 0.17249035835266113}
+{"question_id": 4313065, "image_id": 431306, "question": "What kind of lights are over these mirrors?", "answer": "Fluorescent", "cosine_similarity": 0.28883111476898193}
+{"question_id": 3836215, "image_id": 383621, "question": "This plane is passing by a part of what type of vehicle?", "answer": "Train", "cosine_similarity": 0.2142324447631836}
+{"question_id": 3718905, "image_id": 371890, "question": "What is the name of the bar that holds the bike up in this picture?", "answer": "Kickstand", "cosine_similarity": 0.21022801101207733}
+{"question_id": 4483205, "image_id": 448320, "question": "What kind of sink is on the wall?", "answer": "Pedestal", "cosine_similarity": 0.26318037509918213}
+{"question_id": 1379505, "image_id": 137950, "question": "What year was this plane made?", "answer": "1940", "cosine_similarity": 0.23529492318630219}
+{"question_id": 3587635, "image_id": 358763, "question": "What operating system is on this computer?", "answer": "Windows", "cosine_similarity": 0.19946865737438202}
+{"question_id": 4347465, "image_id": 434746, "question": "What is the name of the trick being performed?", "answer": "Ollie", "cosine_similarity": 0.2537040412425995}
+{"question_id": 2866715, "image_id": 286671, "question": "What normally can be seen crossing this?", "answer": "Bridge", "cosine_similarity": 0.1981671154499054}
+{"question_id": 3157445, "image_id": 315744, "question": "Where does this food grow?", "answer": "Ground", "cosine_similarity": 0.15233881771564484}
+{"question_id": 560915, "image_id": 56091, "question": "What section is the player standing on?", "answer": "Baseline", "cosine_similarity": 0.1896483302116394}
+{"question_id": 5070815, "image_id": 507081, "question": "What type of kitchen is this?", "answer": "Kitchen", "cosine_similarity": 0.22948557138442993}
+{"question_id": 5298505, "image_id": 529850, "question": "What is he waiting to do?", "answer": "Travel", "cosine_similarity": 0.2082994133234024}
+{"question_id": 1828405, "image_id": 182840, "question": "What type of phone is this woman using?", "answer": "Flip phone", "cosine_similarity": 0.2000419646501541}
+{"question_id": 190365, "image_id": 19036, "question": "Which class are these students most likely attending?", "answer": "Cooking", "cosine_similarity": 0.23804110288619995}
+{"question_id": 5283115, "image_id": 528311, "question": "What is this workspace called?", "answer": "Cubicle", "cosine_similarity": 0.2534899413585663}
+{"question_id": 995925, "image_id": 99592, "question": "What is the person doing?", "answer": "Flying kite", "cosine_similarity": 0.23789949715137482}
+{"question_id": 2302265, "image_id": 230226, "question": "Is this creme an acid or base?", "answer": "Base", "cosine_similarity": 0.10522013157606125}
+{"question_id": 2023435, "image_id": 202343, "question": "What are the features of this phone?", "answer": "Bluetooth", "cosine_similarity": 0.2280523031949997}
+{"question_id": 1428155, "image_id": 142815, "question": "The man in the orange shirt has a device what is this device used for?", "answer": "Video", "cosine_similarity": 0.22343383729457855}
+{"question_id": 4943455, "image_id": 494345, "question": "Who invented this item?", "answer": "Thomas crapper", "cosine_similarity": 0.20487476885318756}
+{"question_id": 2710255, "image_id": 271025, "question": "What century is this?", "answer": "20th", "cosine_similarity": 0.16869500279426575}
+{"question_id": 4191585, "image_id": 419158, "question": "What type of cellphone are both women using?", "answer": "Flip phone", "cosine_similarity": 0.23795820772647858}
+{"question_id": 784265, "image_id": 78426, "question": "Which large predatory feline is often a dark color like this animal?", "answer": "Panther", "cosine_similarity": 0.18713274598121643}
+{"question_id": 4468125, "image_id": 446812, "question": "How many minutes per pound does the bird in the woman's hands have to be cooked?", "answer": "35", "cosine_similarity": 0.22995518147945404}
+{"question_id": 5464635, "image_id": 546463, "question": "What brand is this stove?", "answer": "Kenmore", "cosine_similarity": 0.2717991769313812}
+{"question_id": 4750435, "image_id": 475043, "question": "What is required for all these devices to be connected to the internet without wires?", "answer": "Wifi", "cosine_similarity": 0.13704650104045868}
+{"question_id": 1629525, "image_id": 162952, "question": "What print is on the mans shirt?", "answer": "Floral", "cosine_similarity": 0.0885077714920044}
+{"question_id": 1171705, "image_id": 117170, "question": "Can you guess the ingredients used to make this dish?", "answer": "Pizza", "cosine_similarity": 0.20200267434120178}
+{"question_id": 4843315, "image_id": 484331, "question": "How long does it take to learn this sport?", "answer": "6 months", "cosine_similarity": 0.1730889230966568}
+{"question_id": 485555, "image_id": 48555, "question": "What type of horses are being ridin?", "answer": "Thoroughbred", "cosine_similarity": 0.21331769227981567}
+{"question_id": 1406515, "image_id": 140651, "question": "How heavy is this machine?", "answer": "Heavy", "cosine_similarity": 0.1318681240081787}
+{"question_id": 3837775, "image_id": 383777, "question": "What forms of transportation are there?", "answer": "Bicycle", "cosine_similarity": 0.2015451341867447}
+{"question_id": 4219025, "image_id": 421902, "question": "The puppy pictured here is a native of what chilly state?", "answer": "Alaska", "cosine_similarity": 0.21037739515304565}
+{"question_id": 5374275, "image_id": 537427, "question": "What cartoon is on the side of the plane?", "answer": "Snoopy", "cosine_similarity": 0.25054070353507996}
+{"question_id": 4244325, "image_id": 424432, "question": "What breed is this dog?", "answer": "Husky", "cosine_similarity": 0.1880059391260147}
+{"question_id": 1903135, "image_id": 190313, "question": "Why would we suspect that this is not a summer time scene?", "answer": "Coat", "cosine_similarity": 0.1813131868839264}
+{"question_id": 3221065, "image_id": 322106, "question": "Is the basket on the ground open or closed?", "answer": "Open", "cosine_similarity": 0.15513993799686432}
+{"question_id": 5211425, "image_id": 521142, "question": "What age are the two people?", "answer": "80", "cosine_similarity": 0.21591295301914215}
+{"question_id": 1330345, "image_id": 133034, "question": "What brand of watch is pictured?", "answer": "Rolex", "cosine_similarity": 0.1866585612297058}
+{"question_id": 3766255, "image_id": 376625, "question": "What popular food product is associated with this mode of transport?", "answer": "Hot dog", "cosine_similarity": 0.1775786131620407}
+{"question_id": 4601455, "image_id": 460145, "question": "What kinds of clouds are those?", "answer": "Cumulus", "cosine_similarity": 0.16428473591804504}
+{"question_id": 3334345, "image_id": 333434, "question": "What activities could you engage in at this place?", "answer": "Swim", "cosine_similarity": 0.18321816623210907}
+{"question_id": 4193715, "image_id": 419371, "question": "What plant is near the zebra?", "answer": "Tree", "cosine_similarity": 0.2603885531425476}
+{"question_id": 1925355, "image_id": 192535, "question": "What kind of plane is this?", "answer": "Propeller", "cosine_similarity": 0.20970457792282104}
+{"question_id": 4948555, "image_id": 494855, "question": "What team is the player from?", "answer": "Yankees", "cosine_similarity": 0.22573336958885193}
+{"question_id": 5355195, "image_id": 535519, "question": "When was this type of two wheeled vehicle invented?", "answer": "1885", "cosine_similarity": 0.1965848207473755}
+{"question_id": 5673835, "image_id": 567383, "question": "What kind of birds are these?", "answer": "Pelican", "cosine_similarity": 0.22305813431739807}
+{"question_id": 4907395, "image_id": 490739, "question": "Who's the guy on the left?", "answer": "Priest", "cosine_similarity": 0.203685462474823}
+{"question_id": 3156105, "image_id": 315610, "question": "What amusement ride is pictured?", "answer": "Ferris wheel", "cosine_similarity": 0.22172315418720245}
+{"question_id": 4422235, "image_id": 442223, "question": "What would you practice inside this building?", "answer": "Religion", "cosine_similarity": 0.2105012834072113}
+{"question_id": 1706305, "image_id": 170630, "question": "What household chore do people use the white appliance for?", "answer": "Laundry", "cosine_similarity": 0.20799386501312256}
+{"question_id": 2564705, "image_id": 256470, "question": "If someone is doing this without a saddle they are said to be doing what?", "answer": "Rodeo", "cosine_similarity": 0.21733801066875458}
+{"question_id": 3866375, "image_id": 386637, "question": "Can you guess the family or breed to which the dog belongs to?", "answer": "Pug", "cosine_similarity": 0.17496903240680695}
+{"question_id": 5352535, "image_id": 535253, "question": "Where can you get these?", "answer": "Grocery store", "cosine_similarity": 0.19042548537254333}
+{"question_id": 550025, "image_id": 55002, "question": "Which type of metal is used for making this toilet?", "answer": "Stainless steel", "cosine_similarity": 0.2569286823272705}
+{"question_id": 1656755, "image_id": 165675, "question": "At which holiday would you traditionally eat this food?", "answer": "Christmas", "cosine_similarity": 0.22877202928066254}
+{"question_id": 5396045, "image_id": 539604, "question": "Can you name the place where this bird is seen?", "answer": "Swamp", "cosine_similarity": 0.23579426109790802}
+{"question_id": 4937995, "image_id": 493799, "question": "What are the white veggies?", "answer": "Onions", "cosine_similarity": 0.18624433875083923}
+{"question_id": 2934525, "image_id": 293452, "question": "What country or countries will you find these birds in?", "answer": "Usa", "cosine_similarity": 0.20355933904647827}
+{"question_id": 3798005, "image_id": 379800, "question": "How would this train stop itself on the tracks?", "answer": "Brakes", "cosine_similarity": 0.23157286643981934}
+{"question_id": 2245675, "image_id": 224567, "question": "How do we know this is not summertime?", "answer": "No leaves", "cosine_similarity": 0.18048205971717834}
+{"question_id": 3530015, "image_id": 353001, "question": "What kind of umbrella are those in the background?", "answer": "Pink", "cosine_similarity": 0.2551036775112152}
+{"question_id": 4642965, "image_id": 464296, "question": "What kind of plant is this wreath made from?", "answer": "Pine", "cosine_similarity": 0.2752836048603058}
+{"question_id": 4672505, "image_id": 467250, "question": "Which occupation sniffs this item before drinking?", "answer": "Wine taster", "cosine_similarity": 0.270629346370697}
+{"question_id": 5693145, "image_id": 569314, "question": "What nationality are these children appear to be?", "answer": "Hispanic", "cosine_similarity": 0.18923144042491913}
+{"question_id": 2281225, "image_id": 228122, "question": "What does the second light mean?", "answer": "Go", "cosine_similarity": 0.22137628495693207}
+{"question_id": 1888625, "image_id": 188862, "question": "What grade are these kids in?", "answer": "5th", "cosine_similarity": 0.18302348256111145}
+{"question_id": 703535, "image_id": 70353, "question": "Egyptians worshiped these animals?", "answer": "No", "cosine_similarity": 0.12355083972215652}
+{"question_id": 2887995, "image_id": 288799, "question": "Where is that kind of sign found?", "answer": "Train station", "cosine_similarity": 0.17362266778945923}
+{"question_id": 153865, "image_id": 15386, "question": "Is the christmas tree real or fake?", "answer": "Fake", "cosine_similarity": 0.18693570792675018}
+{"question_id": 425, "image_id": 42, "question": "This holder is also called a shoe what?", "answer": "Shoe rack", "cosine_similarity": 0.24285879731178284}
+{"question_id": 5186155, "image_id": 518615, "question": "In which direction is the wind blowing?", "answer": "West", "cosine_similarity": 0.19363802671432495}
+{"question_id": 1648485, "image_id": 164848, "question": "Is the man cross country skiing or is he in a race?", "answer": "Race", "cosine_similarity": 0.2562731206417084}
+{"question_id": 511745, "image_id": 51174, "question": "The sandwich in this photo was wrapped in what?", "answer": "Foil", "cosine_similarity": 0.23286831378936768}
+{"question_id": 2111925, "image_id": 211192, "question": "What room is this?", "answer": "Doctor's office", "cosine_similarity": 0.2311958223581314}
+{"question_id": 4515595, "image_id": 451559, "question": "What mechanism propels the vehicle in this picture?", "answer": "Pedal", "cosine_similarity": 0.1818927377462387}
+{"question_id": 3329405, "image_id": 332940, "question": "What is this toy made of?", "answer": "Cardboard", "cosine_similarity": 0.13744935393333435}
+{"question_id": 3123855, "image_id": 312385, "question": "What animal do you have to watch out for when doing this sport?", "answer": "Shark", "cosine_similarity": 0.207788348197937}
+{"question_id": 1069125, "image_id": 106912, "question": "Can you name the place where the boy is playing?", "answer": "Sidewalk", "cosine_similarity": 0.24099740386009216}
+{"question_id": 800225, "image_id": 80022, "question": "Name the device which seperates the court above?", "answer": "Fence", "cosine_similarity": 0.1667974889278412}
+{"question_id": 2857425, "image_id": 285742, "question": "What decade was this picture taken?", "answer": "1950s", "cosine_similarity": 0.23736998438835144}
+{"question_id": 4712265, "image_id": 471226, "question": "Where is this vegetable grown?", "answer": "Garden", "cosine_similarity": 0.1862185299396515}
+{"question_id": 1174325, "image_id": 117432, "question": "What body of water is this?", "answer": "River", "cosine_similarity": 0.18420173227787018}
+{"question_id": 1174415, "image_id": 117441, "question": "What kind of scissors are these?", "answer": "Hair", "cosine_similarity": 0.22237873077392578}
+{"question_id": 4943285, "image_id": 494328, "question": "What does this animal eat?", "answer": "Cat food", "cosine_similarity": 0.1634989082813263}
+{"question_id": 4658355, "image_id": 465835, "question": "What animal is half patterned like those pictured and half patterned like a donkey?", "answer": "Zebra", "cosine_similarity": 0.2941075563430786}
+{"question_id": 1169515, "image_id": 116951, "question": "What decade was this train engine manufactured?", "answer": "1800s", "cosine_similarity": 0.21530844271183014}
+{"question_id": 4573945, "image_id": 457394, "question": "How did you make this dish?", "answer": "Boil", "cosine_similarity": 0.19216537475585938}
+{"question_id": 3486315, "image_id": 348631, "question": "Why is this dangerous?", "answer": "Wave", "cosine_similarity": 0.20090441405773163}
+{"question_id": 265075, "image_id": 26507, "question": "What is the waist size of the man in the black shorts?", "answer": "Skinny", "cosine_similarity": 0.19215402007102966}
+{"question_id": 4951465, "image_id": 495146, "question": "What organization operates this train?", "answer": "South west", "cosine_similarity": 0.2014663964509964}
+{"question_id": 3281115, "image_id": 328111, "question": "What is a common name for very tall buildings like the one shown in this photo?", "answer": "Skyscraper", "cosine_similarity": 0.18506281077861786}
+{"question_id": 4207755, "image_id": 420775, "question": "What is the name of the sticks held in this person's hand?", "answer": "Ski poles", "cosine_similarity": 0.23253127932548523}
+{"question_id": 115525, "image_id": 11552, "question": "What do you do if you encounter this animal?", "answer": "Run", "cosine_similarity": 0.20241038501262665}
+{"question_id": 2575575, "image_id": 257557, "question": "In what sort of building would this vehicle be found?", "answer": "Warehouse", "cosine_similarity": 0.25418904423713684}
+{"question_id": 4488105, "image_id": 448810, "question": "What kind of sign is this?", "answer": "Street sign", "cosine_similarity": 0.21752454340457916}
+{"question_id": 3017995, "image_id": 301799, "question": "What are the eating utensils on the left called?", "answer": "Chopsticks", "cosine_similarity": 0.16631841659545898}
+{"question_id": 3732665, "image_id": 373266, "question": "What type of building is this?", "answer": "Hospital", "cosine_similarity": 0.13401567935943604}
+{"question_id": 3883745, "image_id": 388374, "question": "What is the best country to visit a beach like this?", "answer": "Hawaii", "cosine_similarity": 0.18549218773841858}
+{"question_id": 1350765, "image_id": 135076, "question": "Which bird is this?", "answer": "Blue jay", "cosine_similarity": 0.2549744248390198}
+{"question_id": 4409375, "image_id": 440937, "question": "What is this device used for?", "answer": "Call", "cosine_similarity": 0.17578521370887756}
+{"question_id": 1638525, "image_id": 163852, "question": "What type of oil was used to garnish the dish?", "answer": "Olive", "cosine_similarity": 0.208218052983284}
+{"question_id": 4893465, "image_id": 489346, "question": "What style of fence is this?", "answer": "Picket", "cosine_similarity": 0.208817720413208}
+{"question_id": 5541425, "image_id": 554142, "question": "What insects are attracted to this plant?", "answer": "Butterfly", "cosine_similarity": 0.13996729254722595}
+{"question_id": 246105, "image_id": 24610, "question": "What type of person would live in this environment?", "answer": "Student", "cosine_similarity": 0.20204989612102509}
+{"question_id": 1967155, "image_id": 196715, "question": "Why is this vehicle parked in the beach?", "answer": "Lifeguard", "cosine_similarity": 0.2703019082546234}
+{"question_id": 3008145, "image_id": 300814, "question": "What kind of event is this?", "answer": "Jousting", "cosine_similarity": 0.30065834522247314}
+{"question_id": 806665, "image_id": 80666, "question": "Where can you buy this pet?", "answer": "Pet store", "cosine_similarity": 0.16904398798942566}
+{"question_id": 3835135, "image_id": 383513, "question": "What type of clouds are these?", "answer": "Cumulus", "cosine_similarity": 0.16195616126060486}
+{"question_id": 3257205, "image_id": 325720, "question": "How many wheels does this vehicle usually have?", "answer": "8", "cosine_similarity": 0.15548622608184814}
+{"question_id": 4630375, "image_id": 463037, "question": "The rounded front part of the plane is also called the what?", "answer": "Nose", "cosine_similarity": 0.2237415909767151}
+{"question_id": 2025625, "image_id": 202562, "question": "Where are they going?", "answer": "Vacation", "cosine_similarity": 0.21845202147960663}
+{"question_id": 1745035, "image_id": 174503, "question": "Why is there a rubber band on her head?", "answer": "To hold glasses in place", "cosine_similarity": 0.23762479424476624}
+{"question_id": 1129155, "image_id": 112915, "question": "In what room of a house would you most likly find these types of chairs?", "answer": "Living room", "cosine_similarity": 0.14802056550979614}
+{"question_id": 991195, "image_id": 99119, "question": "What type of occasion would warrant this behavior?", "answer": "Vacation", "cosine_similarity": 0.18673527240753174}
+{"question_id": 698845, "image_id": 69884, "question": "Things that are scaled to such a small size but which are meant to accurately depict the larger variants are called what?", "answer": "Miniature", "cosine_similarity": 0.12244690954685211}
+{"question_id": 4010035, "image_id": 401003, "question": "What kind of vehicle is that and how many terrorist attacks have been performed with it?", "answer": "Airplane", "cosine_similarity": 0.2167249470949173}
+{"question_id": 736345, "image_id": 73634, "question": "This is a modern plane that was originally inspired by what two brothers?", "answer": "Wright", "cosine_similarity": 0.24763619899749756}
+{"question_id": 3441005, "image_id": 344100, "question": "How is this beverage made?", "answer": "Brewed", "cosine_similarity": 0.1534237116575241}
+{"question_id": 4749345, "image_id": 474934, "question": "What is the type of ground the horses are riding on?", "answer": "Sand", "cosine_similarity": 0.23990191519260406}
+{"question_id": 3419335, "image_id": 341933, "question": "Under what family do these two vegetables fall in?", "answer": "Allium", "cosine_similarity": 0.2434622049331665}
+{"question_id": 5593885, "image_id": 559388, "question": "What psychological benefits do these animals provide their owners?", "answer": "Companionship", "cosine_similarity": 0.22225120663642883}
+{"question_id": 980485, "image_id": 98048, "question": "What activity is taking place?", "answer": "Sailing", "cosine_similarity": 0.19398924708366394}
+{"question_id": 917515, "image_id": 91751, "question": "What is the player most likely kicking the ball towards?", "answer": "Goal", "cosine_similarity": 0.20465894043445587}
+{"question_id": 3502305, "image_id": 350230, "question": "How much water can the teapot in the photo hold?", "answer": "2 cups", "cosine_similarity": 0.17193616926670074}
+{"question_id": 752835, "image_id": 75283, "question": "What kind of dog is featured in this photo?", "answer": "Dalmatian", "cosine_similarity": 0.26955702900886536}
+{"question_id": 3972785, "image_id": 397278, "question": "What does the color of this sign represent in america?", "answer": "Caution", "cosine_similarity": 0.24890021979808807}
+{"question_id": 1631555, "image_id": 163155, "question": "How many of this animal are estimated to be kept as pets worldwide?", "answer": "100 million", "cosine_similarity": 0.17571045458316803}
+{"question_id": 4986105, "image_id": 498610, "question": "Giraffes have spots to provide what kind of defense?", "answer": "Camouflage", "cosine_similarity": 0.2625352144241333}
+{"question_id": 4242705, "image_id": 424270, "question": "What gender is the child?", "answer": "Female", "cosine_similarity": 0.1619238406419754}
+{"question_id": 169585, "image_id": 16958, "question": "Who painting the artwork hanging over the fireplace?", "answer": "Van gogh", "cosine_similarity": 0.18633173406124115}
+{"question_id": 289985, "image_id": 28998, "question": "Why is he eating this?", "answer": "Hungry", "cosine_similarity": 0.20974098145961761}
+{"question_id": 4350695, "image_id": 435069, "question": "What is the object called that is tied around this dogs neck?", "answer": "Bandana", "cosine_similarity": 0.23554152250289917}
+{"question_id": 4637815, "image_id": 463781, "question": "What is the name of the airline of the pictured airplane?", "answer": "Air canada", "cosine_similarity": 0.29618552327156067}
+{"question_id": 3982365, "image_id": 398236, "question": "What is a good side dish for this meal?", "answer": "Fries", "cosine_similarity": 0.14121639728546143}
+{"question_id": 2774405, "image_id": 277440, "question": "What is this object for?", "answer": "Work", "cosine_similarity": 0.1508617103099823}
+{"question_id": 5815575, "image_id": 581557, "question": "What is that special shirt called?", "answer": "Wetsuit", "cosine_similarity": 0.22201502323150635}
+{"question_id": 5764615, "image_id": 576461, "question": "Name the place shown in this picture?", "answer": "Highway", "cosine_similarity": 0.20994572341442108}
+{"question_id": 4359575, "image_id": 435957, "question": "What kind of stuffed toy is in the picture?", "answer": "Teddy bear", "cosine_similarity": 0.2368534356355667}
+{"question_id": 3187015, "image_id": 318701, "question": "Which furnishing seen here is of a type reminiscent of what is seen in some classrooms?", "answer": "Desk", "cosine_similarity": 0.15241295099258423}
+{"question_id": 1256735, "image_id": 125673, "question": "What is the glaze on the chicken?", "answer": "Honey", "cosine_similarity": 0.21088807284832}
+{"question_id": 2986335, "image_id": 298633, "question": "What is this man doing?", "answer": "Playing tennis", "cosine_similarity": 0.21427267789840698}
+{"question_id": 1812965, "image_id": 181296, "question": "Why does this person have protective clothing on?", "answer": "Safety", "cosine_similarity": 0.17396783828735352}
+{"question_id": 3524785, "image_id": 352478, "question": "These are something who don't eat without a fight?", "answer": "Broccoli", "cosine_similarity": 0.22370710968971252}
+{"question_id": 3965435, "image_id": 396543, "question": "Name the family or bread to which this dog belongs to?", "answer": "Bulldog", "cosine_similarity": 0.20344364643096924}
+{"question_id": 2513795, "image_id": 251379, "question": "What is the purpose of this machine?", "answer": "Parking meter", "cosine_similarity": 0.23640330135822296}
+{"question_id": 1653365, "image_id": 165336, "question": "This type of animal has a famously long what?", "answer": "Neck", "cosine_similarity": 0.24395161867141724}
+{"question_id": 1964625, "image_id": 196462, "question": "What type of bread is pictured in this dish?", "answer": "Wheat", "cosine_similarity": 0.2295190989971161}
+{"question_id": 4178045, "image_id": 417804, "question": "What kind of devices use these?", "answer": "Keyboard and mouse", "cosine_similarity": 0.23555727303028107}
+{"question_id": 2414535, "image_id": 241453, "question": "What century is this?", "answer": "19th", "cosine_similarity": 0.14958739280700684}
+{"question_id": 2182245, "image_id": 218224, "question": "When was this airline founded?", "answer": "1937", "cosine_similarity": 0.16995446383953094}
+{"question_id": 2706725, "image_id": 270672, "question": "What type of event are these people attending?", "answer": "Fair", "cosine_similarity": 0.1682513952255249}
+{"question_id": 3122785, "image_id": 312278, "question": "Where can i but nice looking suitcases like in this photo?", "answer": "Amazon", "cosine_similarity": 0.27252113819122314}
+{"question_id": 4634065, "image_id": 463406, "question": "What make and model is the white car?", "answer": "Toyota", "cosine_similarity": 0.18479503691196442}
+{"question_id": 5135555, "image_id": 513555, "question": "What water activity is occuring here?", "answer": "Sailing", "cosine_similarity": 0.1408510059118271}
+{"question_id": 1559125, "image_id": 155912, "question": "What is the kid playing with?", "answer": "Kite", "cosine_similarity": 0.28260722756385803}
+{"question_id": 1362505, "image_id": 136250, "question": "What type of pattern is on the animals fur?", "answer": "Striped", "cosine_similarity": 0.16090162098407745}
+{"question_id": 1499095, "image_id": 149909, "question": "What did the animal just finishing doing?", "answer": "Eating", "cosine_similarity": 0.19674339890480042}
+{"question_id": 5130985, "image_id": 513098, "question": "What formation are the planes flying in?", "answer": "V", "cosine_similarity": 0.2605815827846527}
+{"question_id": 2994095, "image_id": 299409, "question": "What will not happen after this?", "answer": "Road work", "cosine_similarity": 0.24019089341163635}
+{"question_id": 3434245, "image_id": 343424, "question": "What plant is shown in the art on the wall?", "answer": "Cactus", "cosine_similarity": 0.26416015625}
+{"question_id": 4499815, "image_id": 449981, "question": "What kind of soil is this?", "answer": "Clay", "cosine_similarity": 0.1108412817120552}
+{"question_id": 1128185, "image_id": 112818, "question": "How many calories per slice does this food contain?", "answer": "300", "cosine_similarity": 0.2282027006149292}
+{"question_id": 1610475, "image_id": 161047, "question": "What kind of beverage could one make with the item on top of the stove?", "answer": "Tea", "cosine_similarity": 0.20095744729042053}
+{"question_id": 4226225, "image_id": 422622, "question": "What condition are these athletes trying to prevent with their clothing?", "answer": "Frostbite", "cosine_similarity": 0.21714922785758972}
+{"question_id": 3118465, "image_id": 311846, "question": "What is the material used to make the flowers on these cakes?", "answer": "Fondant", "cosine_similarity": 0.28934621810913086}
+{"question_id": 4242085, "image_id": 424208, "question": "What brand is the tv?", "answer": "Sony", "cosine_similarity": 0.23659034073352814}
+{"question_id": 2444875, "image_id": 244487, "question": "To which airline does this plane belong?", "answer": "Ana", "cosine_similarity": 0.24297583103179932}
+{"question_id": 2517415, "image_id": 251741, "question": "What breed is the horse?", "answer": "Arabian", "cosine_similarity": 0.21084128320217133}
+{"question_id": 4497085, "image_id": 449708, "question": "What is this space used for?", "answer": "Office", "cosine_similarity": 0.21322546899318695}
+{"question_id": 1340015, "image_id": 134001, "question": "What service does this store sell?", "answer": "Mcdonald's", "cosine_similarity": 0.16848231852054596}
+{"question_id": 1153005, "image_id": 115300, "question": "Why can you not cross the barrier?", "answer": "Danger", "cosine_similarity": 0.24851220846176147}
+{"question_id": 1995165, "image_id": 199516, "question": "What country is this is?", "answer": "India", "cosine_similarity": 0.16488288342952728}
+{"question_id": 5651985, "image_id": 565198, "question": "Is this a boy or girl?", "answer": "Boy", "cosine_similarity": 0.20104850828647614}
+{"question_id": 4987585, "image_id": 498758, "question": "Which brand of bike is rided by the person in the photo?", "answer": "Harley davidson", "cosine_similarity": 0.20354482531547546}
+{"question_id": 5643175, "image_id": 564317, "question": "What language is spoken in this place?", "answer": "Chinese", "cosine_similarity": 0.1779932975769043}
+{"question_id": 4490735, "image_id": 449073, "question": "What style of oranges are in the stack?", "answer": "Navel", "cosine_similarity": 0.2470429390668869}
+{"question_id": 1525435, "image_id": 152543, "question": "Which part of the country would you find such?", "answer": "Beach", "cosine_similarity": 0.19673123955726624}
+{"question_id": 5521885, "image_id": 552188, "question": "Is he catching or throwing?", "answer": "Catching", "cosine_similarity": 0.21202769875526428}
+{"question_id": 4088185, "image_id": 408818, "question": "What growing item seen here is frequently used for christmas?", "answer": "Tree", "cosine_similarity": 0.11296647787094116}
+{"question_id": 4161845, "image_id": 416184, "question": "What are they doing inside this room?", "answer": "Washing hands", "cosine_similarity": 0.21563288569450378}
+{"question_id": 381185, "image_id": 38118, "question": "What is the name of the hand held equipment being used?", "answer": "Ski poles", "cosine_similarity": 0.23975993692874908}
+{"question_id": 1927015, "image_id": 192701, "question": "Can you guess the bike model shown in this picture?", "answer": "Ducati", "cosine_similarity": 0.21868082880973816}
+{"question_id": 4410835, "image_id": 441083, "question": "What kind of dog is that?", "answer": "Lab", "cosine_similarity": 0.2133655995130539}
+{"question_id": 844985, "image_id": 84498, "question": "Why would we assume this surfer is not about to engage in his sport?", "answer": "Wearing wetsuit", "cosine_similarity": 0.24769829213619232}
+{"question_id": 2295295, "image_id": 229529, "question": "What is the tallest one of these that has even been surfed on?", "answer": "100 feet", "cosine_similarity": 0.22355994582176208}
+{"question_id": 3186715, "image_id": 318671, "question": "What brand uses these animals as advertising?", "answer": "Budweiser", "cosine_similarity": 0.16137196123600006}
+{"question_id": 5267065, "image_id": 526706, "question": "What sound does this animal make?", "answer": "Moo", "cosine_similarity": 0.19602952897548676}
+{"question_id": 264135, "image_id": 26413, "question": "What's the next thing this player is likely to do?", "answer": "Swing", "cosine_similarity": 0.22081875801086426}
+{"question_id": 2302205, "image_id": 230220, "question": "How do you take care of the breed of cat in this photo?", "answer": "Feed", "cosine_similarity": 0.21688537299633026}
+{"question_id": 2808105, "image_id": 280810, "question": "What flaky dough is used to cover this dish?", "answer": "Pie crust", "cosine_similarity": 0.2461509108543396}
+{"question_id": 3898435, "image_id": 389843, "question": "What are the chairs made of?", "answer": "Leather", "cosine_similarity": 0.22145402431488037}
+{"question_id": 2799405, "image_id": 279940, "question": "What type of skateboard trick can be performed on that black structure?", "answer": "Ollie", "cosine_similarity": 0.24307386577129364}
+{"question_id": 2546095, "image_id": 254609, "question": "How heavy are these animals?", "answer": "50 lbs", "cosine_similarity": 0.11903209239244461}
+{"question_id": 5610885, "image_id": 561088, "question": "What type of picture is this person taking?", "answer": "Selfie", "cosine_similarity": 0.2075275033712387}
+{"question_id": 5440945, "image_id": 544094, "question": "Planks like these that create a level flooring attached to a house are called a what?", "answer": "Deck", "cosine_similarity": 0.2479790598154068}
+{"question_id": 5543575, "image_id": 554357, "question": "What brand of tennis racket is this person holding?", "answer": "Wilson", "cosine_similarity": 0.2002219259738922}
+{"question_id": 4638655, "image_id": 463865, "question": "What breed it this cat?", "answer": "Tabby", "cosine_similarity": 0.1945810765028}
+{"question_id": 5393265, "image_id": 539326, "question": "What is the proper name for a child of the species shown?", "answer": "Calf", "cosine_similarity": 0.19375106692314148}
+{"question_id": 766195, "image_id": 76619, "question": "What type of program is playing on the tv?", "answer": "News", "cosine_similarity": 0.18463736772537231}
+{"question_id": 581745, "image_id": 58174, "question": "How many people can this bus carry?", "answer": "50", "cosine_similarity": 0.20923660695552826}
+{"question_id": 351605, "image_id": 35160, "question": "What kind of trees are in the background?", "answer": "Palm", "cosine_similarity": 0.20219582319259644}
+{"question_id": 1778385, "image_id": 177838, "question": "What does this sandwich variant have in common with popsicles?", "answer": "Shape", "cosine_similarity": 0.210859477519989}
+{"question_id": 524705, "image_id": 52470, "question": "What kind of event would these animals be at?", "answer": "Fair", "cosine_similarity": 0.19427251815795898}
+{"question_id": 5101385, "image_id": 510138, "question": "What is he listening to?", "answer": "Music", "cosine_similarity": 0.2212744653224945}
+{"question_id": 1611125, "image_id": 161112, "question": "What piece of clothing is this boy putting on?", "answer": "Coat", "cosine_similarity": 0.2274954617023468}
+{"question_id": 5187215, "image_id": 518721, "question": "How long is this animals tongue?", "answer": "4 inches", "cosine_similarity": 0.2218441516160965}
+{"question_id": 5330325, "image_id": 533032, "question": "What is this type of policeman typically called?", "answer": "Mounted", "cosine_similarity": 0.24569068849086761}
+{"question_id": 333455, "image_id": 33345, "question": "Where in this room could i sit?", "answer": "Chair", "cosine_similarity": 0.2247014343738556}
+{"question_id": 3968215, "image_id": 396821, "question": "In what states might this person be doing this activity?", "answer": "Hawaii", "cosine_similarity": 0.15594154596328735}
+{"question_id": 3287805, "image_id": 328780, "question": "What kind of cat is that?", "answer": "Black", "cosine_similarity": 0.19348503649234772}
+{"question_id": 5304665, "image_id": 530466, "question": "Who was the artist that painted this train car?", "answer": "Banksy", "cosine_similarity": 0.2343604415655136}
+{"question_id": 1828345, "image_id": 182834, "question": "What item normally used by stair climbers to maneuver forward with their arms is not on view here?", "answer": "Handrail", "cosine_similarity": 0.223787322640419}
+{"question_id": 113645, "image_id": 11364, "question": "What california national park are these known to be seen?", "answer": "Yosemite", "cosine_similarity": 0.1426246166229248}
+{"question_id": 3874295, "image_id": 387429, "question": "What kind of ties are the men wearing?", "answer": "Bow tie", "cosine_similarity": 0.20879057049751282}
+{"question_id": 5723995, "image_id": 572399, "question": "Should you leave the toilet seat up like this photo or down?", "answer": "Down", "cosine_similarity": 0.2745814025402069}
+{"question_id": 3312425, "image_id": 331242, "question": "What treat is the vender selling?", "answer": "Cotton candy", "cosine_similarity": 0.1338563710451126}
+{"question_id": 2100995, "image_id": 210099, "question": "What is this made of?", "answer": "Wicker", "cosine_similarity": 0.1490727961063385}
+{"question_id": 3036115, "image_id": 303611, "question": "What type of cheese was used?", "answer": "Mozzarella", "cosine_similarity": 0.17945680022239685}
+{"question_id": 635655, "image_id": 63565, "question": "What is a state where this scene could take place?", "answer": "Florida", "cosine_similarity": 0.19064961373806}
+{"question_id": 5700395, "image_id": 570039, "question": "This activity helps to ensure that what remains fresh?", "answer": "Breath", "cosine_similarity": 0.2068672925233841}
+{"question_id": 300495, "image_id": 30049, "question": "When was the activity shown first invented?", "answer": "1925", "cosine_similarity": 0.15081611275672913}
+{"question_id": 5046705, "image_id": 504670, "question": "What is the brand name of the monitor?", "answer": "Lg", "cosine_similarity": 0.21132245659828186}
+{"question_id": 2935745, "image_id": 293574, "question": "Which type of glass is used for making the glass cups shown in this photo?", "answer": "Wine", "cosine_similarity": 0.21216771006584167}
+{"question_id": 5253715, "image_id": 525371, "question": "What kind of vehicle is above the building?", "answer": "Airplane", "cosine_similarity": 0.20678004622459412}
+{"question_id": 3030065, "image_id": 303006, "question": "What activities could take place in this room?", "answer": "Reading", "cosine_similarity": 0.249033123254776}
+{"question_id": 3981385, "image_id": 398138, "question": "Where are these people?", "answer": "Park", "cosine_similarity": 0.20131251215934753}
+{"question_id": 468895, "image_id": 46889, "question": "This small person's first set of teeth are called the what teeth?", "answer": "Incisors", "cosine_similarity": 0.2735004127025604}
+{"question_id": 3709805, "image_id": 370980, "question": "What animal is printed on this baby's clothes in this picture?", "answer": "Turtle", "cosine_similarity": 0.24622474610805511}
+{"question_id": 5113635, "image_id": 511363, "question": "What tools are needed to construct this toy?", "answer": "Scissors", "cosine_similarity": 0.2036944180727005}
+{"question_id": 1607615, "image_id": 160761, "question": "Why would this man be wearing these glasses?", "answer": "Sunglasses", "cosine_similarity": 0.17273542284965515}
+{"question_id": 516055, "image_id": 51605, "question": "Who is the home run leader in this sport?", "answer": "Barry bond", "cosine_similarity": 0.18066295981407166}
+{"question_id": 4306525, "image_id": 430652, "question": "What sport is this?", "answer": "Polo", "cosine_similarity": 0.17852909862995148}
+{"question_id": 1209775, "image_id": 120977, "question": "What type of architecture is shown in these buildings?", "answer": "Gothic", "cosine_similarity": 0.20973823964595795}
+{"question_id": 4288125, "image_id": 428812, "question": "How long should i bake this for?", "answer": "10 minutes", "cosine_similarity": 0.18323229253292084}
+{"question_id": 508295, "image_id": 50829, "question": "What type of cheese is on this sandwich?", "answer": "Swiss", "cosine_similarity": 0.19774416089057922}
+{"question_id": 13745, "image_id": 1374, "question": "When was this type of transportation invented?", "answer": "1804", "cosine_similarity": 0.15352535247802734}
+{"question_id": 3086775, "image_id": 308677, "question": "What kind of sport is practiced is in this picture?", "answer": "Mountain biking", "cosine_similarity": 0.2298208773136139}
+{"question_id": 2934255, "image_id": 293425, "question": "What topic is this event related to?", "answer": "Economy", "cosine_similarity": 0.17639626562595367}
+{"question_id": 2056475, "image_id": 205647, "question": "What is in this truck?", "answer": "Package", "cosine_similarity": 0.20169740915298462}
+{"question_id": 1030175, "image_id": 103017, "question": "Name the clock model shown in this picture?", "answer": "Analog", "cosine_similarity": 0.1957177072763443}
+{"question_id": 4357835, "image_id": 435783, "question": "In an area like this what sort of animals might be seen in the trees?", "answer": "Monkey", "cosine_similarity": 0.1733715832233429}
+{"question_id": 1345425, "image_id": 134542, "question": "What is the most popular candy shown here?", "answer": "M&m's", "cosine_similarity": 0.20840832591056824}
+{"question_id": 1326835, "image_id": 132683, "question": "What full scale train does this small one represent?", "answer": "Locomotive", "cosine_similarity": 0.21749910712242126}
+{"question_id": 2158125, "image_id": 215812, "question": "What are these used for?", "answer": "Urinate", "cosine_similarity": 0.27093976736068726}
+{"question_id": 894595, "image_id": 89459, "question": "What did people put on this sign?", "answer": "Stickers", "cosine_similarity": 0.2518822252750397}
+{"question_id": 5758225, "image_id": 575822, "question": "What store could you find this item?", "answer": "Toy store", "cosine_similarity": 0.21309980750083923}
+{"question_id": 2213035, "image_id": 221303, "question": "What device did these remotes often fly into?", "answer": "Tv", "cosine_similarity": 0.1095990538597107}
+{"question_id": 1736935, "image_id": 173693, "question": "What derby is the horse apart of?", "answer": "Kentucky derby", "cosine_similarity": 0.20107915997505188}
+{"question_id": 2805365, "image_id": 280536, "question": "What brand of container are being used?", "answer": "Tupperware", "cosine_similarity": 0.21031203866004944}
+{"question_id": 2560915, "image_id": 256091, "question": "What letter of the alphabet do those animals names start with?", "answer": "Z", "cosine_similarity": 0.19651585817337036}
+{"question_id": 206085, "image_id": 20608, "question": "How can be wool of sheep be used?", "answer": "Clothing", "cosine_similarity": 0.21214650571346283}
+{"question_id": 2029265, "image_id": 202926, "question": "What types of birds are those present?", "answer": "Seagulls", "cosine_similarity": 0.2194162756204605}
+{"question_id": 1960855, "image_id": 196085, "question": "When discussing things over dinner what part of the body is it considered rude to place upon the table?", "answer": "Butt", "cosine_similarity": 0.12663739919662476}
+{"question_id": 3004085, "image_id": 300408, "question": "What is the name of the garment this man is wearing?", "answer": "Wetsuit", "cosine_similarity": 0.2172669917345047}
+{"question_id": 5813945, "image_id": 581394, "question": "Where is the luggage stored on the green bus?", "answer": "Roof", "cosine_similarity": 0.23920507729053497}
+{"question_id": 444675, "image_id": 44467, "question": "Who lost this teddy bear?", "answer": "Child", "cosine_similarity": 0.2673703730106354}
+{"question_id": 5742565, "image_id": 574256, "question": "What kind of bird is this?", "answer": "Hawk", "cosine_similarity": 0.23000499606132507}
+{"question_id": 1760075, "image_id": 176007, "question": "Before being used what are most cellphone likely connected to by those cords?", "answer": "Charger", "cosine_similarity": 0.19891516864299774}
+{"question_id": 4632835, "image_id": 463283, "question": "What drink is this?", "answer": "Orange juice", "cosine_similarity": 0.2572605609893799}
+{"question_id": 3418385, "image_id": 341838, "question": "What is the purpose of the red decorations in this photo?", "answer": "Decoration", "cosine_similarity": 0.19721968472003937}
+{"question_id": 245605, "image_id": 24560, "question": "Where is this picture taken from?", "answer": "Space", "cosine_similarity": 0.19187352061271667}
+{"question_id": 4983815, "image_id": 498381, "question": "What food does this animal eat?", "answer": "Seed", "cosine_similarity": 0.19362586736679077}
+{"question_id": 5416645, "image_id": 541664, "question": "This display is taken from what famous children's novel?", "answer": "Harry potter", "cosine_similarity": 0.14981071650981903}
+{"question_id": 2341695, "image_id": 234169, "question": "How many different types of donuts are in this shop?", "answer": "4", "cosine_similarity": 0.26304861903190613}
+{"question_id": 1962445, "image_id": 196244, "question": "What is the average lifespan for this animal?", "answer": "20 years", "cosine_similarity": 0.2220815271139145}
+{"question_id": 5163415, "image_id": 516341, "question": "What do those stickers do?", "answer": "Decoration", "cosine_similarity": 0.1593906283378601}
+{"question_id": 3285, "image_id": 328, "question": "Why are these men dressed like this?", "answer": "Uniform", "cosine_similarity": 0.2068128138780594}
+{"question_id": 561585, "image_id": 56158, "question": "What brain parasite is much more likely to infect owners of these animals?", "answer": "Toxoplasmosis", "cosine_similarity": 0.22598494589328766}
+{"question_id": 2434425, "image_id": 243442, "question": "What type of company is represented here?", "answer": "Catering", "cosine_similarity": 0.21477100253105164}
+{"question_id": 995435, "image_id": 99543, "question": "What long strap can be tied to the object around the animal's neck?", "answer": "Leash", "cosine_similarity": 0.2014259248971939}
+{"question_id": 3946595, "image_id": 394659, "question": "What is the item with the burners and knobs?", "answer": "Stove", "cosine_similarity": 0.2522737979888916}
+{"question_id": 2264965, "image_id": 226496, "question": "What is that paper on the ground called?", "answer": "Newspaper", "cosine_similarity": 0.13915427029132843}
+{"question_id": 4531665, "image_id": 453166, "question": "What kind of award is this?", "answer": "Military", "cosine_similarity": 0.20084185898303986}
+{"question_id": 1675445, "image_id": 167544, "question": "What is the blue thing doing?", "answer": "Flying", "cosine_similarity": 0.17705391347408295}
+{"question_id": 5493005, "image_id": 549300, "question": "The rounded wheels belong to what type of vehicle?", "answer": "Wagon", "cosine_similarity": 0.21244145929813385}
+{"question_id": 999965, "image_id": 99996, "question": "What game is he playing?", "answer": "Frisbee", "cosine_similarity": 0.16265913844108582}
+{"question_id": 3494865, "image_id": 349486, "question": "Which tony jaa film contains this animal being rescued by the main character?", "answer": "Elephant", "cosine_similarity": 0.2325185090303421}
+{"question_id": 94505, "image_id": 9450, "question": "What base are they standing on?", "answer": "First", "cosine_similarity": 0.1781940758228302}
+{"question_id": 5474935, "image_id": 547493, "question": "What type of dinnerware is the food on?", "answer": "Plate", "cosine_similarity": 0.2177918702363968}
+{"question_id": 5314955, "image_id": 531495, "question": "Places where the vehicles shown here can park are called what?", "answer": "Dock", "cosine_similarity": 0.1736200600862503}
+{"question_id": 3855865, "image_id": 385586, "question": "It is a boat or ship or fishboat?", "answer": "Ship", "cosine_similarity": 0.20141661167144775}
+{"question_id": 4437845, "image_id": 443784, "question": "What brand racket is the player holding?", "answer": "Wilson", "cosine_similarity": 0.2272561490535736}
+{"question_id": 4340895, "image_id": 434089, "question": "What is a male of this animal called?", "answer": "Ram", "cosine_similarity": 0.23105669021606445}
+{"question_id": 3058005, "image_id": 305800, "question": "What are these people celebrating?", "answer": "Wine", "cosine_similarity": 0.23664727807044983}
+{"question_id": 1121105, "image_id": 112110, "question": "What is the lighting in this space?", "answer": "Dark", "cosine_similarity": 0.11966491490602493}
+{"question_id": 1063305, "image_id": 106330, "question": "Where can i buy a bear similar to this one?", "answer": "Store", "cosine_similarity": 0.24756313860416412}
+{"question_id": 4029315, "image_id": 402931, "question": "What were they doing?", "answer": "Snowboarding", "cosine_similarity": 0.19789394736289978}
+{"question_id": 1006245, "image_id": 100624, "question": "What device is the woman talking into?", "answer": "Cell phone", "cosine_similarity": 0.25671470165252686}
+{"question_id": 1082445, "image_id": 108244, "question": "To what profession is the hat depicted frequently linked?", "answer": "Pirate", "cosine_similarity": 0.2382277101278305}
+{"question_id": 5087315, "image_id": 508731, "question": "Is this type of animal more closer to the character babar or the character snoopy?", "answer": "Babar", "cosine_similarity": 0.23037593066692352}
+{"question_id": 166065, "image_id": 16606, "question": "What can this be used for?", "answer": "Computer", "cosine_similarity": 0.14975717663764954}
+{"question_id": 603635, "image_id": 60363, "question": "What is the purpose of the white circle?", "answer": "Clock", "cosine_similarity": 0.19319842755794525}
+{"question_id": 3160075, "image_id": 316007, "question": "What popular term is given for what the person in the background is doing?", "answer": "Posing", "cosine_similarity": 0.21379354596138}
+{"question_id": 860015, "image_id": 86001, "question": "In this game a poorly hit ball has what in common with a chicken?", "answer": "Nothing", "cosine_similarity": 0.1787094920873642}
+{"question_id": 3680805, "image_id": 368080, "question": "Where in the world is this located?", "answer": "Seattle", "cosine_similarity": 0.23911087214946747}
+{"question_id": 4196245, "image_id": 419624, "question": "How fast do these trains go?", "answer": "100 mph", "cosine_similarity": 0.19938291609287262}
+{"question_id": 3239255, "image_id": 323925, "question": "What vegetables are shown?", "answer": "Broccoli", "cosine_similarity": 0.1925186663866043}
+{"question_id": 3719455, "image_id": 371945, "question": "In what year was this mode of transportation created?", "answer": "1804", "cosine_similarity": 0.171625018119812}
+{"question_id": 3078475, "image_id": 307847, "question": "What is the light indicating oncoming traffic should be doing?", "answer": "Stop", "cosine_similarity": 0.1510106921195984}
+{"question_id": 2968865, "image_id": 296886, "question": "The human rider on the horses are called what?", "answer": "Jockey", "cosine_similarity": 0.2093634307384491}
+{"question_id": 1652255, "image_id": 165225, "question": "What kind of building is this?", "answer": "Auditorium", "cosine_similarity": 0.19970013201236725}
+{"question_id": 4952885, "image_id": 495288, "question": "What do you call the pattern on this tie?", "answer": "Plaid", "cosine_similarity": 0.23142699897289276}
+{"question_id": 2934745, "image_id": 293474, "question": "What are these items usually used by?", "answer": "Firefighters", "cosine_similarity": 0.2465304285287857}
+{"question_id": 2651255, "image_id": 265125, "question": "Where do you have weather like this?", "answer": "England", "cosine_similarity": 0.1578586846590042}
+{"question_id": 380315, "image_id": 38031, "question": "What is needed to use this transportation?", "answer": "License", "cosine_similarity": 0.19205456972122192}
+{"question_id": 4227295, "image_id": 422729, "question": "Can you name the place where this horse is seen?", "answer": "Stable", "cosine_similarity": 0.2555774450302124}
+{"question_id": 5782035, "image_id": 578203, "question": "Are these fruits or vegetables?", "answer": "Fruits", "cosine_similarity": 0.2245580106973648}
+{"question_id": 1267015, "image_id": 126701, "question": "What type of tree is this?", "answer": "Willow", "cosine_similarity": 0.20431669056415558}
+{"question_id": 586475, "image_id": 58647, "question": "What animal tries to attack persons doing this activity?", "answer": "Shark", "cosine_similarity": 0.17593394219875336}
+{"question_id": 4767705, "image_id": 476770, "question": "What team does this man play for?", "answer": "Red sox", "cosine_similarity": 0.1853652447462082}
+{"question_id": 3548295, "image_id": 354829, "question": "Why did he leave his car next to a fire hydrant?", "answer": "He didn't", "cosine_similarity": 0.2168348729610443}
+{"question_id": 5692895, "image_id": 569289, "question": "Even without bacon or sausage why would we think this person has plenty of protein on their plate?", "answer": "Egg", "cosine_similarity": 0.2112530767917633}
+{"question_id": 229695, "image_id": 22969, "question": "What mammal do you see?", "answer": "Giraffe", "cosine_similarity": 0.23693203926086426}
+{"question_id": 4007195, "image_id": 400719, "question": "Who had used one of these floating objects in a famous experiment on electricity?", "answer": "Benjamin franklin", "cosine_similarity": 0.1875508576631546}
+{"question_id": 2454815, "image_id": 245481, "question": "How do we know there may be a railroad nearby?", "answer": "Sign", "cosine_similarity": 0.23650386929512024}
+{"question_id": 4930225, "image_id": 493022, "question": "What type of exercise might she be doing?", "answer": "Swimming", "cosine_similarity": 0.17634835839271545}
+{"question_id": 1168455, "image_id": 116845, "question": "What is the nutrition value of the fruits?", "answer": "High", "cosine_similarity": 0.19980645179748535}
+{"question_id": 6615, "image_id": 661, "question": "What condiments would be good on this sandwhich?", "answer": "Ketchup", "cosine_similarity": 0.21175642311573029}
+{"question_id": 3652775, "image_id": 365277, "question": "How expensive is this entree?", "answer": "Very expensive", "cosine_similarity": 0.22198842465877533}
+{"question_id": 3678915, "image_id": 367891, "question": "What brand of device is the boy using?", "answer": "Leapfrog", "cosine_similarity": 0.24708078801631927}
+{"question_id": 5153035, "image_id": 515303, "question": "What breed of the horse is shown in the image?", "answer": "Clydesdale", "cosine_similarity": 0.21840818226337433}
+{"question_id": 679665, "image_id": 67966, "question": "What topping is on this pizza?", "answer": "Pepperoni", "cosine_similarity": 0.25176897644996643}
+{"question_id": 4342615, "image_id": 434261, "question": "What do i do with this thing?", "answer": "Drive", "cosine_similarity": 0.16880224645137787}
+{"question_id": 4903385, "image_id": 490338, "question": "What city is shown?", "answer": "Tokyo", "cosine_similarity": 0.22060821950435638}
+{"question_id": 2540015, "image_id": 254001, "question": "How much wood is needed to construct this seat?", "answer": "0", "cosine_similarity": 0.15650904178619385}
+{"question_id": 4398405, "image_id": 439840, "question": "Where can i get a coffee table like this?", "answer": "Ikea", "cosine_similarity": 0.23510746657848358}
+{"question_id": 2715655, "image_id": 271565, "question": "What is the model of the motorcycle in the front of the motorcycle pack?", "answer": "Harley", "cosine_similarity": 0.19354823231697083}
+{"question_id": 705285, "image_id": 70528, "question": "What kind of pants is this woman wearing?", "answer": "Capri", "cosine_similarity": 0.13594447076320648}
+{"question_id": 1746905, "image_id": 174690, "question": "What might one need before being able to board one of these?", "answer": "Ticket", "cosine_similarity": 0.19707055389881134}
+{"question_id": 727645, "image_id": 72764, "question": "Is this sport popular more popular in the us or the uk?", "answer": "Uk", "cosine_similarity": 0.14339952170848846}
+{"question_id": 4431015, "image_id": 443101, "question": "What moutains are in the background?", "answer": "Alps", "cosine_similarity": 0.23717136681079865}
+{"question_id": 3144935, "image_id": 314493, "question": "What kind of airplane is this?", "answer": "Propeller", "cosine_similarity": 0.21767394244670868}
+{"question_id": 895495, "image_id": 89549, "question": "What is the name of this sandwich?", "answer": "Hamburger", "cosine_similarity": 0.21257184445858002}
+{"question_id": 5361835, "image_id": 536183, "question": "What food is this?", "answer": "Stew", "cosine_similarity": 0.2363409399986267}
+{"question_id": 4570785, "image_id": 457078, "question": "How creepy is the decor in this room?", "answer": "Very", "cosine_similarity": 0.2480495721101761}
+{"question_id": 4091165, "image_id": 409116, "question": "Why might someone need to be in the place of this photo?", "answer": "Hospital", "cosine_similarity": 0.2422899305820465}
+{"question_id": 5306315, "image_id": 530631, "question": "Is this a garage or factory?", "answer": "Garage", "cosine_similarity": 0.2101317197084427}
+{"question_id": 1390945, "image_id": 139094, "question": "What occupation might he have?", "answer": "Forklift operator", "cosine_similarity": 0.2688547670841217}
+{"question_id": 2733295, "image_id": 273329, "question": "How much water can the bottles on the table hold?", "answer": "750 ml", "cosine_similarity": 0.11764408648014069}
+{"question_id": 3448885, "image_id": 344888, "question": "What kind of farm is this?", "answer": "Horse", "cosine_similarity": 0.24873964488506317}
+{"question_id": 1504105, "image_id": 150410, "question": "What kind of fuel does this toy use?", "answer": "Gas", "cosine_similarity": 0.21102972328662872}
+{"question_id": 4073555, "image_id": 407355, "question": "What is the term for the kind of furniture in front of the mirror?", "answer": "Ottoman", "cosine_similarity": 0.22789543867111206}
+{"question_id": 4339715, "image_id": 433971, "question": "What city is this?", "answer": "Los angeles", "cosine_similarity": 0.2160349041223526}
+{"question_id": 3784675, "image_id": 378467, "question": "Are these people goth or punk and what are some famous japanese and korean goth and punk fashions?", "answer": "Yes", "cosine_similarity": 0.3058759272098541}
+{"question_id": 4902795, "image_id": 490279, "question": "When you bend your knees as this man is doing you are performing an exercise called a what?", "answer": "Squat", "cosine_similarity": 0.16508698463439941}
+{"question_id": 2583225, "image_id": 258322, "question": "Who manufactured this popular 1990's cellular phone?", "answer": "Motorola", "cosine_similarity": 0.24228088557720184}
+{"question_id": 943555, "image_id": 94355, "question": "Name the place where this bear is seen in this picture?", "answer": "Shore", "cosine_similarity": 0.24232909083366394}
+{"question_id": 3151915, "image_id": 315191, "question": "What is behind the plane?", "answer": "Smoke", "cosine_similarity": 0.21535606682300568}
+{"question_id": 4099645, "image_id": 409964, "question": "Is he playing in a game or practicing?", "answer": "Practice", "cosine_similarity": 0.17686007916927338}
+{"question_id": 5787105, "image_id": 578710, "question": "Which holiday would the teddy bear be sold at malls?", "answer": "Valentine's day", "cosine_similarity": 0.2452978789806366}
+{"question_id": 4486005, "image_id": 448600, "question": "What kind of fruit?", "answer": "Strawberry", "cosine_similarity": 0.14800666272640228}
+{"question_id": 3459795, "image_id": 345979, "question": "What kind of clothes is dressing the man?", "answer": "Suit", "cosine_similarity": 0.18151044845581055}
+{"question_id": 5314335, "image_id": 531433, "question": "From what part of the country is this food most likely being served in?", "answer": "South", "cosine_similarity": 0.19507551193237305}
+{"question_id": 1879015, "image_id": 187901, "question": "Are the tops of these towers minarets or domes?", "answer": "Domes", "cosine_similarity": 0.19566401839256287}
+{"question_id": 3649735, "image_id": 364973, "question": "What health benefit does this type of vegetable have?", "answer": "Antioxidant", "cosine_similarity": 0.2229258120059967}
+{"question_id": 2853255, "image_id": 285325, "question": "What is this piece of outside furniture called?", "answer": "Chair", "cosine_similarity": 0.21810849010944366}
+{"question_id": 2935055, "image_id": 293505, "question": "Is this a walkway or motorway?", "answer": "Walkway", "cosine_similarity": 0.16945365071296692}
+{"question_id": 2852915, "image_id": 285291, "question": "What is the common name for this type of hill?", "answer": "Ski slope", "cosine_similarity": 0.23087091743946075}
+{"question_id": 5625815, "image_id": 562581, "question": "Which fashion conscious sisters are famous for playing this game?", "answer": "Serena and venus williams", "cosine_similarity": 0.2431184947490692}
+{"question_id": 3658865, "image_id": 365886, "question": "What brand of phone is this?", "answer": "Motorola", "cosine_similarity": 0.19852378964424133}
+{"question_id": 1551255, "image_id": 155125, "question": "What is a slang word for this food item?", "answer": "Pizza", "cosine_similarity": 0.22465917468070984}
+{"question_id": 234115, "image_id": 23411, "question": "A group of these animals is called a what?", "answer": "Herd", "cosine_similarity": 0.2090531885623932}
+{"question_id": 3174105, "image_id": 317410, "question": "What brand of vehicle is that?", "answer": "Lincoln", "cosine_similarity": 0.22958770394325256}
+{"question_id": 789795, "image_id": 78979, "question": "What is the name of the mechanism located on the front end of the plane?", "answer": "Propeller", "cosine_similarity": 0.23978598415851593}
+{"question_id": 1063385, "image_id": 106338, "question": "What princess famously suggested that peasants eat this type of food?", "answer": "Marie antoinette", "cosine_similarity": 0.18479502201080322}
+{"question_id": 376165, "image_id": 37616, "question": "What type of easy chair is this?", "answer": "Recliner", "cosine_similarity": 0.17342981696128845}
+{"question_id": 868355, "image_id": 86835, "question": "Do the occupants of this building receive their mail at their door or in a box along the street?", "answer": "Door", "cosine_similarity": 0.19964410364627838}
+{"question_id": 4794775, "image_id": 479477, "question": "Was the ball thrown overhand or underhand?", "answer": "Underhand", "cosine_similarity": 0.18808215856552124}
+{"question_id": 2608085, "image_id": 260808, "question": "Which popular digestive aid is the color of this table cloth?", "answer": "Pepto bismol", "cosine_similarity": 0.1968117505311966}
+{"question_id": 1137565, "image_id": 113756, "question": "What is missing on this man's elbows and knees?", "answer": "Nothing", "cosine_similarity": 0.2252252846956253}
+{"question_id": 606775, "image_id": 60677, "question": "How much is this truck worth?", "answer": "10000", "cosine_similarity": 0.21426938474178314}
+{"question_id": 3611535, "image_id": 361153, "question": "What kind of tomato sauce is there?", "answer": "Marinara", "cosine_similarity": 0.13424982130527496}
+{"question_id": 3321595, "image_id": 332159, "question": "What kind of omen is the cat on the right considered?", "answer": "Bad", "cosine_similarity": 0.2012171447277069}
+{"question_id": 4970675, "image_id": 497067, "question": "Why do the boys shirts match?", "answer": "Team", "cosine_similarity": 0.1599317342042923}
+{"question_id": 1571705, "image_id": 157170, "question": "What altitude do these animals favor?", "answer": "High", "cosine_similarity": 0.20355474948883057}
+{"question_id": 429445, "image_id": 42944, "question": "What is the suit the woman was wearing made of?", "answer": "Neoprene", "cosine_similarity": 0.21063651144504547}
+{"question_id": 4295985, "image_id": 429598, "question": "What common appliance is missing from this kitchen?", "answer": "Dishwasher", "cosine_similarity": 0.2510403096675873}
+{"question_id": 4606525, "image_id": 460652, "question": "What is this light used for?", "answer": "Stop", "cosine_similarity": 0.1899699717760086}
+{"question_id": 2117225, "image_id": 211722, "question": "What was used to capture this photo?", "answer": "Camera", "cosine_similarity": 0.19082248210906982}
+{"question_id": 5244595, "image_id": 524459, "question": "What kind of beverage is the poster on the left referring to?", "answer": "Beer", "cosine_similarity": 0.2158123254776001}
+{"question_id": 1400685, "image_id": 140068, "question": "What team is number 51 from?", "answer": "Giants", "cosine_similarity": 0.1927751898765564}
+{"question_id": 3170625, "image_id": 317062, "question": "What key allows someone to remove text?", "answer": "Delete", "cosine_similarity": 0.16289319097995758}
+{"question_id": 5577095, "image_id": 557709, "question": "If the player misses the ball in the pictured game it is called what?", "answer": "Strike", "cosine_similarity": 0.21573090553283691}
+{"question_id": 419455, "image_id": 41945, "question": "In what language is the name of this boat written?", "answer": "Swedish", "cosine_similarity": 0.26479771733283997}
+{"question_id": 5286045, "image_id": 528604, "question": "It looks like this baby just got out of what?", "answer": "Shower", "cosine_similarity": 0.2221822589635849}
+{"question_id": 901555, "image_id": 90155, "question": "What type of place is this train in?", "answer": "Field", "cosine_similarity": 0.1737411469221115}
+{"question_id": 5590625, "image_id": 559062, "question": "What common material can you use to clean shine the object being held?", "answer": "Wax", "cosine_similarity": 0.14539319276809692}
+{"question_id": 1994425, "image_id": 199442, "question": "The body hugging garment seen here is called a what?", "answer": "Wetsuit", "cosine_similarity": 0.2358642965555191}
+{"question_id": 3814165, "image_id": 381416, "question": "What type of skiing is this man doing?", "answer": "Cross country", "cosine_similarity": 0.2598535716533661}
+{"question_id": 1675725, "image_id": 167572, "question": "What type of sandwich is being served?", "answer": "Vegetable", "cosine_similarity": 0.21902981400489807}
+{"question_id": 287195, "image_id": 28719, "question": "What is the meat in this photo made of?", "answer": "Pork", "cosine_similarity": 0.1301790326833725}
+{"question_id": 2494045, "image_id": 249404, "question": "What would you do if you were in the right lane?", "answer": "Go straight", "cosine_similarity": 0.1918276846408844}
+{"question_id": 3300515, "image_id": 330051, "question": "Who manufactured this clock?", "answer": "London", "cosine_similarity": 0.2656940817832947}
+{"question_id": 2987325, "image_id": 298732, "question": "What kind of cleaner would you use to keep the glass spot free?", "answer": "Glass cleaner", "cosine_similarity": 0.19551849365234375}
+{"question_id": 1449325, "image_id": 144932, "question": "What is the weather like?", "answer": "Cloudy", "cosine_similarity": 0.14583449065685272}
+{"question_id": 1144205, "image_id": 114420, "question": "Is the bird in the picture a carnivore or herbivore?", "answer": "Herbivore", "cosine_similarity": 0.20009149610996246}
+{"question_id": 5724955, "image_id": 572495, "question": "Is this a laptop or desktop?", "answer": "Desktop", "cosine_similarity": 0.21514859795570374}
+{"question_id": 4122475, "image_id": 412247, "question": "Is the batter left or right handed?", "answer": "Right", "cosine_similarity": 0.2211061716079712}
+{"question_id": 3920485, "image_id": 392048, "question": "What day of the week is it?", "answer": "Sunday", "cosine_similarity": 0.1651773601770401}
+{"question_id": 432615, "image_id": 43261, "question": "What vegetable is in the casserole dish?", "answer": "Tomato", "cosine_similarity": 0.1632315069437027}
+{"question_id": 844545, "image_id": 84454, "question": "What type of lighting is shown in this picture?", "answer": "String lights", "cosine_similarity": 0.2687053978443146}
+{"question_id": 3145045, "image_id": 314504, "question": "What type of cat is this?", "answer": "Tabby", "cosine_similarity": 0.20321601629257202}
+{"question_id": 1683755, "image_id": 168375, "question": "A famous of these animals does not like mondays?", "answer": "Grumpy cat", "cosine_similarity": 0.17876654863357544}
+{"question_id": 889835, "image_id": 88983, "question": "What electronic device is being featured in this photo?", "answer": "Remote control", "cosine_similarity": 0.237254798412323}
+{"question_id": 5242165, "image_id": 524216, "question": "What gas station is pictured?", "answer": "Shell", "cosine_similarity": 0.20701755583286285}
+{"question_id": 112915, "image_id": 11291, "question": "What could this couple be celebrating?", "answer": "Anniversary", "cosine_similarity": 0.20534604787826538}
+{"question_id": 4812125, "image_id": 481212, "question": "What season is it outside?", "answer": "Fall", "cosine_similarity": 0.1681564748287201}
+{"question_id": 5218045, "image_id": 521804, "question": "What mountain range is this?", "answer": "Alps", "cosine_similarity": 0.2359316051006317}
+{"question_id": 4462075, "image_id": 446207, "question": "What big box store is known for selling both of these items?", "answer": "Best buy", "cosine_similarity": 0.139751598238945}
+{"question_id": 2026525, "image_id": 202652, "question": "What would a perosn who drives one of these be called?", "answer": "Captain", "cosine_similarity": 0.17908459901809692}
+{"question_id": 3453295, "image_id": 345329, "question": "What part of the atmosphere is the object in?", "answer": "Stratosphere", "cosine_similarity": 0.22775784134864807}
+{"question_id": 1414535, "image_id": 141453, "question": "What are the horses doing?", "answer": "Standing", "cosine_similarity": 0.19718453288078308}
+{"question_id": 5473095, "image_id": 547309, "question": "What is the semi hawling?", "answer": "Trailer", "cosine_similarity": 0.20850418508052826}
+{"question_id": 4681615, "image_id": 468161, "question": "Why style of beard does the man in the blue shirt have?", "answer": "Goatee", "cosine_similarity": 0.15961027145385742}
+{"question_id": 4780935, "image_id": 478093, "question": "What company owns the airplane?", "answer": "Star alliance", "cosine_similarity": 0.34075599908828735}
+{"question_id": 4186235, "image_id": 418623, "question": "Who makes the guitar on the wall?", "answer": "Gibson", "cosine_similarity": 0.09954686462879181}
+{"question_id": 3313665, "image_id": 331366, "question": "What type of bike is this?", "answer": "Penny farthing", "cosine_similarity": 0.28999844193458557}
+{"question_id": 3973095, "image_id": 397309, "question": "Why aren't the animals eating meat?", "answer": "Vegetarian", "cosine_similarity": 0.23276452720165253}
+{"question_id": 846436, "image_id": 84643, "question": "What is the most valuable part of this animal?", "answer": "Tusk", "cosine_similarity": 0.23238153755664825}
+{"question_id": 5662775, "image_id": 566277, "question": "What team has won the most world series?", "answer": "New york yankees", "cosine_similarity": 0.1730726659297943}
+{"question_id": 3501325, "image_id": 350132, "question": "What type of pants is this person wearing?", "answer": "Shorts", "cosine_similarity": 0.16586700081825256}
+{"question_id": 4133775, "image_id": 413377, "question": "What is this man doing today?", "answer": "Smiling", "cosine_similarity": 0.1619839370250702}
+{"question_id": 3979035, "image_id": 397903, "question": "What is the woman doing?", "answer": "Taking picture", "cosine_similarity": 0.18052762746810913}
+{"question_id": 4601295, "image_id": 460129, "question": "What profession is the man in the picture?", "answer": "Cowboy", "cosine_similarity": 0.2020556628704071}
+{"question_id": 2569735, "image_id": 256973, "question": "What is that book about?", "answer": "Topology", "cosine_similarity": 0.3290550112724304}
+{"question_id": 3165965, "image_id": 316596, "question": "Does this food taste salty sweet sour or bitter?", "answer": "Sweet", "cosine_similarity": 0.1298011988401413}
+{"question_id": 2954265, "image_id": 295426, "question": "Name the model of train shown in this picture?", "answer": "Steam", "cosine_similarity": 0.2271101325750351}
+{"question_id": 4713425, "image_id": 471342, "question": "What kind of noodles are those?", "answer": "Rice", "cosine_similarity": 0.15929746627807617}
+{"question_id": 4968015, "image_id": 496801, "question": "What can i make with this?", "answer": "Smoothie", "cosine_similarity": 0.22719360888004303}
+{"question_id": 540915, "image_id": 54091, "question": "Is the person in this picture sad mad or glad?", "answer": "Glad", "cosine_similarity": 0.17566710710525513}
+{"question_id": 3076585, "image_id": 307658, "question": "What type of bear is this?", "answer": "Grizzly", "cosine_similarity": 0.24820563197135925}
+{"question_id": 3324615, "image_id": 332461, "question": "What outdoor activity are they prepared for?", "answer": "Skiing", "cosine_similarity": 0.28159940242767334}
+{"question_id": 2145195, "image_id": 214519, "question": "Who would use these?", "answer": "Men", "cosine_similarity": 0.27514082193374634}
+{"question_id": 4704235, "image_id": 470423, "question": "What is the model of these motorcycles?", "answer": "Harley davidson", "cosine_similarity": 0.22036436200141907}
+{"question_id": 3891295, "image_id": 389129, "question": "Why might these animals be seen in formation?", "answer": "Flying", "cosine_similarity": 0.20617952942848206}
+{"question_id": 487865, "image_id": 48786, "question": "What highways is this?", "answer": "Interstate", "cosine_similarity": 0.19694292545318604}
+{"question_id": 5593125, "image_id": 559312, "question": "Where are produce like these normally grown?", "answer": "Tropical", "cosine_similarity": 0.19118569791316986}
+{"question_id": 2495065, "image_id": 249506, "question": "What type of furniture are the computers sitting on?", "answer": "Desk", "cosine_similarity": 0.2521444261074066}
+{"question_id": 968325, "image_id": 96832, "question": "What purpose do the glasses the man is wearing serve?", "answer": "See", "cosine_similarity": 0.18355083465576172}
+{"question_id": 440655, "image_id": 44065, "question": "What are the baskets made of?", "answer": "Wicker", "cosine_similarity": 0.1938900649547577}
+{"question_id": 3196475, "image_id": 319647, "question": "What kind of bridge is shown inthe background?", "answer": "Golden gate", "cosine_similarity": 0.2292523980140686}
+{"question_id": 449505, "image_id": 44950, "question": "What does the square thing let you do?", "answer": "Reflect", "cosine_similarity": 0.18637509644031525}
+{"question_id": 2450945, "image_id": 245094, "question": "What type of bed is this?", "answer": "Canopy", "cosine_similarity": 0.28040850162506104}
+{"question_id": 4989715, "image_id": 498971, "question": "What are the vehicles in the picture used for?", "answer": "Fishing", "cosine_similarity": 0.19771426916122437}
+{"question_id": 4919655, "image_id": 491965, "question": "Name the place where the bus is shown in this picture?", "answer": "Road", "cosine_similarity": 0.20714855194091797}
+{"question_id": 1067935, "image_id": 106793, "question": "What kind of bed system is this?", "answer": "Bunk bed", "cosine_similarity": 0.2276109904050827}
+{"question_id": 5690705, "image_id": 569070, "question": "What is the scientific name of the animal seen here?", "answer": "Equus quagga", "cosine_similarity": 0.24236714839935303}
+{"question_id": 781075, "image_id": 78107, "question": "What do you think the tv program the cat is watching is about?", "answer": "Science", "cosine_similarity": 0.32196804881095886}
+{"question_id": 3732555, "image_id": 373255, "question": "Can you guess the place name where these cattle are shown in this picture?", "answer": "Plain", "cosine_similarity": 0.21844759583473206}
+{"question_id": 534105, "image_id": 53410, "question": "What is the patch of hair growing along this man's ear called?", "answer": "Hair", "cosine_similarity": 0.15254482626914978}
+{"question_id": 926045, "image_id": 92604, "question": "What language is the writing in?", "answer": "English", "cosine_similarity": 0.17167340219020844}
+{"question_id": 1311525, "image_id": 131152, "question": "What animal do these sportsmen often get attacked by?", "answer": "Shark", "cosine_similarity": 0.2013867348432541}
+{"question_id": 698275, "image_id": 69827, "question": "What company does this truck work for?", "answer": "Waste management", "cosine_similarity": 0.1962919533252716}
+{"question_id": 2099895, "image_id": 209989, "question": "What country are these people in?", "answer": "Switzerland", "cosine_similarity": 0.20122291147708893}
+{"question_id": 5004205, "image_id": 500420, "question": "The long trailing part of this flying object is called a what?", "answer": "Tail", "cosine_similarity": 0.21269050240516663}
+{"question_id": 2399925, "image_id": 239992, "question": "What company is this brand for?", "answer": "American airlines", "cosine_similarity": 0.22252920269966125}
+{"question_id": 3313115, "image_id": 331311, "question": "What material is burning?", "answer": "Candle", "cosine_similarity": 0.18509387969970703}
+{"question_id": 2382635, "image_id": 238263, "question": "When was this building made?", "answer": "1900", "cosine_similarity": 0.20586039125919342}
+{"question_id": 1483195, "image_id": 148319, "question": "How many kids can fit inside the bus?", "answer": "20", "cosine_similarity": 0.21521314978599548}
+{"question_id": 784955, "image_id": 78495, "question": "What is the piece of decorative fabric called that the cat is sitting on?", "answer": "Rug", "cosine_similarity": 0.22616209089756012}
+{"question_id": 2793435, "image_id": 279343, "question": "What is the primary purpose of the vehicles in this image?", "answer": "Fly", "cosine_similarity": 0.197614848613739}
+{"question_id": 1973985, "image_id": 197398, "question": "What kind of beer is in the photo?", "answer": "Beer", "cosine_similarity": 0.1538342982530594}
+{"question_id": 5785915, "image_id": 578591, "question": "What type of fuel do jets use?", "answer": "Jet fuel", "cosine_similarity": 0.1454971879720688}
+{"question_id": 2426445, "image_id": 242644, "question": "What ride is in the middle of the photo?", "answer": "Ferris wheel", "cosine_similarity": 0.20318065583705902}
+{"question_id": 2042895, "image_id": 204289, "question": "What shape is the consistent in this picture?", "answer": "Round", "cosine_similarity": 0.1416047215461731}
+{"question_id": 3586245, "image_id": 358624, "question": "What is the property that allows images to be seen on an object's surface like the ornament's?", "answer": "Reflection", "cosine_similarity": 0.18647880852222443}
+{"question_id": 457105, "image_id": 45710, "question": "What are the white things under the trunk called?", "answer": "Tusks", "cosine_similarity": 0.23809899389743805}
+{"question_id": 2010045, "image_id": 201004, "question": "Do you think that it is more likely that this is a court or someone's home?", "answer": "Court", "cosine_similarity": 0.15800198912620544}
+{"question_id": 2092395, "image_id": 209239, "question": "Khol is known for these?", "answer": "Eyes", "cosine_similarity": 0.136793851852417}
+{"question_id": 2887695, "image_id": 288769, "question": "What does this company provide?", "answer": "Bikes", "cosine_similarity": 0.17766785621643066}
+{"question_id": 2926395, "image_id": 292639, "question": "What kind of aircraft are seen in this picture?", "answer": "Jet", "cosine_similarity": 0.19645969569683075}
+{"question_id": 4012495, "image_id": 401249, "question": "What type of jacket is this person wearing?", "answer": "Suit", "cosine_similarity": 0.2065390646457672}
+{"question_id": 5113335, "image_id": 511333, "question": "Where should you put your valuables when staying here?", "answer": "Safe", "cosine_similarity": 0.21634630858898163}
+{"question_id": 5807575, "image_id": 580757, "question": "What is the colorful object used for?", "answer": "Fire hydrant", "cosine_similarity": 0.26388752460479736}
+{"question_id": 5780925, "image_id": 578092, "question": "What language is the sign in?", "answer": "French", "cosine_similarity": 0.25880441069602966}
+{"question_id": 3986375, "image_id": 398637, "question": "Is this his wife or sister?", "answer": "Wife", "cosine_similarity": 0.16427119076251984}
+{"question_id": 2757445, "image_id": 275744, "question": "How fast can one of these travel?", "answer": "200 mph", "cosine_similarity": 0.1965949684381485}
+{"question_id": 4956815, "image_id": 495681, "question": "Who makes that sink faucet?", "answer": "Moen", "cosine_similarity": 0.22374458611011505}
+{"question_id": 2682295, "image_id": 268229, "question": "What is stuffed inside that furniture?", "answer": "Pillow", "cosine_similarity": 0.17596907913684845}
+{"question_id": 1792295, "image_id": 179229, "question": "What coast is this?", "answer": "East", "cosine_similarity": 0.16310736536979675}
+{"question_id": 504825, "image_id": 50482, "question": "How high are they?", "answer": "Very high", "cosine_similarity": 0.16410484910011292}
+{"question_id": 4297545, "image_id": 429754, "question": "What is the type of school one must attend to professionally perform the action shown in the photo?", "answer": "Cosmetology", "cosine_similarity": 0.18560180068016052}
+{"question_id": 1927555, "image_id": 192755, "question": "What type of building is this?", "answer": "Skyscraper", "cosine_similarity": 0.13096854090690613}
+{"question_id": 3168795, "image_id": 316879, "question": "Who invented the yellow and black item?", "answer": "Samuel fox", "cosine_similarity": 0.17816205322742462}
+{"question_id": 4838975, "image_id": 483897, "question": "What breed of horse is that?", "answer": "Clydesdale", "cosine_similarity": 0.22757339477539062}
+{"question_id": 87715, "image_id": 8771, "question": "What are some other popular activities to do here?", "answer": "Snowboarding", "cosine_similarity": 0.22912143170833588}
+{"question_id": 5770775, "image_id": 577077, "question": "What sort of animal is represented by the toy figure in this photo?", "answer": "Bear", "cosine_similarity": 0.2504015862941742}
+{"question_id": 5439925, "image_id": 543992, "question": "What could these electronics be used for?", "answer": "Music", "cosine_similarity": 0.19225703179836273}
+{"question_id": 5375485, "image_id": 537548, "question": "Why he is having an orange vest?", "answer": "Safety", "cosine_similarity": 0.2565239369869232}
+{"question_id": 2285515, "image_id": 228551, "question": "What can you do with the items pictured?", "answer": "Brush teeth", "cosine_similarity": 0.2502148449420929}
+{"question_id": 5064415, "image_id": 506441, "question": "What is the meat called on the sandwich?", "answer": "Pork", "cosine_similarity": 0.22132395207881927}
+{"question_id": 2521015, "image_id": 252101, "question": "How many people can fit inside the stadium in the photo?", "answer": "50000", "cosine_similarity": 0.16170448064804077}
+{"question_id": 1984775, "image_id": 198477, "question": "Why isn't the car moving?", "answer": "Stop light", "cosine_similarity": 0.21818670630455017}
+{"question_id": 1515165, "image_id": 151516, "question": "What is the name of the bird in this picture?", "answer": "Eagle", "cosine_similarity": 0.25556981563568115}
+{"question_id": 4101955, "image_id": 410195, "question": "What material is the wet suit made from?", "answer": "Neoprene", "cosine_similarity": 0.24881556630134583}
+{"question_id": 3494895, "image_id": 349489, "question": "These round edible items are called what in england?", "answer": "Biscuits", "cosine_similarity": 0.21010369062423706}
+{"question_id": 5475195, "image_id": 547519, "question": "What breed of bear is this?", "answer": "Grizzly", "cosine_similarity": 0.23831447958946228}
+{"question_id": 4208275, "image_id": 420827, "question": "What is the employment of these people?", "answer": "Firefighter", "cosine_similarity": 0.23242157697677612}
+{"question_id": 3940025, "image_id": 394002, "question": "Name the bike model shown in this picture?", "answer": "Yamaha", "cosine_similarity": 0.24860459566116333}
+{"question_id": 4729305, "image_id": 472930, "question": "What is outside of the window?", "answer": "Table", "cosine_similarity": 0.22182177007198334}
+{"question_id": 4846045, "image_id": 484604, "question": "What is the picture in the food?", "answer": "Owl", "cosine_similarity": 0.24688826501369476}
+{"question_id": 4202295, "image_id": 420229, "question": "What is the name of the white device in the photo?", "answer": "Cutting board", "cosine_similarity": 0.2637665867805481}
+{"question_id": 1934805, "image_id": 193480, "question": "What event is this?", "answer": "Tennis", "cosine_similarity": 0.24677036702632904}
+{"question_id": 5071435, "image_id": 507143, "question": "How many people ride this mode of transportation in europe?", "answer": "1000000", "cosine_similarity": 0.18655645847320557}
+{"question_id": 2813175, "image_id": 281317, "question": "What causes auras around traffic lights when photos are taken at night?", "answer": "Lens flare", "cosine_similarity": 0.2740815281867981}
+{"question_id": 1544975, "image_id": 154497, "question": "There are two girls in the forefront of this photo the one on the left has no type of pattern on her clothing but what design is on the girls on the right?", "answer": "Floral", "cosine_similarity": 0.19421084225177765}
+{"question_id": 3490215, "image_id": 349021, "question": "What is the name of the famous train pictured?", "answer": "Thomas", "cosine_similarity": 0.27837592363357544}
+{"question_id": 3400365, "image_id": 340036, "question": "What are the individuals inside of this vehicle called?", "answer": "Passenger", "cosine_similarity": 0.13908851146697998}
+{"question_id": 4167655, "image_id": 416765, "question": "What month is this?", "answer": "December", "cosine_similarity": 0.1350860744714737}
+{"question_id": 3597155, "image_id": 359715, "question": "What is the complimentary color to the bike?", "answer": "Yellow", "cosine_similarity": 0.20877808332443237}
+{"question_id": 4023285, "image_id": 402328, "question": "What groups do persons who ride these vehicles usually belong to?", "answer": "Biker", "cosine_similarity": 0.18361300230026245}
+{"question_id": 916675, "image_id": 91667, "question": "Where might i see these?", "answer": "Air show", "cosine_similarity": 0.23248738050460815}
+{"question_id": 2058345, "image_id": 205834, "question": "What breed of dog is this?", "answer": "Collie", "cosine_similarity": 0.2241234928369522}
+{"question_id": 1931215, "image_id": 193121, "question": "How many of these animals remain in the wild?", "answer": "20000", "cosine_similarity": 0.2277979552745819}
+{"question_id": 535505, "image_id": 53550, "question": "Would this child be more likely to enjoy a picture book or one with only words?", "answer": "Picture book", "cosine_similarity": 0.18814833462238312}
+{"question_id": 1987175, "image_id": 198717, "question": "The man is indicating what to the obeserver?", "answer": "Frisbee", "cosine_similarity": 0.13490773737430573}
+{"question_id": 1265125, "image_id": 126512, "question": "Based on the clothing what year was this picture taken?", "answer": "1950", "cosine_similarity": 0.20627956092357635}
+{"question_id": 4756585, "image_id": 475658, "question": "Judging by this picture who might we suspect is winning?", "answer": "Man on right", "cosine_similarity": 0.2028418332338333}
+{"question_id": 3161835, "image_id": 316183, "question": "What do people throw in these round objects?", "answer": "Coins", "cosine_similarity": 0.1360313892364502}
+{"question_id": 5028135, "image_id": 502813, "question": "What kind of pattern does the cat have?", "answer": "Striped", "cosine_similarity": 0.2219875305891037}
+{"question_id": 5470475, "image_id": 547047, "question": "What time of day is it?", "answer": "Afternoon", "cosine_similarity": 0.1298283040523529}
+{"question_id": 310245, "image_id": 31024, "question": "What purpose is there to having all of these clocks on the wall?", "answer": "Time", "cosine_similarity": 0.252989798784256}
+{"question_id": 112695, "image_id": 11269, "question": "What types of tracks are these in the photo?", "answer": "Train", "cosine_similarity": 0.23414753377437592}
+{"question_id": 2114765, "image_id": 211476, "question": "How much protein is in this meal?", "answer": "20 grams", "cosine_similarity": 0.20312847197055817}
+{"question_id": 1418215, "image_id": 141821, "question": "What manufacturer sells that brand soda?", "answer": "Mountain dew", "cosine_similarity": 0.12892873585224152}
+{"question_id": 5020905, "image_id": 502090, "question": "Where are these kites?", "answer": "Sky", "cosine_similarity": 0.2610915005207062}
+{"question_id": 128815, "image_id": 12881, "question": "This sport is often spoken of as being as american as what dessert?", "answer": "Apple pie", "cosine_similarity": 0.20685674250125885}
+{"question_id": 1746795, "image_id": 174679, "question": "What type of boat is this?", "answer": "Sailboat", "cosine_similarity": 0.2491464465856552}
+{"question_id": 4073875, "image_id": 407387, "question": "What type of bird is this?", "answer": "Crane", "cosine_similarity": 0.20242992043495178}
+{"question_id": 3095145, "image_id": 309514, "question": "Where is this lady having lunch?", "answer": "Outside", "cosine_similarity": 0.1872502714395523}
+{"question_id": 3530965, "image_id": 353096, "question": "Does this computer have a corded or cordless mouse?", "answer": "Corded", "cosine_similarity": 0.23783408105373383}
+{"question_id": 3586295, "image_id": 358629, "question": "What style of restaurant is this kitchen a part of?", "answer": "Fast food", "cosine_similarity": 0.25221145153045654}
+{"question_id": 4877225, "image_id": 487722, "question": "What are all the things sitting in front of the red truck?", "answer": "Luggage", "cosine_similarity": 0.28773489594459534}
+{"question_id": 849805, "image_id": 84980, "question": "What breed of dog is that dog?", "answer": "Sheepdog", "cosine_similarity": 0.24766863882541656}
+{"question_id": 4557465, "image_id": 455746, "question": "What type of fruits are shown in the picture?", "answer": "Bananas and grapes", "cosine_similarity": 0.22320933640003204}
+{"question_id": 3252395, "image_id": 325239, "question": "What is this woman preparing in the photo?", "answer": "Soup", "cosine_similarity": 0.24298743903636932}
+{"question_id": 435815, "image_id": 43581, "question": "How many calories are in this dish?", "answer": "1000", "cosine_similarity": 0.2075272649526596}
+{"question_id": 228615, "image_id": 22861, "question": "What kind of crust does this pizza have?", "answer": "Thin", "cosine_similarity": 0.22734834253787994}
+{"question_id": 4090095, "image_id": 409009, "question": "How fast does this train move?", "answer": "300 mph", "cosine_similarity": 0.23262238502502441}
+{"question_id": 5778475, "image_id": 577847, "question": "What is this pizza cheese made from?", "answer": "Mozzarella", "cosine_similarity": 0.1754678189754486}
+{"question_id": 5650415, "image_id": 565041, "question": "Based on the refraction in the image explain if this man is far sighted or near sighted?", "answer": "Far sighted", "cosine_similarity": 0.18495655059814453}
+{"question_id": 219945, "image_id": 21994, "question": "What do these animals eat?", "answer": "Grass", "cosine_similarity": 0.16248098015785217}
+{"question_id": 3043415, "image_id": 304341, "question": "Where can you find a stop like this?", "answer": "Train station", "cosine_similarity": 0.2331586331129074}
+{"question_id": 5642805, "image_id": 564280, "question": "What long strap is attached to the object around the animal's neck?", "answer": "Leash", "cosine_similarity": 0.18118730187416077}
+{"question_id": 161615, "image_id": 16161, "question": "What healthy properties do these fruit contain?", "answer": "Vitamins", "cosine_similarity": 0.25758495926856995}
+{"question_id": 2182045, "image_id": 218204, "question": "What kind of plant is this?", "answer": "Tulip", "cosine_similarity": 0.19716951251029968}
+{"question_id": 5246115, "image_id": 524611, "question": "What is being hauled in this train?", "answer": "Oil", "cosine_similarity": 0.23720338940620422}
+{"question_id": 5357485, "image_id": 535748, "question": "What are these snacks called?", "answer": "Cupcake", "cosine_similarity": 0.16979628801345825}
+{"question_id": 3563145, "image_id": 356314, "question": "What language are the signs in?", "answer": "Chinese", "cosine_similarity": 0.2255873829126358}
+{"question_id": 704605, "image_id": 70460, "question": "What tool is usedd for this type of art?", "answer": "Spray paint", "cosine_similarity": 0.2018566131591797}
+{"question_id": 358265, "image_id": 35826, "question": "Who invented this item?", "answer": "George stephenson", "cosine_similarity": 0.12935641407966614}
+{"question_id": 60055, "image_id": 6005, "question": "How long is this animals tongue on average?", "answer": "18 inches", "cosine_similarity": 0.1480775773525238}
+{"question_id": 1815865, "image_id": 181586, "question": "What breed of cat is the one laying indoors?", "answer": "Domestic shorthair", "cosine_similarity": 0.2344144880771637}
+{"question_id": 4747625, "image_id": 474762, "question": "Are these animals carnivorous herbivorous or omnivorous?", "answer": "Herbivorous", "cosine_similarity": 0.1952594816684723}
+{"question_id": 4229985, "image_id": 422998, "question": "Which of the condiment in the picture is a traditional burger fixing?", "answer": "Ketchup", "cosine_similarity": 0.24337194859981537}
+{"question_id": 1229825, "image_id": 122982, "question": "What does a messy desk like this say about a person?", "answer": "Disorganized", "cosine_similarity": 0.25493359565734863}
+{"question_id": 4123645, "image_id": 412364, "question": "Who directed the film whose one word title also describes this image?", "answer": "Alfred hitchcock", "cosine_similarity": 0.1429852545261383}
+{"question_id": 2938105, "image_id": 293810, "question": "Are vegetables and meats more healthy if they are boiled or if they are steamed?", "answer": "Steamed", "cosine_similarity": 0.22580347955226898}
+{"question_id": 1235705, "image_id": 123570, "question": "What is the main color tint of this photo?", "answer": "Black and white", "cosine_similarity": 0.2036120742559433}
+{"question_id": 2924935, "image_id": 292493, "question": "What is a common injury found in people engaging in this sport?", "answer": "Sprain", "cosine_similarity": 0.1685262769460678}
+{"question_id": 4505005, "image_id": 450500, "question": "Why is the guy on the stool?", "answer": "Directing traffic", "cosine_similarity": 0.2314912974834442}
+{"question_id": 5306305, "image_id": 530630, "question": "What type of bread is the sandwich made on?", "answer": "Croissant", "cosine_similarity": 0.1726146638393402}
+{"question_id": 1490175, "image_id": 149017, "question": "How much do these boats weigh?", "answer": "1000 lbs", "cosine_similarity": 0.1502505987882614}
+{"question_id": 5588405, "image_id": 558840, "question": "Name the dish which can be prepared using these vegetables?", "answer": "Fries", "cosine_similarity": 0.14049100875854492}
+{"question_id": 4390075, "image_id": 439007, "question": "What phenomena has endangered the habitat of this animal?", "answer": "Global warming", "cosine_similarity": 0.21150247752666473}
+{"question_id": 410115, "image_id": 41011, "question": "This gentleman is dressed for what sport?", "answer": "Polo", "cosine_similarity": 0.18521328270435333}
+{"question_id": 5429385, "image_id": 542938, "question": "Is this surfer a beginner intermediate or advanced?", "answer": "Intermediate", "cosine_similarity": 0.24611730873584747}
+{"question_id": 527745, "image_id": 52774, "question": "What type of vegetable is on this pizza?", "answer": "Olives", "cosine_similarity": 0.24934576451778412}
+{"question_id": 4405395, "image_id": 440539, "question": "What famous founding father was known for his association with this object?", "answer": "Benjamin franklin", "cosine_similarity": 0.17413756251335144}
+{"question_id": 901385, "image_id": 90138, "question": "What type of beverage is pictured?", "answer": "Tea", "cosine_similarity": 0.20603002607822418}
+{"question_id": 4261755, "image_id": 426175, "question": "What kind of fence is this?", "answer": "Picket", "cosine_similarity": 0.123867467045784}
+{"question_id": 442795, "image_id": 44279, "question": "What is the average wage for these workers?", "answer": "15.00", "cosine_similarity": 0.20549601316452026}
+{"question_id": 188415, "image_id": 18841, "question": "Where could you sell an item like this?", "answer": "Flea market", "cosine_similarity": 0.23531046509742737}
+{"question_id": 2157785, "image_id": 215778, "question": "From what decade might this laptop be from?", "answer": "2010", "cosine_similarity": 0.21975982189178467}
+{"question_id": 2088255, "image_id": 208825, "question": "This cake contains what vegatable?", "answer": "Carrot", "cosine_similarity": 0.268657386302948}
+{"question_id": 962885, "image_id": 96288, "question": "What activity is this?", "answer": "Hiking", "cosine_similarity": 0.22903189063072205}
+{"question_id": 3200395, "image_id": 320039, "question": "Where in school would you find this?", "answer": "Cafeteria", "cosine_similarity": 0.14516465365886688}
+{"question_id": 3793105, "image_id": 379310, "question": "What are the screens called?", "answer": "Monitors", "cosine_similarity": 0.2309628278017044}
+{"question_id": 2020015, "image_id": 202001, "question": "What kind of electronic device is used in this picture?", "answer": "Cell phone", "cosine_similarity": 0.1780659407377243}
+{"question_id": 3571945, "image_id": 357194, "question": "What activity is usually done sitting in those furniture?", "answer": "Watch tv", "cosine_similarity": 0.24795077741146088}
+{"question_id": 3277695, "image_id": 327769, "question": "How long does this animal usually live?", "answer": "10 years", "cosine_similarity": 0.16132956743240356}
+{"question_id": 1809825, "image_id": 180982, "question": "What type of trains are these?", "answer": "Steam", "cosine_similarity": 0.2471887320280075}
+{"question_id": 2495245, "image_id": 249524, "question": "Is it safe or unsafe in this park at night?", "answer": "Unsafe", "cosine_similarity": 0.21304374933242798}
+{"question_id": 5607565, "image_id": 560756, "question": "What do people do in this room?", "answer": "Relax", "cosine_similarity": 0.21858501434326172}
+{"question_id": 2737285, "image_id": 273728, "question": "In what kind of movies would a man wear a hat like this while riding a horse?", "answer": "Western", "cosine_similarity": 0.20140141248703003}
+{"question_id": 2070595, "image_id": 207059, "question": "In this image what believes soup is too hot too cold and just right?", "answer": "Too hot", "cosine_similarity": 0.10574445128440857}
+{"question_id": 3187545, "image_id": 318754, "question": "Who was the first company to make this type of glove?", "answer": "Wilson", "cosine_similarity": 0.19805458188056946}
+{"question_id": 1611445, "image_id": 161144, "question": "What is the scientific name for the animal in the picture?", "answer": "Canis lupus", "cosine_similarity": 0.18854527175426483}
+{"question_id": 4710095, "image_id": 471009, "question": "What type of hat is the man wearing?", "answer": "Fedora", "cosine_similarity": 0.14003288745880127}
+{"question_id": 4300565, "image_id": 430056, "question": "What type of sandwich is this?", "answer": "Club", "cosine_similarity": 0.22604292631149292}
+{"question_id": 3094025, "image_id": 309402, "question": "What is the name of this bag?", "answer": "Suitcase", "cosine_similarity": 0.26894432306289673}
+{"question_id": 4550405, "image_id": 455040, "question": "How many people can each of these ships hold?", "answer": "1000", "cosine_similarity": 0.20346324145793915}
+{"question_id": 5216435, "image_id": 521643, "question": "What type of flower is this?", "answer": "Rose", "cosine_similarity": 0.1599099040031433}
+{"question_id": 3568785, "image_id": 356878, "question": "Is this meeting taking place during the day or night?", "answer": "Day", "cosine_similarity": 0.17507261037826538}
+{"question_id": 3606615, "image_id": 360661, "question": "What kind of event is this?", "answer": "Horse race", "cosine_similarity": 0.23314058780670166}
+{"question_id": 1681755, "image_id": 168175, "question": "This type of sandwich held together by tooth picks is frequently referred to as a what type of sandwich?", "answer": "Roast beef", "cosine_similarity": 0.22035165131092072}
+{"question_id": 1816015, "image_id": 181601, "question": "What kind of food does this bird favor?", "answer": "Worms", "cosine_similarity": 0.17743973433971405}
+{"question_id": 494455, "image_id": 49445, "question": "What type of cell phone is in the photo?", "answer": "Flip phone", "cosine_similarity": 0.19936025142669678}
+{"question_id": 5746925, "image_id": 574692, "question": "The fruit before you is good for which parts of the body?", "answer": "Heart", "cosine_similarity": 0.2118190973997116}
+{"question_id": 3572295, "image_id": 357229, "question": "How is this made?", "answer": "Baked", "cosine_similarity": 0.20190946757793427}
+{"question_id": 2525735, "image_id": 252573, "question": "What animal does the cat thinks this device is?", "answer": "Mouse", "cosine_similarity": 0.3112834692001343}
+{"question_id": 4665965, "image_id": 466596, "question": "What do you do with this?", "answer": "Eat", "cosine_similarity": 0.1898525357246399}
+{"question_id": 100925, "image_id": 10092, "question": "What is over the bed?", "answer": "Canopy", "cosine_similarity": 0.24313941597938538}
+{"question_id": 1132465, "image_id": 113246, "question": "What are the glass doors called?", "answer": "Door", "cosine_similarity": 0.13552354276180267}
+{"question_id": 79895, "image_id": 7989, "question": "What is the device called up that is suspended on the cables shown?", "answer": "Ski lift", "cosine_similarity": 0.26913806796073914}
+{"question_id": 5060855, "image_id": 506085, "question": "What is a famous example of the item in the middle of the picture?", "answer": "Big ben", "cosine_similarity": 0.17462284862995148}
+{"question_id": 1083925, "image_id": 108392, "question": "What type of pastries in this image that has a hole in the midle and are round?", "answer": "Donuts", "cosine_similarity": 0.2471775859594345}
+{"question_id": 1187415, "image_id": 118741, "question": "How high can this kite fly?", "answer": "100 feet", "cosine_similarity": 0.24171489477157593}
+{"question_id": 3586425, "image_id": 358642, "question": "Is this shop making a pun or using a double entendre?", "answer": "Yes", "cosine_similarity": 0.25734943151474}
+{"question_id": 3267985, "image_id": 326798, "question": "What is this building used for?", "answer": "Church", "cosine_similarity": 0.19223950803279877}
+{"question_id": 4226985, "image_id": 422698, "question": "Why is the cow going to the water?", "answer": "Drink", "cosine_similarity": 0.28176149725914}
+{"question_id": 1535705, "image_id": 153570, "question": "Can you guess the sea name shown in this picture?", "answer": "Pacific", "cosine_similarity": 0.17581108212471008}
+{"question_id": 649095, "image_id": 64909, "question": "What kind of sport team is this in reference to?", "answer": "New orleans saints", "cosine_similarity": 0.21959038078784943}
+{"question_id": 5240115, "image_id": 524011, "question": "What airline are the planes from?", "answer": "Korean air", "cosine_similarity": 0.2720464766025543}
+{"question_id": 2224075, "image_id": 222407, "question": "How do we know this is not a woodpecker?", "answer": "Beak", "cosine_similarity": 0.1808253526687622}
+{"question_id": 3355155, "image_id": 335515, "question": "From what continent does this meal look like it came from?", "answer": "Asia", "cosine_similarity": 0.20593798160552979}
+{"question_id": 2986295, "image_id": 298629, "question": "Why are they carving pumpkins?", "answer": "Halloween", "cosine_similarity": 0.2655600607395172}
+{"question_id": 3476305, "image_id": 347630, "question": "How long do these animals live?", "answer": "50 years", "cosine_similarity": 0.18855075538158417}
+{"question_id": 2881705, "image_id": 288170, "question": "What year was this picture taken?", "answer": "1929", "cosine_similarity": 0.1982073038816452}
+{"question_id": 2787425, "image_id": 278742, "question": "Which gaming system is being used in this photo?", "answer": "Laptop", "cosine_similarity": 0.17714959383010864}
+{"question_id": 3843505, "image_id": 384350, "question": "Where are these planes traveling to or from?", "answer": "Australia", "cosine_similarity": 0.22998030483722687}
+{"question_id": 1935045, "image_id": 193504, "question": "What animals can attack the person when they do this activity?", "answer": "Shark", "cosine_similarity": 0.17730818688869476}
+{"question_id": 4675805, "image_id": 467580, "question": "What ocean has the best surfing waves?", "answer": "Hawaii", "cosine_similarity": 0.2267030030488968}
+{"question_id": 4066815, "image_id": 406681, "question": "What breed of dogs are in this photo?", "answer": "Pitbull", "cosine_similarity": 0.23716087639331818}
+{"question_id": 941405, "image_id": 94140, "question": "What breed of dog is riding in the car?", "answer": "German shepherd", "cosine_similarity": 0.25939783453941345}
+{"question_id": 5194605, "image_id": 519460, "question": "What is the most healthy item in this picture?", "answer": "Salad", "cosine_similarity": 0.20775112509727478}
+{"question_id": 2380625, "image_id": 238062, "question": "What kind of spread is on the rolls?", "answer": "Cheese", "cosine_similarity": 0.20133723318576813}
+{"question_id": 1046855, "image_id": 104685, "question": "What breed of horse is this?", "answer": "Thoroughbred", "cosine_similarity": 0.16840751469135284}
+{"question_id": 1818735, "image_id": 181873, "question": "What direction is the skiier going?", "answer": "Downhill", "cosine_similarity": 0.24881795048713684}
+{"question_id": 623985, "image_id": 62398, "question": "How old should this animal be before they are taken from their mother?", "answer": "6 weeks", "cosine_similarity": 0.15236763656139374}
+{"question_id": 1035385, "image_id": 103538, "question": "What type of activity might people do in this room?", "answer": "Cook", "cosine_similarity": 0.18193723261356354}
+{"question_id": 407295, "image_id": 40729, "question": "What flavor is this cake?", "answer": "Chocolate", "cosine_similarity": 0.1821012645959854}
+{"question_id": 3181575, "image_id": 318157, "question": "When did people start using these as decorations?", "answer": "1800s", "cosine_similarity": 0.2017834186553955}
+{"question_id": 316995, "image_id": 31699, "question": "What is the object the man is touching made of?", "answer": "Plastic", "cosine_similarity": 0.18768315017223358}
+{"question_id": 3954525, "image_id": 395452, "question": "What utensil is being used to eat this meal?", "answer": "Fork", "cosine_similarity": 0.20577433705329895}
+{"question_id": 2673145, "image_id": 267314, "question": "What kind of pants is she wearing?", "answer": "Pajamas", "cosine_similarity": 0.21895968914031982}
+{"question_id": 3265825, "image_id": 326582, "question": "How fast can these planes fly?", "answer": "500 mph", "cosine_similarity": 0.18592248857021332}
+{"question_id": 2088445, "image_id": 208844, "question": "In what year was the first teddy like this one created?", "answer": "1902", "cosine_similarity": 0.19438400864601135}
+{"question_id": 342125, "image_id": 34212, "question": "Is this kitchen messy or tidy?", "answer": "Messy", "cosine_similarity": 0.1794244647026062}
+{"question_id": 937915, "image_id": 93791, "question": "What style of architechture normally used these ornate arches and windows?", "answer": "Gothic", "cosine_similarity": 0.20300370454788208}
+{"question_id": 2776255, "image_id": 277625, "question": "What time period are these people from?", "answer": "Medieval", "cosine_similarity": 0.2045404464006424}
+{"question_id": 4833305, "image_id": 483330, "question": "Where can you find this green vegetable?", "answer": "Grocery store", "cosine_similarity": 0.1754666566848755}
+{"question_id": 4101145, "image_id": 410114, "question": "What is the average weight of an adult male of this species?", "answer": "2000 lbs", "cosine_similarity": 0.18208381533622742}
+{"question_id": 527125, "image_id": 52712, "question": "This item is small enough to go into what part of the plane?", "answer": "Luggage compartment", "cosine_similarity": 0.2111981213092804}
+{"question_id": 142575, "image_id": 14257, "question": "People that travel with these strappable types of luggage are often called what?", "answer": "Backpacker", "cosine_similarity": 0.20357264578342438}
+{"question_id": 3186185, "image_id": 318618, "question": "What famous painter created this masterpiece?", "answer": "Van gogh", "cosine_similarity": 0.2014574557542801}
+{"question_id": 5454415, "image_id": 545441, "question": "What nationality is this girl?", "answer": "Asian", "cosine_similarity": 0.20012123882770538}
+{"question_id": 697955, "image_id": 69795, "question": "Name the type of wood used to make this window shown in this picture?", "answer": "Pine", "cosine_similarity": 0.1966816931962967}
+{"question_id": 1427445, "image_id": 142744, "question": "What type of cat is in the cartoon?", "answer": "Calico", "cosine_similarity": 0.21406041085720062}
+{"question_id": 1679895, "image_id": 167989, "question": "What type of cheese is being spread?", "answer": "Mozzarella", "cosine_similarity": 0.18954850733280182}
+{"question_id": 4533415, "image_id": 453341, "question": "Why might one suspect that someone here enjoys fantasy and sci fi?", "answer": "Figurines", "cosine_similarity": 0.25015950202941895}
+{"question_id": 5723315, "image_id": 572331, "question": "What is this wallcovering called?", "answer": "Wallpaper", "cosine_similarity": 0.22301052510738373}
+{"question_id": 272855, "image_id": 27285, "question": "What is does the space under the oven for do?", "answer": "Storage", "cosine_similarity": 0.2405766248703003}
+{"question_id": 2534895, "image_id": 253489, "question": "What type of flowers are in the pot?", "answer": "Roses", "cosine_similarity": 0.1632487028837204}
+{"question_id": 1859435, "image_id": 185943, "question": "What pollutants do these vehicles emit?", "answer": "Carbon monoxide", "cosine_similarity": 0.13351434469223022}
+{"question_id": 4541025, "image_id": 454102, "question": "The kite in the air flies because of what physics principle?", "answer": "Aerodynamics", "cosine_similarity": 0.26323676109313965}
+{"question_id": 1458735, "image_id": 145873, "question": "What is needed to use this vehicle?", "answer": "Permit", "cosine_similarity": 0.18809351325035095}
+{"question_id": 4813275, "image_id": 481327, "question": "The dried flowers in this photo are stuck down inside what type of item?", "answer": "Vase", "cosine_similarity": 0.3111787438392639}
+{"question_id": 3530285, "image_id": 353028, "question": "Why might this picture bring the brand tums to mind?", "answer": "Stomach ache", "cosine_similarity": 0.18561409413814545}
+{"question_id": 3926705, "image_id": 392670, "question": "What model of airplane is this?", "answer": "Lufthansa", "cosine_similarity": 0.2512188255786896}
+{"question_id": 1455975, "image_id": 145597, "question": "What type of meal are these people enjoying?", "answer": "Picnic", "cosine_similarity": 0.259286105632782}
+{"question_id": 3868195, "image_id": 386819, "question": "What is this structure?", "answer": "Clock", "cosine_similarity": 0.21996761858463287}
+{"question_id": 5798225, "image_id": 579822, "question": "What kind of suit would you wear while doing this?", "answer": "Wetsuit", "cosine_similarity": 0.21607033908367157}
+{"question_id": 4577185, "image_id": 457718, "question": "Where can i go to see views like this?", "answer": "Mountain", "cosine_similarity": 0.17668181657791138}
+{"question_id": 1773385, "image_id": 177338, "question": "Assuming the average model the company of toy cars produces what is the maximum speed these guys can achieve?", "answer": "30 mph", "cosine_similarity": 0.164971262216568}
+{"question_id": 1784355, "image_id": 178435, "question": "What is the baby animal doing?", "answer": "Nursing", "cosine_similarity": 0.22263115644454956}
+{"question_id": 4477365, "image_id": 447736, "question": "What is the best selling brand of the topping decorating this donut?", "answer": "Sprinkles", "cosine_similarity": 0.2273082733154297}
+{"question_id": 4117275, "image_id": 411727, "question": "When was this computer purchased?", "answer": "2010", "cosine_similarity": 0.1894913762807846}
+{"question_id": 5275105, "image_id": 527510, "question": "Which model plane is this?", "answer": "U.s. air force", "cosine_similarity": 0.22514332830905914}
+{"question_id": 1204735, "image_id": 120473, "question": "Which clock tower is this?", "answer": "Big ben", "cosine_similarity": 0.229156956076622}
+{"question_id": 5442375, "image_id": 544237, "question": "What type of desert is being served here?", "answer": "Ice cream", "cosine_similarity": 0.17473623156547546}
+{"question_id": 1609275, "image_id": 160927, "question": "What type of ship is this?", "answer": "Cruise", "cosine_similarity": 0.22373627126216888}
+{"question_id": 4437975, "image_id": 443797, "question": "What size bed is in this room?", "answer": "Twin", "cosine_similarity": 0.17750918865203857}
+{"question_id": 5309135, "image_id": 530913, "question": "Are these dogs from what type of breed?", "answer": "German shepherd", "cosine_similarity": 0.17690390348434448}
+{"question_id": 801305, "image_id": 80130, "question": "What city can you find these subways?", "answer": "New york", "cosine_similarity": 0.15100324153900146}
+{"question_id": 5018585, "image_id": 501858, "question": "How do you make the dish?", "answer": "Bake", "cosine_similarity": 0.19040456414222717}
+{"question_id": 4745025, "image_id": 474502, "question": "What is this animal's natural habitat?", "answer": "Arctic", "cosine_similarity": 0.20176127552986145}
+{"question_id": 513265, "image_id": 51326, "question": "What holiday is this?", "answer": "Halloween", "cosine_similarity": 0.19878262281417847}
+{"question_id": 2233745, "image_id": 223374, "question": "How valuable are these collectibles?", "answer": "Not valuable", "cosine_similarity": 0.2030220329761505}
+{"question_id": 4081125, "image_id": 408112, "question": "Who invented this vehicle?", "answer": "Wright brother", "cosine_similarity": 0.1352701485157013}
+{"question_id": 5025995, "image_id": 502599, "question": "Where are these planes?", "answer": "Hangar", "cosine_similarity": 0.2219095379114151}
+{"question_id": 4750645, "image_id": 475064, "question": "In what city is this place located?", "answer": "Hong kong", "cosine_similarity": 0.11857935041189194}
+{"question_id": 2188535, "image_id": 218853, "question": "Would you travel more or less than 100 miles in this vehicle?", "answer": "Less", "cosine_similarity": 0.16489897668361664}
